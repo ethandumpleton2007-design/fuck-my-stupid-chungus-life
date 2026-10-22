@@ -1,0 +1,31 @@
+{
+  "name": "ItalianLocalisation",
+  "bundle_version": "2026.0.47-staging",
+  "bundle_description": "Italian IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ItalianLocalisation",
+      "localised_name": "italian_localisation",
+      "plugin_version": "2026.0.47-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Italian": "italian.csv"
+          },
+          {
+            "Italian": "italian_dnd.csv"
+          }
+        ]
+      },
+      "description": "Italian IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "CCzURxxKjIvkWILUGVDprn81wn51B0vIwccV77UezvktfxxprvaZ\u002BqBdQfc\u002Bd9g4EocDno9q40d8Fn7L4UyJJrfbu6nBK2bQ\u002BMc928mXvgygSlfrg3EfYlGNnW/e0FKLAvi/KDjcLpYNoNOAvQ/sBsMkKa0FF9ippBokiUF36mQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

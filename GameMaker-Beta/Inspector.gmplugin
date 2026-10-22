@@ -1,0 +1,63 @@
+{
+  "name": "Inspector",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "InspectorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/InspectorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "Inspector",
+      "localised_name": "Inspector_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Inspector",
+          "version": "2026.100.1171",
+          "path": "Inspector.dll",
+          "checksum": "0w5pBeYj/Kljg1eVqLTjbr1lyMU4xWi9ukcZpBNGASg="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "InspectorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "InspectorGUI/Skins/Dark",
+          "InspectorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "L5z3Z3B2uFWaTirnwVA\u002BdctnX7fpYtzSWIBo76L9YsfuSlyCMfN8FcT1aIcViFNEqcw1XKrk0jYPMqPpR3jhh99BCuv450EmnLetXUm\u002Br6DAXf\u002BAF3VOqGlTlpfyzA\u002BbvyWY9gUVAcC5aZbTylKNizUk3jZCuRtjEyIAGACimXs=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,107 @@
+{
+  "name": "ImageEditor",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ImageEditor",
+      "localised_name": "image_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMImage",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ImageEditor",
+          "version": "2026.100.1171",
+          "path": "ImageEditor.dll",
+          "checksum": "mwx7RFpVHSTgDf/qoXaqRFXV5d1CIqvB88uVSyvJ7xk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "SpriteEditor",
+      "localised_name": "sprite_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSprite",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ImageEditor",
+          "version": "2026.100.1171",
+          "path": "ImageEditor.dll",
+          "checksum": "mwx7RFpVHSTgDf/qoXaqRFXV5d1CIqvB88uVSyvJ7xk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "SequenceEditingHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "ImageEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "ImageGUI/Skins/Dark",
+          "ImageGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "ImageEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/ImageEditorHotkeys.json",
+          "Hotkeys/SpriteEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "aZ/1j7O6Eq/k7/OwtsVEsf4LlAoTZzeXSdTynz38E2VKgJdyzs6m/yZ2\u002BtYcZbr57yrq1HqxGCXt6oISKPsSzKhG5k3u7UYFJl2/wFP3AmcSKZT9bjSbzGHOROnK4u1/VkLtSKz8/2p8isMHdnOgUJfrKbFf1qFx5pfYKf/tJGU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

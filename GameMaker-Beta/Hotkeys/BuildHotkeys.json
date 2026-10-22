@@ -1,0 +1,88 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F5",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Run the game",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Run",
+      "Name": "Run"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F6",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Continue code execution in the debugger",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Debug",
+      "Name": "Debug"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F7",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Clean the build",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Clean",
+      "Name": "Clean",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F7",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F8",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Create an executable package using the current target settings",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Package",
+      "Name": "Package",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F8",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Compilation"
+}

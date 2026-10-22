@@ -1,0 +1,1721 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "TextEditor.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Search the next occurrence of the text to search",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Search Next",
+      "Name": "Search Next"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Search the previous occurrence of the text to search",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Search Previous",
+      "Name": "Search Previous"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open a code or shader editor's Find and Replace in Find mode",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_search_in_script_find",
+      "Name": "Open Search in Script",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "H",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open a code or shader editor's Find and Replace in Replace mode",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_search_in_script_replace",
+      "Name": "Open Replace in Script",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "H",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Open the parent event",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Parent Event",
+      "Name": "Open Parent Event",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor left",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor right",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor up",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Up"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor down",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Down"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the text cursor left and add words to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Left + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the text cursor right and add words to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Right + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the text cursor up and add to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Up + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the text cursor down and add to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Down + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the text cursor left and add to column selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Left + Column Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the text cursor right and add to column selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Right + Column Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the text cursor up and add to column selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Up + Column Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the text cursor down and add to column selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Caret Down + Column Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageUp",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump up a page (in text editors)",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Page Up"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageDown",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump down a page (in text editors)",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Page Down"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageUp",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Jump up a page and add to selection (in text editors)",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Page Up + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageDown",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Jump down a page and add to selection (in text editors)",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Page Down + Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Scroll up",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Scroll Up",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "PageUp",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Scroll down",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Scroll Down",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "PageDown",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Scroll up and add to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Scroll Up + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "PageUp",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Scroll down and add to selection",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Scroll Down + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "PageDown",
+              "Modifier": "Control, Shift"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump to start of line or start of actual code",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Home",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Alt"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Windows"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "A",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump to end of line",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "End",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "End",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Alt"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Windows"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "E",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Jump to start of line or start of actual code while selecting everything in between",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Home + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "Shift"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Shift, Alt"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Jump to end of line while selecting everything in between",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "End + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "End",
+              "Modifier": "Shift"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Shift, Alt"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Jump to start and add to column select",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Home + Column Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Jump to end and add to column select",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "End + Column Select"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the start of the document",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Document Start",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "Control"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the end of the document",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Document End",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "End",
+              "Modifier": "Control"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the text cursor to the start of the document and select everything in between",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Document Start + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "Control, Shift"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the text cursor to the end of the document and select everything in between",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Document End + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "End",
+              "Modifier": "Control, Shift"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the next word or token to the left of its current position",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Move Token Left",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Alt"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the next word or token to the right of its current position",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Move Token Right",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Alt"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the text cursor to the next word or token to the left of its current position while selecting everything in between",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Move Token Left + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Shift, Alt"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the text cursor to the next word or token to the right of its current position while selecting everything in between",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Move Token Right + Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Shift, Alt"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Indent the selected lines of code",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Tab",
+      "Name": "Indent"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Unindent the selected lines of code",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DeTab",
+      "Name": "Unindent"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "BackSpace",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Delete the entire word left of the cursor",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Delete Word Start",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "BackSpace",
+              "Modifier": "Alt"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Delete",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Delete the entire word right of the cursor",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Delete Word End"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Delete the line before the cursor",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Delete Line Start",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "BackSpace",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Delete the line after the cursor",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Delete Line End",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "K",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F4",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Bring up the code snippets popup",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ShowSnippets",
+      "Name": "Show Snippets"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Fold all regions",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_FoldRegions",
+      "Name": "Fold All Regions"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Unfold all regions",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UnfoldRegions",
+      "Name": "Unfold All Regions"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Enter",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Expand/Collapse region",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Expand/Collapse Region",
+      "Name": "Expand Collapse Region",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Enter",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Move the cursor to the previous region",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Previous Region",
+      "Name": "Previous Region",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Move the cursor to the next region",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Next Region",
+      "Name": "Next Region",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Comment line or selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Comment Line/Selection",
+      "Name": "Comment Block",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "K",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Uncomment line or selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Uncomment Line/Selection",
+      "Name": "Uncomment Block",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "K",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Space",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open the code completion window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ShowCodeCompletion",
+      "Name": "Code Complete",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Space",
+              "Modifier": "Control"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Space",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Delete",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Delete",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Text Editor Delete",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Delete",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Control"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "BackSpace",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Backspace",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Text Editor Backspace"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Enter",
+          "Modifier": "Any"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "KeypadEnter",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Insert line break",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Text Editor Line Break"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "G",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Goto line number",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_TextEditorGotoLine",
+      "Name": "Go To Line",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "G",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F7",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Decrement the text size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DecrementTextSize",
+      "Name": "Decrement Text Size"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F8",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Increment the text size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_IncrementTextSize",
+      "Name": "Increment Text Size"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Q",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open Feather's Quick Fixes menu",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_feather_open_quickfix_menu",
+      "Name": "Open QuickFix Menu"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a code block snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Block Snippet",
+      "Name": "Insert Block Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert an if statement snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert If Snippet",
+      "Name": "Insert If Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number3",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert an if-else statement snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert If-Else Snippet",
+      "Name": "Insert If-Else Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number4",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a for loop at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert For Loop Snippet",
+      "Name": "Insert For Loop Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number5",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a for loop with counter variable at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert For Loop (i..n) Snippet",
+      "Name": "Insert For Loop (i..n) Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number6",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a while loop snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert While Loop Snippet",
+      "Name": "Insert While Loop Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number7",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a do-until loop snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Do-Until Loop Snippet",
+      "Name": "Insert Do-Until Loop Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number8",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a repeat statement snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Repeat Snippet",
+      "Name": "Insert Repeat Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a switch statement snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Switch Snippet",
+      "Name": "Insert Switch Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number0",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a with statement snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert With Snippet",
+      "Name": "Insert With Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "C",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a single line comment snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Line Comment Snippet",
+      "Name": "Insert Line Comment Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a multi-line comment snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Multi-line Comment Snippet",
+      "Name": "Insert Multi-line Comment Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Insert a region snippet at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Insert Region Snippet",
+      "Name": "Insert Region Snippet"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Replace the next occurrence of the searched text",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Replace Next Occurence",
+      "Name": "Replace Next Occurence",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F1",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Find usages",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Find Usages",
+      "Name": "Find Usages"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Insert",
+          "Modifier": "None"
+        }
+      ],
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [],
+          "Platform": "MacOs"
+        }
+      ],
+      "Description": "Toggle overwrite mode",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleOverwriteMode",
+      "Name": "TextEditor.ToggleOverwriteMode"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F11",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Internal dev command - reprint the current script",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Feather.DoNothingReprint"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Enumerate References",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_enumerate_references",
+      "Name": "Enumerate References"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Find All References to the selected asset",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_find_all_references",
+      "Name": "Find All References"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Refactor the current identifier",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Refactor Identifier",
+      "Name": "Rename Identifier",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Text Editor",
+  "LocalisedName": "CE1_RedefineKeys_Name"
+}

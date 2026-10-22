@@ -1,0 +1,26 @@
+{
+  "name": "GlobalHotkeys",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": "Global hotkeys",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "GlobalHotkeys",
+      "localised_name": null,
+      "plugin_version": "2026.100.1171",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "GlobalHotkeys.json"
+        ]
+      },
+      "description": "Global hotkeys",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "NuwRxnRIJP53w\u002B1YVuHPsbEIRf2BItHxA0xRg4djzyCvQdQmc\u002Bxi\u002B5lbLtXbUjXK4tHjmL8eG\u002BD\u002Bh6wJS2VMuJ3aD\u002Ba7w\u002BaYf0eUDTHPgknHtAZ7m1ifHY5MxnH3bd6aAIUe3BDU1E4zE2E2qSLY62NN0Be6e9HaVMx8HaffSP0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

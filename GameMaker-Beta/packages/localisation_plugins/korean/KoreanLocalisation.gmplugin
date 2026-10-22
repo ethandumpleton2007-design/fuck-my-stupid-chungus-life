@@ -1,0 +1,31 @@
+{
+  "name": "KoreanLocalisation",
+  "bundle_version": "2026.0.40-staging",
+  "bundle_description": "Korean IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "KoreanLocalisation",
+      "localised_name": "korean_localisation",
+      "plugin_version": "2026.0.40-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Korean": "korean.csv"
+          },
+          {
+            "Korean": "korean_dnd.csv"
+          }
+        ]
+      },
+      "description": "Korean IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "q9a0127LDh4nZrMnhjF75kw3BjVx4me3RE04IEekZFyI\u002Bt2THaDaVJMee27AIZko/wbWgUoI9GyH1mZ0dtiNaIadhAkIn1LfSQ2bbTWNWFYZX8sWJ8JLEin5tHjYlCngvh/\u002BSFn/zwtiktKiI9i3RLkl5R5kwzKhzO5UYlbiXcc=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

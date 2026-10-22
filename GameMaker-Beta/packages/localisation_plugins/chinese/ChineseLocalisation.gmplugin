@@ -1,0 +1,31 @@
+{
+  "name": "ChineseLocalisation",
+  "bundle_version": "2026.0.41-staging",
+  "bundle_description": "Chinese IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "ChineseLocalisation",
+      "localised_name": "chinese_localisation",
+      "plugin_version": "2026.0.41-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Chinese": "chinese.csv"
+          },
+          {
+            "Chinese": "chinese_dnd.csv"
+          }
+        ]
+      },
+      "description": "Chinese IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "GUy41Q/nKzd1Z9NrY61F7Yykuqk\u002BDwEiYspDzmOYbj5eg1kSdQBEAwkkZ3nSQwiS8C0RJkQ3eUaQEvWDonYabZeZcIvcEPsleKQsEqkVd\u002B820aspmTJlCZA1hVMNFgx/zLQ8Udnf1yby6lQsrqhnfbQKu4LVdjaAlsF0b6ZVG1k=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,67 @@
+{
+  "name": "GMLVisual",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMLVisualHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/GmlVisualHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "GMLVisual",
+      "localised_name": "GMLVisual_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GMLVisual",
+          "version": "2026.100.1171",
+          "path": "GMLVisual.dll",
+          "checksum": "hGhRwpX\u002BrkVBrDvKVZwemNoATdsullU0DZOC1Y3O9X8="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "BreakpointHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "GMLVisualGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "GMLVisualGUI/Skins/Dark",
+          "GMLVisualGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "kIT9VgXaXTUvbDpt9gjM6tUdmtLTGBBIXJPOpTFNl4YNY7ojoxMAN9ClROgvstfNOnqh2Pf1ukZPU\u002BYCZCGKHT9QNR6sGUpkt0KpylnYz0kHy3Ufr7OYNWK6ApBJsrGN43N\u002B7TWNQ4tVrQYKYYcpsi7RbjYzCMlBrCjWotwdqvY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

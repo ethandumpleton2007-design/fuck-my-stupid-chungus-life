@@ -1,0 +1,38 @@
+{
+  "name": "Feather",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Feather",
+      "localised_name": "feather_plugins_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Feather.Ui",
+          "version": "2026.100.1171",
+          "path": "Feather.Ui.dll",
+          "checksum": "gs0smmu8MU70cae0ebkIubHc5hBD8gAjobl6BxIyG2E="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "TextEditorHotkeys",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "fRBsJJRiyKWf2\u002BRb/nFavVnU9rUvyj9QhCjvY52BmcZTfA0PZEcqBpAuwWDgMR1tXVRie1Gpj45RLNIEYcAXU1OFb1PslArUeTacnS2Z5HPlB2q7a6mfTZ6TZCgpR9VutWV/tuZunFrY0\u002BNrLtHK1okV3EPGG5AeM/HZrkezQdU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

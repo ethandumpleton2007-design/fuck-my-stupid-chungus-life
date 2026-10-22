@@ -1,0 +1,33 @@
+{
+  "name": "LanguagePluginLoader",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "LanguagePluginLoader",
+      "localised_name": null,
+      "plugin_version": "2026.100.1171",
+      "type": "loader",
+      "plugin_data": {
+        "supported_types": [
+          "language"
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "LanguagePluginLoader",
+          "version": "2026.100.1171",
+          "path": "LanguagePluginLoader.dll",
+          "checksum": "Iaf4QGDEOgIWWkPT3JX\u002BcbryJA7sarBnSZ75fhQeQH0="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "rg4\u002BSC8IeVLk/pmxxdl6SKN0c13akAtdrWlGj/TkQeG1s7F71g4qPYGxg8RoefxbsQ94TNpUMlSTt8GTFLqDERUltfU2a\u002BbdrzXeCRKqx/I15ZhBIGITk\u002BMGgPfX/nFUqOi6XApe2cBQBMG1ZVWEyFPdQxVEp/158Oipq\u002Bho58I=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

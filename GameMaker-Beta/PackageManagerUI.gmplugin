@@ -1,0 +1,74 @@
+{
+  "name": "PackageManagerUI",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PackageManagerUIHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/PackageManagerUIHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "PackageManagerUI",
+      "localised_name": "package_manager_ui_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManagerUI",
+          "version": "2026.100.1171",
+          "path": "PackageManagerUI.dll",
+          "checksum": "Cq4Jfoohwcc5IXOLJYQ4WHmmbLmiqMG\u002BU20n0s3aaJo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        },
+        {
+          "dependency_name": "PluginSelector",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PackageNotifier",
+      "localised_name": "package_notifier_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManagerUI",
+          "version": "2026.100.1171",
+          "path": "PackageManagerUI.dll",
+          "checksum": "Cq4Jfoohwcc5IXOLJYQ4WHmmbLmiqMG\u002BU20n0s3aaJo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "jZTPwJ4WP9udXANq3WCEM3pMmVv/YQOzuG6xKNUxfz7kLy\u002BK1ouBFaGiFmm3q73hKnBjscPGfmOs3F5NtLDhJt/4yXI36p5R2NElDIzLqq/WbrAKMKLhvxwVv8\u002BEU42XoSYejUF0I4B09\u002BJe9ZDbo5Zqma58ecJDK1vAlHfcu28=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

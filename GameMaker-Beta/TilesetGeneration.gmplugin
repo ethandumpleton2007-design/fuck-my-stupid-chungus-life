@@ -1,0 +1,34 @@
+{
+  "name": "TilesetGeneration",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "TilesetGeneration",
+      "localised_name": "TilesetGeneration_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TilesetGeneration",
+          "version": "2026.100.1171",
+          "path": "TilesetGeneration.dll",
+          "checksum": "JGSarUOswf72ZxJY1GrXBSjC34US36tCYx8s92mPEZw="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "DT0Ex7hrbn9B4pIAZzXvsRcavUpPNbWPeN74b1NBzC\u002BljYYZ5\u002BOX4ZPIHmNS8uaIEFy7oMX77UYWPGqvXbAB7ln/wMy9a9c5qfLUeCQ8LLrwdeekVMutNEvS51akMkyVZLfSEn3SoLVsIcYqxVXCOyenRyURsQcZQazcNjHx88Y=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

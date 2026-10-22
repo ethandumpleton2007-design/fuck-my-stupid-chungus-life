@@ -1,0 +1,31 @@
+{
+  "name": "RussianLocalisation",
+  "bundle_version": "2026.0.46-staging",
+  "bundle_description": "Russian IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "RussianLocalisation",
+      "localised_name": "russian_localisation",
+      "plugin_version": "2026.0.46-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Russian": "russian.csv"
+          },
+          {
+            "Russian": "russian_dnd.csv"
+          }
+        ]
+      },
+      "description": "Russian IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "c/MaGVSDpXq6j0rarL0aLSLxl8iipJSABfvCsskSLqwvLsq2\u002BiQutUx2xRdOOZdFtBYKuUfyLrTplxWVuZGLOaqhZlExrzuVPOpGrJgDLzSmHYnJONYXJThDKmT0kkD365b3mCmM3mkjtIgppOX24lTpsJjtemzA41qowRREvQQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

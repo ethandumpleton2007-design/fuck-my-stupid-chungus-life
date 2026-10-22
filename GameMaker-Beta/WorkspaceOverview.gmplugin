@@ -1,0 +1,48 @@
+{
+  "name": "WorkspaceOverview",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "WorkspaceOverviewHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/WorkspaceOverviewHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "WorkspaceOverview",
+      "localised_name": "WorkspaceOverview_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "WorkspaceOverview",
+          "version": "2026.100.1171",
+          "path": "WorkspaceOverview.dll",
+          "checksum": "7/eE2q4lItfhfqFhrLZsSji3ajk/U/qJR9hY82NksuE="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "V\u002BzBrnx4Ly3JLZK9ktYfamuWpMLoDY2myaPExxDNOOpnEtZY7NHVvXYu5ALiAwHiCskzaowNKdVXtF0nZ2ztf526TuHu6xL2MVDvP\u002B5/CDIpDeyjg2Ws5Kif7Cr0ecrkXVgq6ejl63oszZm\u002B5QwU8U/E/S52W\u002ByLUkOEx9nQziQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

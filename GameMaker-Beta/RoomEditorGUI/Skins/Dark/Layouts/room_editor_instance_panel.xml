@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="RoomEd_InstancePanel" layout_guid="bbec7594-53fb-4235-b81e-841f8a5ef1e1">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '24dpi_px']">
+      <Cell layout_id="list_cell" layout_guid="d3d9a6ca-0914-405f-9d46-895ba4509e31" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="1" column="0" stylename="basic_scrollpanel_box" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel">
+            <ChildGadgets>
+              <Label stylename="label_light" layout_id="asset_count_label" layout_guid="caec3785-f0b7-4199-8374-440422dbd917" override_flow_index="9999999" height="16dpi_px" width="51dpi_px" left="4dpi_px" margin_left="4dpi_px" localise_caption="AssetBrowser_ItemCountPlural" />
+              <Label stylename="label_light" layout_id="select_count_label" layout_guid="d0ed0af1-d185-423f-b04c-a5bbe08a3f07" override_flow_index="9999999" height="16dpi_px" width="67dpi_px" left="67dpi_px" margin_left="12dpi_px" localise_caption="AssetBrowser_SelectedCount" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="RoomEd_SnapPanel" layout_guid="5d4ec6ea-37ce-4b80-a927-8da504fc5a58">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '42dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <SearchBar stylename="searchbar_grid" layout_id="search_bar" layout_guid="9adf3b63-ba4f-4aff-b5e1-ec4d5e1cf880" override_flow_index="9999999" height="28dpi_px" left="0dpi_px" right="10dpi_px" filter="True" />
+                <VerticalSeparator stylename="vertical_separator" override_flow_index="9999999" right="4dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell layout_id="snapcon_container" layout_guid="5e6bc1cd-88e3-4c04-8556-e2aee677c1b3" row="0" column="1" stylename="grid_container_panel" flow_index="0" />
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell layout_id="content_cell" layout_guid="65cca2d5-ee82-4a76-b940-3e341b2c5aec" row="1" column="0" stylename="basic_scrollpanel_box" flow_index="0" />
+    </Grid>
+  </Layout>
+  <Layout layout_name="RoomEd_UIPanel" layout_guid="65aa4a00-7b98-413b-8d62-c3e073b124e0">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '32dpi_px']">
+      <Cell layout_id="tree_cell" layout_guid="568aa3d5-74f2-4cc9-8e36-88cf1438b451" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="1" column="0" stylename="basic_scrollpanel_box" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="ab_add_button" layout_id="add_layer_button" layout_guid="cd139ca4-1fa4-4680-99c0-c01c0c59bb5a" override_flow_index="9999999" localise_tooltip="RoomEditor_CreateLayer" height="" width="32dpi_px" left="0dpi_px" vector_icon_size="19dpi_px" />
+          <Button stylename="animcurve_trash_button" layout_id="delete_layer" layout_guid="5e81ad11-346e-42dd-95db-5d2d96f439f1" override_flow_index="9999999" localise_tooltip="RoomEditor_DeleteSelectedLayer" height="32dpi_px" width="32dpi_px" right="0dpi_px" />
+            </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

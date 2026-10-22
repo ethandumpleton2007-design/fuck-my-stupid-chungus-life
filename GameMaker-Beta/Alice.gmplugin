@@ -1,0 +1,76 @@
+{
+  "name": "Alice",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Alice",
+      "localised_name": "alice_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSound",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Alice",
+          "version": "2026.100.1171",
+          "path": "Alice.dll",
+          "checksum": "Z2AtwRS/ey4eJd9Ao4iq7XINB68N/BdSswDLG7QDsjg="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "SequenceEditingHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "AliceGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "AliceGUI/Skins/Dark",
+          "AliceGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "SequenceEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/SequenceEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "u7DGZs3zAXx68\u002BXXXPEig2rRKMDfocjjlmvQe2ngqNDfLemFl57y/hxHpbMPYbnCd0D85Jwjtxz3l8bD\u002BdRNkOdZf475N1elYCocz1ni6f3LZzQ\u002Bjkzsm01T7z7LH2bQJGhNhtCeba3LaqxJRIFol8FJeqmpbzKR4E8AZWt4Y3k=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

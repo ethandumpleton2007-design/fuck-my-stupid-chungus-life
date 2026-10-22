@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PFB_Dialog_PackageNameWarning" layout_guid="ebd479f2-9c5a-4e50-bf23-22c790952149">
+    <!--<Window stylename="default_window" override_flow_index="9999999" height="220dpi_px" width="494dpi_px" title="Basic Window"> -->
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" top="6dpi_px" bottom="0dpi_px" grid_columnlayout="['52dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="01fe99d0-76fc-4ff2-a228-78644c4835df" override_flow_index="9999999" left="10dpi_px" margin_left="" margin_right="" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                        <ChildGadgets>
+                          <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="bedac010-16eb-430e-9b78-6bcd34e3e1c3" override_flow_index="9999999" left="0dpi_px" top="4px" localise_caption="PrefabBuilder_PkgNameWarningMsg" auto_size="True" />
+                          <EmbeddedLinkLabel stylename="label" override_flow_index="9999999" height="16dpi_px" width="137dpi_px" left="0px" top="88px" localise_caption="PrefabBuilder_NpmDocsLink" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="35b592e1-95a7-44f6-b1d9-e4f74b25da1e" flow_index="1" width="80dpi_px" right="8px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                    <Button stylename="button_up" layout_id="yes_button" layout_guid="00aca4da-5d7e-4507-97a6-991dcbac0d37" width="80dpi_px" right="96px" margin_right="8dpi_px" localise_name="UserLogin_Continue" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <CheckBox stylename="checkbox_stack" layout_id="dontshowagain_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0dpi_px" localise_name="Dialog_DontShowAgain" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    <!--</Window>-->
+  </Layout>
+</Layouts>

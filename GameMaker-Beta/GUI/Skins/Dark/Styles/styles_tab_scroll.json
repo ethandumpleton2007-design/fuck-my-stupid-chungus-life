@@ -1,0 +1,33 @@
+{
+  "tab_left_scroll_btn": {
+    "base": "no_frame_button",
+    "width": "20dpi_px",
+    "icon_flags": "Centre",
+    "vector_icon_size": "11dpi_px",
+    "font_icon": [ "General_IDE_Icons", "IDE_chevron_left" ],
+    "colour": "base_font_icon",
+    "deactivated_style": "button_deactivated_fonticon", 
+		"reactivated_style": "button_reactivated_fonticon"
+  },
+
+  "tab_right_scroll_btn": {
+    "base": "no_frame_button",
+    "width": "20dpi_px",
+    "icon_flags": "Centre",
+    "vector_icon_size": "11dpi_px",
+    "font_icon": [ "General_IDE_Icons", "IDE_chevron_right" ],
+    "colour": "base_font_icon",
+    "deactivated_style": "button_deactivated_fonticon", 
+		"reactivated_style": "button_reactivated_fonticon"
+  },
+  "tab_dropdown_btn": {
+    "base": "no_frame_button",
+    "width": "24dpi_px",
+    "icon_flags": "Centre",
+    "vector_icon_size": "12dpi_px",
+    "font_icon": [ "General_IDE_Icons", "IDE_chevron_down" ],
+    "colour": "base_font_icon",
+    "deactivated_style": "button_deactivated_fonticon", 
+		"reactivated_style": "button_reactivated_fonticon"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "EnvironmentVariablesViewer",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "EnvironmentVariablesViewerGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "EnvironmentVariablesViewerGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "EnvironmentVariablesViewer",
+      "localised_name": "EnvironmentVariablesViewer_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "EnvironmentVariablesViewer",
+          "version": "2026.100.1171",
+          "path": "EnvironmentVariablesViewer.dll",
+          "checksum": "Ii0w2rp28IQhsS4nsovtIZOXQy8YCnuxOYRCGAOWUMs="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "MYJLziVUg54nBOAWWu8co1EVZElunybjhtVJw89a4u2dkVJ350r9s7FyeTrJfFRl65tAcT2c2CmWZao4Dgg9c16eJOWmB0tEXPNa/9ri6sO7cKleT4JevROHk6jQcAtCTD9Z74NMGkrWtsBdMfr8TR9HdtgrI8c7Xk1k3/d01UY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

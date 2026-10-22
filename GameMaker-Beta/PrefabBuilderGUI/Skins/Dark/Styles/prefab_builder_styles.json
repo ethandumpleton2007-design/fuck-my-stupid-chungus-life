@@ -1,0 +1,39 @@
+{
+	"prefab_builder_grid": {
+    "base": "grid_container",
+    "splitter_thickness": "14dpi_px",
+    "grid_columnlayout": ["1*", "1*"]
+	},
+  
+  "pfb_field_label":{
+		"base":"label",
+		"left":"0px",
+		"margin_top": "10dpi_px",
+		"margin_bottom":"2dpi_px"
+	},
+
+	"checkbox_pb_semi_tick": {
+    "colour": "base_checkbox_tick",
+    "position": [
+      [ 21, 22, 4, 4 ],
+      [ 25, 22, 11, 4 ],
+      [ 36, 22, 4, 4 ],
+      [ 21, 26, 4, 11 ],
+      [ 25, 26, 11, 11 ],
+      [ 36, 26, 4, 11 ],
+      [ 21, 37, 4, 4 ],
+      [ 25, 37, 11, 4 ],
+      [ 36, 37, 4, 4 ]
+    ],
+    "width": "19dpi_px",
+    "height": "19dpi_px",
+    "frame_name": "PBCheckBox.png"
+  },
+
+  "minver_grid": {
+    "grid_columnlayout": ["50dpi_px", "1*", "18dpi_px"],
+    "height": "24dpi_px",
+    "margin_top":"2dpi_px"
+  }
+
+}

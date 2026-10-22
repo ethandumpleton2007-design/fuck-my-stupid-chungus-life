@@ -1,0 +1,1023 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "TextEditor2.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Find in editor",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_search_in_script_find",
+      "Name": "FindInEditor"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "H",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Replace in editor",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_search_in_script_replace",
+      "Name": "ReplaceInEditor"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open project-wide search",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Search and Replace",
+      "Name": "FindInProject"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Replace the next occurrence",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Replace Next Occurence",
+      "Name": "ReplaceNextOccurence"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Q",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open Feather's Quick Fixes menu",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_feather_open_quickfix_menu",
+      "Name": "OpenQuickFixMenu"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M, F",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Fold all code regions",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_FoldRegions",
+      "Name": "FoldAllRegions"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M, U",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Unfold all code regions",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UnfoldRegions",
+      "Name": "UnfoldAllRegions"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M, M",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Toggle folding",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleFold",
+      "Name": "ToggleFold"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Fold the active document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_FoldActiveDocument",
+      "Name": "FoldActiveDocument"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Fold all documents",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_FoldAllDocuments",
+      "Name": "FoldAllDocuments"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Unfold the active document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UnfoldActiveDocument",
+      "Name": "UnfoldActiveDocument"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Unfold all documents",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UnfoldAllDocuments",
+      "Name": "UnfoldAllDocuments"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Comment the current line or selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Comment Line/Selection",
+      "Name": "Comment"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Uncomment the current line or selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Uncomment Line/Selection",
+      "Name": "Uncomment"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "J",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Join code lines",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Join Lines",
+      "Name": "JoinLines",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "J",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Convert the selection to UPPERCASE",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Convert To Uppercase",
+      "Name": "ConvertToUppercase",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "U",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Convert the selection to lowercase",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Convert To lowercase",
+      "Name": "ConvertToLowercase",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "U",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Convert the selection to Proper Case",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Convert To ProperCase",
+      "Name": "ConvertToProperCase"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Convert the selection to Sentence case",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Convert To SentenceCase",
+      "Name": "ConvertToSentenceCase",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "U",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "BackSpace",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Backspace",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Backspace",
+      "Name": "TE2_Backspace"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Delete",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Delete",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Delete",
+      "Name": "TE2_Delete"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Indent",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Tab",
+      "Name": "TE2_Indent"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Unindent",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DeTab",
+      "Name": "TE2_Unindent"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "BackSpace",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Delete the entire word left of the cursor",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DeleteWordStart",
+      "Name": "DeleteWordStart"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Delete",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Delete the entire word right of the cursor",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DeleteWordEnd",
+      "Name": "DeleteWordEnd"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Enter",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Insert a line break at the cursor position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_LineBreak",
+      "Name": "LineBreak"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ],
+      "Description": "Refactor the current identifier",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Refactor Identifier",
+      "Name": "RefactorIdentifier"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_CaretLeft",
+      "Name": "TextCursorLeft"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_CaretRight",
+      "Name": "TextCursorRight"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_CaretUp",
+      "Name": "TextCursorUp"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_CaretDown",
+      "Name": "TextCursorDown"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the start of the current document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DocumentStart",
+      "Name": "TextCursorDocStart"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Move the text cursor to the start of the all documents",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_AllDocumentsStart",
+      "Name": "TextCursorAllDocsStart"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Move the text cursor to the start of the current line or the start of the code on the current line",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Home",
+      "Name": "TextCursorHome"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the text cursor to the end of the current document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_DocumentEnd",
+      "Name": "TextCursorDocEnd"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Move the text cursor to the end of the all documents",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_AllDocumentsEnd",
+      "Name": "TextCursorAllDocsEnd"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Any"
+        }
+      ],
+      "Description": "Move the text cursor to the end of the current line",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_End",
+      "Name": "TextCursorEnd"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageUp",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor a page up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_PageUp",
+      "Name": "TextCursorPageUp"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageDown",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the text cursor a page down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_PageDown",
+      "Name": "TextCursorPageDown"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Minus",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move to the next item in the history",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move To Next History",
+      "Name": "MoveToNextHistory",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Minus",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Minus",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move to the previous item in the history",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move To Previous History",
+      "Name": "MoveToPreviousHistory",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Minus",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "G",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to a specific line",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GoToLine",
+      "Name": "GoToLine"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to a specific type",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GoToType",
+      "Name": "GoToType"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Move to the next document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_NextDocument",
+      "Name": "NextDocument"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Move to the previous document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_PreviousDocument",
+      "Name": "PreviousDocument"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move to the next code region",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Next Region",
+      "Name": "NextRegion"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move to the previous code region",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Previous Region",
+      "Name": "PreviousRegion"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F1",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Previews the identifier's declaration",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Preview Definition",
+      "Name": "PreviewDefinitionHotkey"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F1",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Navigates to the identifier's declaration",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GoToDefinition",
+      "Name": "GoToDefinitionHotkey"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F1",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Finds all usages of the identifier and displays them in the Search Results window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Find Usages",
+      "Name": "FindUsagesHotkey"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Format the document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Format Document",
+      "Name": "FormatDocument",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "P",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftBracket",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to the matching brace",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GoToMatchingBrace",
+      "Name": "GoToMatchingBrace"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "Shift"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Comma",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Show code completion parameters",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Show Code Completion Parameters",
+      "Name": "ShowCodeCompletionParams"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Escape",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Dismiss the code completion pop-up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Dismiss Code Completion",
+      "Name": "DismissCodeCompletion"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Toggle asset navigation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleAssetNavigation",
+      "Name": "ToggleAssetNavigation"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Toggle document navigation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleDocumentNavigation",
+      "Name": "ToggleDocumentNavigation"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number3",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Toggle symbols navigation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleSymbolsNavigation",
+      "Name": "ToggleSymbolsNavigation"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Toggle create asset",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleCreateAsset",
+      "Name": "ToggleCreateAsset"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "Shift, Alt"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "N",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Toggle create document",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleCreateDocument",
+      "Name": "ToggleCreateDocument"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Insert",
+          "Modifier": "None"
+        }
+      ],
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [],
+          "Platform": "MacOs"
+        }
+      ],
+      "Description": "Toggle overwrite mode",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ToggleOverwriteMode",
+      "Name": "ToggleOverwriteMode"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Show diagnostics",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Show Diagnostics",
+      "Name": "Show Diagnostics"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Accept Code Completion Item",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_AcceptCodeCompletionItem",
+      "Name": "AcceptCodeCompletionItem"
+    }
+  ],
+  "Source": "Text Editor 2",
+  "LocalisedName": "CE2_RedefineKeys_Name"
+}

@@ -1,0 +1,5 @@
+localisation_plugins\chinese\@localisation_plugins.chinese.package.json
+localisation_plugins\chinese\chinese.csv
+localisation_plugins\chinese\ChineseLocalisation.gmplugin
+localisation_plugins\chinese\chinese_dnd.csv
+localisation_plugins\chinese\chinese_startup.csv

@@ -1,0 +1,12 @@
+{ 
+  "$PluginLoadCollection":"v1", 
+  "Plugins":[ 
+	{"$PluginToLoad":"v1","Author":"GameMaker","Name":"WindowsAdapters","Version":"2026.100.1171",}, 
+    {"$PluginToLoad":"v1","Author":"GameMaker","Name":"BugReporter","Version":"2026.100.1171",}, 
+    {"$PluginToLoad":"v1","Author":"GameMaker","Name":"CommonPluginFunctionality","Version":"2026.100.1171",}, 
+    {"$PluginToLoad":"v1","Author":"GameMaker","Name":"PluginSelector","Version":"2026.100.1171",}, 
+    {"$PluginToLoad":"v1","Author":"GameMaker","Name":"CommonUI","Version":"2026.100.1171",}, 
+    {"$PluginToLoad":"v1","Author":"GameMaker","Name":"EnglishLocalisation","Version":"2026.100.1171",}, 
+	{"$PluginToLoad":"v1","Author":"GameMaker","Name":"TextEditorHotkeys","Version":"2026.100.1171",}, 
+], 
+} 

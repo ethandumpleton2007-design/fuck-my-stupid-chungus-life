@@ -1,0 +1,141 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Enter",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Zoom and pan to selected",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_zoom_and_pan_to_gadget",
+      "Name": "Zoom and Pan to Gadget",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Enter",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Workspace Chain Move Up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_workspace_chain_move_up",
+      "Name": "Workspace Chain Move Up",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Workspace Chain Move Down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_workspace_chain_move_down",
+      "Name": "Workspace Chain Move Down",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Workspace Chain Move Left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_workspace_chain_move_left",
+      "Name": "Workspace Chain Move Left",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Workspace Chain Move Right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_workspace_chain_move_right",
+      "Name": "Workspace Chain Move Right",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Workspace"
+}

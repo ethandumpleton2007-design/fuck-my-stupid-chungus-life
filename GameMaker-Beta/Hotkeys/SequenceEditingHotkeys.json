@@ -1,0 +1,250 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftControl",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Clone translation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Clone Translation",
+      "Name": "Clone Translation",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftShift",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightShift",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Restrict the translation axis to allow only horizontal or vertical movement",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Restrict Translation Axis",
+      "Name": "Restrict Translation Axis"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftControl",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Snap to origin",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Snap Origin",
+      "Name": "Snap Origin",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Resize the key",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Resize Key",
+      "Name": "Resize Key"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select child keys",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Child Keys",
+      "Name": "Select Child Keys"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Motion Path Display Dev command",
+      "IsListed": false,
+      "Localisation": "",
+      "Name": "Stop Pairing Tangent"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number8",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a broadcast message at the playhead position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Add Broadcast Message",
+      "Name": "Add Broadcast Message",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number8",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Semicolon",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Toggle the smart guides and ruler",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Smart Guide & Ruler",
+      "Name": "Toggle Smart Guide & Ruler",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Semicolon",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Semicolon",
+          "Modifier": "Control, Shift, Alt"
+        }
+      ],
+      "Description": "Toggle smart guide rulerlock",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Smart Guide Ruler Lock",
+      "Name": "Toggle Smart Guide Ruler Lock",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Semicolon",
+              "Modifier": "Shift, Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Semicolon",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Toggle snapping to smart guides",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Smart Guide Snapping",
+      "Name": "Toggle Smart Guide Snapping",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Semicolon",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Sequence Editing"
+}
+  

@@ -1,0 +1,29 @@
+{
+  "name": "Graphics",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Graphics",
+      "localised_name": "Graphics_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Graphics",
+          "version": "2026.100.1171",
+          "path": "Graphics.dll",
+          "checksum": "S0foAdaLTdi46mrQxjGOqkvRtw7KNW5w8Mk9fRLhs9w="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "MN3OQiimV5xzqGsjGBPx4MSifBpCbtqNoUwcZC9E/B2qxmLTLUxLKWiGaBONIqpmj7DJKd4qnJmhtXrEwAB46wINcLzpCw6oKesCAvrc43t23Wteo1A3czfTdSsQw9I2MluD2pwzZTb3ItR2SL3Wu/0SUBnhJt6Y0g/HId87BZ0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

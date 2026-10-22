@@ -1,0 +1,65 @@
+{
+  "name": "IncludedFilesEditor",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "IncludedFilesHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/IncludedFilesHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "IncludedFilesEditor",
+      "localised_name": "IncludedFilesEditor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMResource",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "IncludedFilesEditor",
+          "version": "2026.100.1171",
+          "path": "IncludedFilesEditor.dll",
+          "checksum": "kAZ\u002BlYeXSxgmL6RBBwWIic5pPC4lJnPfayjCzb32oMQ="
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "IncludedFilesEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "IncludedFilesEditorGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "MKCMFGfeAffWMIKwIlj92nUcsA/NYZZl6NZ2cmEqwWcGzcgrv9xOEU5RTu2t8rY\u002BuYsoDCSqZpQHU1fVqA/vdBZ1tqim7fJNVhwYd1RD86P3G0Q01WNLx4mUo77nR9QiDkmjpBQwaToQUDXl3jDz1dWKIVfZu0Pa01gvHh\u002BFfj8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

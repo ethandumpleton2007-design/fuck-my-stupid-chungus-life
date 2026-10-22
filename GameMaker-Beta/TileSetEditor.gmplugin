@@ -1,0 +1,71 @@
+{
+  "name": "TileSetEditor",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "TileSetEditor",
+      "localised_name": "tile_set_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMTileSet",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TileSetEditor",
+          "version": "2026.100.1171",
+          "path": "TileSetEditor.dll",
+          "checksum": "aHWOpEFMadhrXMOkIxBt5HZWgg4xeEmHutyPq24x/To="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "TileSetEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "TileSetEditorGUI/Skins/Dark",
+          "TileSetEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "TileSetEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/TileSetEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "LPpRMBmZsdR4n1NiOBcOoXAs/Hbd6pvYBSDLqIjmuHt\u002BjChxrmgrWLRDbRBl2FVJXvTIvGVb39dLDZoZ49EUuVqOccO5RHWMMdnBtkiKyF3CLaGUA8znES5pgCDEkhkA5l2vcW8FfM6IvtNBzHut6oDWhJTAB32DL2KlgneZRaA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

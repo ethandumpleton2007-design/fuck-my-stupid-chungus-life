@@ -1,0 +1,29 @@
+{
+  "name": "SourceControlGit",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SourceControlGit",
+      "localised_name": "source_control_git_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SourceControlGit",
+          "version": "2026.100.1171",
+          "path": "SourceControlGit.dll",
+          "checksum": "dzShYyp1wtaj6ZVscsi2kl\u002B6S96SJsAMFRVUAE/CYJc="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ppRg5MN0USSGY76D0DVvb4kV6EXwjGKlWcW8db3b/\u002BqjEa5e\u002BYGnIHzDyxfArCcJFewalROfKrL9pUxlA6zm3WrexALWyl0gAKtYFNakByHQy44Ac4UvrVKUbp1aTAgHKOuZlTrvaYGjbnaZ5CcO0SklRy2yu0JjIjN8wlJxg\u002BE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

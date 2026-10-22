@@ -1,0 +1,29 @@
+{
+  "name": "TusClient",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "TusClient",
+      "localised_name": "TusClient_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TusClient",
+          "version": "2026.100.1171",
+          "path": "TusClient.dll",
+          "checksum": "OqBtI3LefKo0e5kdTfGODFhuzfy2jjwfRgn3fBAkDxQ="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "LKPis\u002Brku0idkoTB2i89RbDUP8tq\u002B2gFuSyiQ2bfHEPOAS\u002BB00bAvfUwPh9JBqT31/jWEn\u002BEZlraz3CLRGOi9VbBPhwZLpMBhep0nhj56W5hEnos4XesbDCEJMIGcYHXiAQPJ7hdajKQuASABWfIWomADEwlwu2/Iq6Sco\u002BKT3w=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "CodeEditor2",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "CodeEditor2",
+      "localised_name": "code_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": {
+        "files": [
+          "./CodeEditor2/Themes/GameMakerDark.tmTheme",
+          "./CodeEditor2/Servers/GML.lspConfig",
+          "./CodeEditor2/Languages/0-Objective-C-Platform.tmLanguage",
+          "./CodeEditor2/Languages/C.tmLanguage",
+          "./CodeEditor2/Languages/C\u002B\u002B.tmLanguage",
+          "./CodeEditor2/Languages/Debugger.tmLanguage",
+          "./CodeEditor2/Languages/Empty.tmLanguage",
+          "./CodeEditor2/Languages/Feather.tmLanguage",
+          "./CodeEditor2/Languages/GLES.tmLanguage",
+          "./CodeEditor2/Languages/GLSL.tmLanguage",
+          "./CodeEditor2/Languages/GML.tmLanguage",
+          "./CodeEditor2/Languages/HLSL.tmLanguage",
+          "./CodeEditor2/Languages/Ini.tmLanguage",
+          "./CodeEditor2/Languages/Java.tmLanguage",
+          "./CodeEditor2/Languages/JSON.tmLanguage",
+          "./CodeEditor2/Languages/Markdown.tmLanguage",
+          "./CodeEditor2/Languages/Objective-C.tmLanguage",
+          "./CodeEditor2/Languages/Objective-C\u002B\u002B.tmLanguage",
+          "./CodeEditor2/Languages/XML.tmLanguage",
+          "./CodeEditor2/Languages/YAML.tmLanguage"
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "CodeEditor2",
+          "version": "2026.100.1171",
+          "path": "CodeEditor2.dll",
+          "checksum": "32RBuCfRIraQXZw8ey\u002Bcn/6Z0rfhERoCnZ\u002BuAlGObl8="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "QkVO4rE0v4RWtN/egIqYihopHCr9EsPR5Ys766G6kc\u002BvM2hJUUH\u002BTVc4BH9qUMp1oS\u002BlrU2cc44/CU98FVPWW3jl4brbOHfCdQenEOjujYQuvyMoLvYi0VQF8BKl5r0GXSMVE73jPlZMR4c/0AeRr1cZDPSNC1qgoIKM77\u002B5Ryo=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

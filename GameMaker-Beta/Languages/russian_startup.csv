@@ -1,0 +1,148 @@
+Name,English,Translation,Restrictions,Comment
+_Language,English,Russian,,Language name - in English
+_LanguageNative,English,Русский,,Language name in the native language
+_LanguageCode,ru,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+_GameMaker2016,GameMaker,GameMaker,,IDE title
+Splash_Done,Done.,Готово.,,Finished loading
+Splash_Loading,Loading....,Загрузка....,,Generic loading text
+Splash_WaitingNetwork,Checking Network...,Проверка сети...,,Network step
+Splash_LoadingLanguages,Loading Languages...,Загрузка языков...,,Loading the languages prefix
+Splash_LoadingPlugins,Loading Plugins...,Идет загрузка плагинов...,,Loading the plugins
+Splash_LoadingPrefs,Loading Preferences...,Идет загрузка предпочтений...,,Loading the preferences
+Splash_UserLogin,User Login,Логин пользователя,,User Login has been started
+Notifications_Hub,Notification Hub,Центр уведомлений,,Notification Hub string
+IDEMenu_File,File,Файл,,The File menu item name
+IDEMenu_Edit,Edit,Редактировать,,The Edit menu item name
+IDEMenu_Build,Build,Создать,,"File menu ""Build"""
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
+$win_IDEMenuViews,Windows,Окна,,Windows version of the views menu entry
+$mac_IDEMenuViews,Window,Окно,,Mac version of the views menu entry
+$linux_IDEMenuViews,Windows,Окна,,Linux version of the views menu entry
+IDEMenu_Tools,Tools,Инструменты,,Main menu entry for tools
+IDEMenu_Layouts,Layouts,Схемы,,Layouts
+IDEMenu_Marketplace,Marketplace,Маркетплейс,,Main menu entry for marketplace
+IDEMenu_Help,Help,Справка,,Main menu entry for HELP
+$win_IDEMenuHelpAbout,About,О программе,,Windows version of the About main menu entry
+$mac_IDEMenuHelpAbout,About GameMaker,О GameMaker,,Windows version of the About main menu entry
+$linux_IDEMenuHelpAbout,About,О программе,,Linux version of the About main menu entry
+IDEMenu_Help_About,${IDEMenuHelpAbout},${IDEMenuHelpAbout},,Help menu item for actual About
+File_Menu_Preferences,Preferences,Предпочтения,,The Preferences menu item
+HideGameMaker_Menu_Title,Hide GameMaker,Скрыть GameMaker,,Hide GameMaker menu entry for Mac
+HideOthers_Menu_Title,Hide Others,Скрыть другие,,Hide others menu entry for Mac
+ShowAll_Menu_Title,Show All,Показать все,,Show all windows menu entry for Mac
+File_Menu_Exit,${FileMenuExit},${FileMenuExit},,The Exit program menu item
+$win_FileMenuExit,Exit,Выход,,Windows version of the Exit main menu entry
+$mac_FileMenuExit,Quit,Выйти,,Mac version of the Exit main menu entry
+$linux_FileMenuExit,Exit,Выйти,,Linux version of the Exit main menu entry
+File_Menu_NewProject,New Project,Новый проект,,The New Project menu item
+File_Menu_OpenProject,Open Project,Открыть проект,,The Open Project menu item
+File_Menu_ImportProject,Import Project,Импорт проекта,,The Import project menu item
+File_Menu_RecentProjects,Recent Projects,Недавние проекты,,The Recent Projects menu item
+File_Menu_Save,Save Project,Сохранить проект,,The Save menu item
+File_Menu_SaveAs,Save Project As,Сохранить проект как,,The Save As menu item
+File_Menu_ExportProject,Export Project,Экспорт проекта,,The Export Project menu item
+File_Menu_NewIDE,New IDE,Новый IDE,,Start a new instance of the IDE from the file menu
+Edit_Menu_Undo,Undo,Отменить,,Undo menu entry
+Edit_Menu_Redo,Redo,Переделать,,Redo menu entry
+Edit_Menu_Search,Search & Replace,Найти и заменить,,"Edit menu ""Search & Replace"""
+Window_Minimize,Minimize,Минимизировать,,Minimize window context menu entry
+BringAllToFront_Menu_Title,Bring All To Front,Перевести все во фронтальную часть,,Bring all windows to front menu entry for Mac
+Views_Menu_AssetBrowser,Asset Browser,Браузер актива,,Views menu entry for resources
+Views_Menu_Output,Output,Вывод,,Views menu entry for the output panel
+Views_Menu_SearchResults,Search Results,Результаты поиска,,Views menu entry for the search results panel
+Views_Menu_SourceControl,Source Control Output,Вывод управления источником,,Views menu entry for the source control output window
+Views_Menu_Breakpoints,Breakpoints,Точки разрыва,,Views menu entry for the breakpoints window
+Views_Menu_CompileErrors,Compile Errors,Ошибки компиляции,,Views menu entry for the compile errors window
+Views_Menu_SyntaxErrors,Syntax Errors,Синтаксические ошибки,,Open Syntax Errors Window
+Views_Menu_Inspector,Inspector,Инспектор,,Views menu entry for inspector
+Views_Menu_Recent_Windows,Recent Windows,Недавние окна,,Recent activated windows menu option
+Views_Menu_Macros,IDE Environment Variables,Переменные среды IDE,,View Macros window
+IDEMenu_Texturepage,Texture Groups,Группы текстуры,,Texture group manager
+IDEMenu_Audiogroups,Audio Groups,Аудиогруппы,,Audio group manager
+IDEMenu_SoundMixer,Sound Mixer,Саундмикшер,,Open Sound Mixer
+Views_Menu_ImageGenerator,Generate Project Images,Генерировать изображения проекта,,the ide menu entry for opening the project image generator window
+Package_CreateLocalPackage,Create Local Package,Создать локальный пакет,,create local package menu entry
+Package_ImportLocalPackage,Import Local Package,Импортировать локальный пакет,,import local package menu entry
+Marketplace_Go,Open Marketplace,Открыть маркетплейс,,Open Marketplace
+IDEMenu_SaveLayout,Save Layout,Сохранить схему,,Main menu entry for save layouts
+IDEMenu_LoadLayout,Load Layout,Загрузить схему,,Main menu entry for load layouts
+IDEMenu_ResetLayout,Reset Layout,Сбросить схему,,Main menu entry for resetting the layout
+IDEMenu_ShowAllWindows,Show All Windows,Показать все окна,,Show all windows - the name for the menu bar
+IDEMenu_CloseAllWindows,Close All Windows,Закрыть все окна,,Close all windows - the name for the menu bar
+IDEMenu_Help_Help,Open Manual,Открыть руководство,,Help menu item for actual help
+IDEMenu_Help_KnowledgeBase,Knowledge Base,База знаний,,Help menu item for knowledge base
+IDEMenu_Help_ReportBug,Report a Bug,Сообщить об ошибке,,Help menu item for report a bug page
+IDEMenu_Help_LogFile,${ShowLogFileInExplorer},${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
+$win_ShowLogFileInExplorer,Open Log In Explorer,Открыть лог в Explorer,,Windows version of Show Log In Explorer
+$mac_ShowLogFileInExplorer,Reveal Log In Finder,Открыть лог в Finder,,Mac version of Show Log In Explorer
+$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Показать журнал в диспетчере файлов,,Linux version of Show Log In Explorer
+IDEMenu_Help_YYG,GameMaker.io,GameMaker.io,,Help menu item for main yoyogames website
+IDEMenu_Help_GMC,GameMaker Community,Сообщество GameMaker,,Help menu item for gmc forums
+IDEMenu_Help_ReleaseNotes,Release Notes,Примечания к выпуску,,Help menu item for release notes
+IDEMenu_Help_SDKS,Required SDKs,Требуемые SDK,,Help menu item for the required sdks page
+$win_OpenProjectInExplorer,Open Project In Explorer,Открыть проект в Explorer,,Windows version of Open Project In Explorer
+$mac_OpenProjectInExplorer,Show Project In Finder,Показать проект в Finder,,Mac version of Open Project In Explorer
+$linux_OpenProjectInExplorer,Show Project In File Manager,Показать проект в диспетчере файлов,,Linux version of Open Project In Explorer
+IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
+Update_System_fonts,Refresh System Fonts,Обновить системные шрифты,,Refresh system fonts ide menu entry
+IDEMenu_Help_Licenses,Licences,Лицензии,,Help menu item for licences
+IDETooltip_LaptopMode_On,On,Вкл.,,On text
+IDETooltip_LaptopMode_Off,Off,Откл.,,Off text
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","В режиме ноутбука с помощью мыши над определенной зоной вы можете осуществлять плавное смещение, прокрутку и масштабирование, \nудерживая ${LaptopLZoomKey} для масштабирования и Left Alt для плавного смещения и прокрутки.\nИспользуйте ${LaptopRHSKeys} для взаимодействий без мыши при активном режиме работы в режиме ноутбука.",,IDE toolbar laptop mode description
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Режим ноутбука ({0}),,IDE toolbar laptop mode title
+StartPage_Title,Start Page,Начальная страница,,Start page title
+IDE_FatalErrorTitle,Fatal Error,Фатальная ошибка,,Title for the fatal error warning dialog
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker стал нестабильным.\nСохраните изменения и выйдите.,,Warn the user they should try saving changes and exit
+IDE_Warning,Warning,Предупреждение,,Warning for IDE
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker не может получить доступ к важным системным папкам.\nПроверьте пути в настройках и права доступа к папкам или обратитесь к системному администратору.\n\n{0},,File permissions failure on startup
+Button_OK,OK,OK,,ok button
+Button_Yes,Yes,Да,,Yes
+Button_No,No,Нет,,No
+Dialog_CopyToClipboard,Copy to clipboard,Копировать в буфер обмена,,Copy the dialog message to the clipboard
+IDE_VersionInfo,{1} IDE v{0},{1} IDE в.{0},,the ide version information string
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,{1} IDE в.{0} Steam,,the ide version information string when running from steam
+UpdateDialogDownloadNow,Download now,Загрузить сейчас,,Update new version dialog - download now button
+UpdateDialogRemindMe,Remind me later,Напомнить мне позже,,Update new version dialog - remind me later button
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},Доступна новая версия! \nВы используете версию{0}\nНовая версия — {1},,Update new version dialog - tell user which version they are on and which version update will take them to
+UpdateDialogReleaseNotes,View Release notes,Просмотреть примечания к выпуску,,Update new version dialog - view release notes button
+UpdateDialogTitle,New Version,Новая версия,,Update new version dialog title
+RSS_Download_Exception,Could not reach the RSS feed,Не удалось достичь RSS-канала,,A message which is shown when the RSS feed is not accessible
+Splash_CheckingRSS,Checking RSS...,Проверка RSS...,,Checking RSS...
+Dialog_Confirm,Confirm,Подтвердить,,"Dialog ""confirm"" heading"
+Dialog_DontShowAgain,Don't show this message again,Больше не показывать это сообщение.,,Message next to checkbox to allow the user to choose not to see this popup in future
+Runtime_Installing_Version,Installing runtime {0},Установка среды выполнения {0},,user facing splash screen message for installing runtime
+ImageEditor_SelectAll,Select All,Выбрать все,,Image editor select all menu option
+Button_Cancel,Cancel,Отменить,,cancel button
+TargetSelection_Platform_Test,Test,Тест,,the teset platform title in the platform selection list
+TargetSelection_Platform_android,Android,Android,DO NOT TRANSLATE,the android platform title in the platform selection list
+TargetSelection_Platform_HTML5,HTML5,HTML5,DO NOT TRANSLATE,the html5 platform title in the platform selection list
+TargetSelection_Platform_Linux,Ubuntu,Ubuntu,DO NOT TRANSLATE,the linux platform title in the platform selection list
+TargetSelection_Platform_operagx,GX.games,GX.games,DO NOT TRANSLATE,the opera gx platform title in the platform selection list
+TargetSelection_Platform_ps4,PlayStation 4,PlayStation 4,,the ps4 platform title in the platform selection list
+TargetSelection_Platform_ps5,PlayStation 5,PlayStation 5,,the ps5 platform title in the platform selection list
+TargetSelection_Platform_switch,Switch,Switch,DO NOT TRANSLATE,Switch
+TargetSelection_Platform_Windows,Windows,Windows,DO NOT TRANSLATE,the windows platform title in the platform selection list
+TargetSelection_Platform_xboxseriesxs,Xbox One & Series X/S,Xbox One & Series X/S,DO NOT TRANSLATE,the Xbox One & Series X/S platform title in the platform selection list
+TargetSelection_Platform_Mac,macOS,macOS,DO NOT TRANSLATE,the mac platform title in the platform selection list
+TargetSelection_Platform_ios,iOS,iOS,DO NOT TRANSLATE,the apple iOS platform title in the platform selection list
+TargetSelection_Platform_tvos,tvOS,tvOS,DO NOT TRANSLATE,the apple tvOS platform title in the platform selection list
+ProgressBar_Install,Installing...,Установка...,,the progress bar caption while installing
+DialogEditor_Error,Error,Ошибка,,dialog editor error box title
+UserLogin_Exception,Exception - {0},Исключение - {0},,exception error
+UserLogin_ServerError,Error ({0}) - {1},Ошибка ({0}) - {1},,server response error
+UserLogin_Retry,Retry,Повторить попытку,,User Login - Error Retry
+UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,"Не удалось получить доступ к фиду среды выполнения, локальная среда выполнения не установлена. Проверьте ваше Интернет-соединение и запустите GameMaker еще раз.",,user login no runtime message
+UserLogin_InstallRuntimeTitle,Install Runtime {0},Установить среду выполнения {0},,install runtime title
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,"На целевом диске {0} доступны только {1} Гб.\nРекомендуется иметь как минимум 2 Гб свободного пространства. Перед тем, как продолжить работу, убедитесь, что у вас достаточно свободного пространства.",,runtime free space warning message
+UserLogin_Continue,Continue,Продолжить,,continue label
+UserLogin_MaxDevice,Maximum logins exceeded \nYou can manage your account sessions at accounts.yoyogames.com,Превышено максимально допустимое число входов \nВы можете управлять сеансами вашего аккаунта в accounts.yoyogames.com,,User Login Error response 29
+User_OK,OK,OK,,User Login - two step authentication ok button
+runtime_selection,Runtime Selection,Выбор среды выполнения,,Runtime Selection Window title
+runtime_onstartup_change,Do you want to change your current runtime to the latest installed version: {0}?,Заменить текущую среду выполнения соответствующей версией IDE {0}?,,Change current runtime to the version matching the IDE
+UserLogin_OfflineError,Unable to take user offline,Не получается вывести пользователя оффлайн,,offline error
+IDETooltip_Notifications,Notifications,Уведомления,,IDE toolbar notifications tooltip
+runtime_dns_ResolvingFailed,DNS resolving has failed,Не удалось выполнить разрешение DNS-имен,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
+runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,Не удалось разрешить {0} с альтернативным DNS-сервером. Использован системный DNS-сервер,,Could not use an alternative DNS
+RuntimeDownload_FailedTitle,Runtime install incomplete,Установка среды выполнения завершена не полностью,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,Выбранная среда выполнения установлена не полностью,,Runtime download failed message
+SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Ошибка загрузки требуемого плагина,,Title for error message when you fail to load a required plugin dll

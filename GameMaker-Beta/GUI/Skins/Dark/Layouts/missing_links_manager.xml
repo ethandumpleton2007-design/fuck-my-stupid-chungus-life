@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+	<Layout layout_name="MissingLinksDialog" layout_guid="26c33dee-5679-4cdc-9522-f9405fdcdb1a">
+		<Window localise_title="Project_Load_Unresolved_Resource_Links" width="800dpi_px" height="500dpi_px" window_flags="ResizeButton, CloseButton, DockingDisabled">
+			<Client>
+				<ChildGadgets>
+					<Grid layout_id="main_grid" stylename="grid_container" grid_rowlayout="['60dpi_px', '1*', 'auto', '1*', '40dpi_px']">
+						<Cell row="0" column="0" flow_index="3">
+							<ChildGadgets>
+								<StackPanel stylename="stack_panel">
+									<ChildGadgets>
+										<Image stylename="dialog_message_icon" layout_id="message_icon" image="WarningTriangle32.png" />
+										<Label stylename="confirm_dialog_label" layout_id="message_label" top="0dpi_px" left="0dpi_px" />
+									</ChildGadgets>
+								</StackPanel>
+							</ChildGadgets>
+						</Cell>
+						<Cell row="1" column="0" flow_index="2">
+							<ChildGadgets>
+								<TableListBox stylename="extension_tablegadget_content" layout_id="reinstall_prefabs_table_list_box" layout_guid="82a89e36-7488-4326-ae6d-52c9927a2cd7">
+								  <ListBoxItems />
+								</TableListBox>
+							</ChildGadgets>
+						</Cell>
+						<Cell row="2" column="0" flow_index="2">
+							<ChildGadgets>
+								<CheckBox stylename="checkbox_stack" layout_id="load_ignoring_nulls_checkbox" layout_guid="3874c1f4-c8e9-4f83-a7aa-3a1d4c00bace" left="0dpi_px" margin_top="12dpi_px" localise_name="Project_Load_Ignore_Nulls_Option" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="3" column="0" flow_index="1">
+							<ChildGadgets>
+								<MultiLineTextBox stylename="multiline_text_box" layout_id="missing_links_report_box" layout_guid="1e6741f9-5dde-46ef-b9ec-6bcd51889b9a" height="100%" width="100%" left="0dpi_px" right="0dpi_px" top="0dpi_px" bottom="0dpi_px" read_only="true" />
+							</ChildGadgets>
+						</Cell>
+						<Cell row="4" column="0" flow_index="0">
+							<ChildGadgets>
+								<StackPanel stylename="stack_panel" stack_order="RightToLeft" stack_resize="ResizeHeight">
+									<ChildGadgets>
+										<Button stylename="button_up" layout_id="apply_button" height="24dpi_px" width="100dpi_px" margin_right="8dpi_px" localise_name="Button_Apply" flow_index="0" />
+										<Button stylename="button_up" layout_id="cancel_button" height="24dpi_px" width="100dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" flow_index="0" />
+									</ChildGadgets>
+								</StackPanel>
+							</ChildGadgets>
+						</Cell>
+					</Grid>
+				</ChildGadgets>
+			</Client>
+			<Layout layout_name="BasicWindowFrame" />
+		</Window>
+	</Layout>
+</Layouts>

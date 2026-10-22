@@ -1,0 +1,29 @@
+{
+  "name": "FileIO",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "FileIO",
+      "localised_name": "FileIO_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "FileIO",
+          "version": "2026.100.1171",
+          "path": "FileIO.dll",
+          "checksum": "cBFcr5Z5YQqAoXWuiritzf5OesSkTmUWJt8fDMFGYRc="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "dz/i8k5gy13zAmVGWvowdEt\u002BlKK645lngGg4UmV0Wy0vfCHZJPBRkSjwxseGcvfd/aQV4adlKnYM4LOvw4CuLnbqc2v59IRsy/qgD5J3pjKIfYYEgbjGxkHNaw3e41M\u002B1qYCnspHFZGKZzcvaETmVPkudiXvy5AtPEUb45QOXgo=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

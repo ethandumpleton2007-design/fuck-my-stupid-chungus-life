@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ImageImportProgress" layout_guid="5243580d-9053-4dbe-9bdc-73fd9f5ab7f8">
+    <Window stylename="default_window" override_flow_index="9999999" height="120dpi_px" width="350dpi_px" title="Importing files" window_flags="DragDisabled, DockingDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" height="60dpi_px" left="20dpi_px" right="20dpi_px" grid_rowlayout="['1*', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', 'auto']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeHeight">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="107dpi_px" left="0px" caption="Importing images..." />
+                          <Image stylename="progress_spinner_anim" override_flow_index="9999999" left="107px" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="progress_count" layout_guid="cc82711c-38c2-4608-bc34-710de9e71923" override_flow_index="9999999" height="16dpi_px" width="59dpi_px" right="0px" caption="999 / 1000" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ProgressBar stylename="progressbar_frame" layout_id="progress_bar" layout_guid="edbe62f8-b7cd-4407-a941-e9fc4aac6820" override_flow_index="9999999" width="" top="2px" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="ImageImportProgress_Cancel" layout_guid="70279397-209b-47ad-90b7-4324aebe0243">
+    <Window stylename="default_window" override_flow_index="9999999" height="150dpi_px" width="350dpi_px" localise_title="Importing" window_flags="DragDisabled, DockingDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="20dpi_px" right="20dpi_px" top="10dpi_px" bottom="10dpi_px" grid_rowlayout="['1*', '32dpi_px', '32dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '70dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeHeight">
+                        <ChildGadgets>
+                          <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="107dpi_px" left="0px" caption="Importing images..." />
+                          <Image stylename="progress_spinner_anim" override_flow_index="9999999" left="107px" />
+                        </ChildGadgets>
+                      </StackPanel>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="progress_count" layout_guid="db0ebe68-1da1-48e5-94d7-ad995749e7e3" override_flow_index="9999999" height="16dpi_px" width="52dpi_px" right="0px" caption="999 / 999" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ProgressBar stylename="progressbar_frame" layout_id="progress_bar" layout_guid="edbe62f8-b7cd-4407-a941-e9fc4aac6820" override_flow_index="9999999" width="" top="2px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="cancel_button" layout_guid="bebc7b4b-fad2-4ee3-b028-a6ade96a52c8" override_flow_index="9999999" width="120dpi_px" right="0px" bottom="0px" localise_name="Button_Cancel" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

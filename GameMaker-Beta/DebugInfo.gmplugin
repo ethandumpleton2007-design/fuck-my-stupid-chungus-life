@@ -1,0 +1,62 @@
+{
+  "name": "DebugInfo",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "DebugInfoHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/DebugInfoHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "DebugInfo",
+      "localised_name": "DebugInfo_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "DebugInfo",
+          "version": "2026.100.1171",
+          "path": "DebugInfo.dll",
+          "checksum": "sC1qPWcL7PWgRTqVCYE8XKkIaqn6Y5\u002Bu51h61LXFASY="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "DebugInfoGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "DebugInfoGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "S/Ye/wXC1RJUsGAesEHsGNFDPcE4Xg0Hun3D9W6fcdcMnQll2D5DPUPU03zNzRrI4VvYnsN\u002BADPD2BGpbWW0fmTsIVyUcX/FFFHSfKrChRBQnOQgHsaKRo5u6l7r/Hkw0kGuw64KqwAvLAWvNInEyzxTVT80Ed2My\u002BuB9SbX0Cg=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

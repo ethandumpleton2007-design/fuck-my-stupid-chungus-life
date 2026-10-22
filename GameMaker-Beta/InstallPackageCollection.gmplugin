@@ -1,0 +1,38 @@
+{
+  "name": "InstallPackageCollection",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "InstallPackageCollection",
+      "localised_name": null,
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "InstallPackageCollection",
+          "version": "2026.100.1171",
+          "path": "InstallPackageCollection.dll",
+          "checksum": "\u002BhH3EmTvRhi3tuBs95smtV8\u002B7\u002Bs0DrBgfKFyw5HGCeY="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        },
+        {
+          "dependency_name": "GmpmBindings",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "l8DFRd3Ytsp\u002BcThVdxMe22N8OvVFOsmiZOuV8OCmtuTSR\u002BfQaqv\u002BjF0r5nzZG/0WYrs8kTie6rurHUu/R3fYggLwwmSHnpAyHf6ZwPqdX3C8WPiZscSV\u002B4u67Li8XBydI7xmqHCcmXSdBUzaiEB7GPgz71NZaWVuB\u002BxdBkhoAqA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

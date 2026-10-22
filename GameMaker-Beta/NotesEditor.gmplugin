@@ -1,0 +1,43 @@
+{
+  "name": "NotesEditor",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "NotesEditor",
+      "localised_name": "notes_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "NotesEditor",
+          "version": "2026.100.1171",
+          "path": "NotesEditor.dll",
+          "checksum": "72I75JXqonUVXCJJ\u002BD4rSQoWYe/Ok2YNdjy1nOxCk8g="
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "NotesEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "NotesEditorGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "HGD3q6\u002BdAQadLbTQCCl4L\u002BQgZMLR8DE\u002Bzk5cHcVBTXJFctslMR2mtfGbO7uQzlgL/jAQPy0j8hN47ga7u8dt5xYIo/WsZK6UGGgZVDO\u002B6y8MRQZbb26evFw\u002BjfJJXbNil3A8u9PqNs4Z4egtoSsA4\u002BsyrgrU9SuPDQRgG3XxqsY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

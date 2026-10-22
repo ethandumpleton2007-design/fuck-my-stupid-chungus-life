@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="TabControl_ButtonHolder" layout_guid="130c33f6-9e38-4d7c-8332-ea265c40f0eb">
+    <Grid stylename="grid_container" layout_id="tab_grid_holder" layout_guid="4f41f2fd-ef56-4333-9bb8-673d0255d934" override_flow_index="9999999" height="25dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto']" grid_resize="None">
+      <Cell layout_id="tabs_cell" layout_guid="b88e9677-dbcc-4ccc-bb92-7d276717be76" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" layout_id="buttons_container" layout_guid="0879aad0-d4a9-47aa-89ff-ee5467f36f82" override_flow_index="9999999" right="0px" grid_columnlayout="['auto', 'auto', 'auto']" grid_resize="ResizeGridWidth">
+            <Cell layout_id="add_btn_cell" layout_guid="d3204b6e-03f5-41f0-bd2f-9b4abcde7e46" row="0" column="0" stylename="grid_container_panel" flow_index="0" />
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="scroll_buttons_holder" layout_guid="7023baa3-3668-4051-ba2b-1b513faa7746" override_flow_index="9999999" grid_columnlayout="['auto', 'auto']" grid_resize="ResizeGridWidth">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="tab_left_scroll_btn" layout_id="btn_scroll_left" layout_guid="2f0c0421-1a76-4261-b97f-c936a99fada7" override_flow_index="9999999" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="tab_right_scroll_btn" layout_id="btn_scroll_right"/>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ToggleButton stylename="tab_dropdown_btn" layout_id="btn_dropdown" layout_guid="261d0387-47c4-49ca-9883-d594ce7f8ee9" override_flow_index="9999999"/>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

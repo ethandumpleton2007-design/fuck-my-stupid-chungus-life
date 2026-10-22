@@ -1,0 +1,35 @@
+{
+  "name": "SystemAndResourceEditorPluginLoader",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": "",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "SystemAndResourceEditorPluginLoader",
+      "localised_name": null,
+      "plugin_version": "2026.100.1171",
+      "type": "loader",
+      "plugin_data": {
+        "supported_types": [
+          "system",
+          "library",
+          "resource editor"
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SystemAndResourceEditorPluginLoader",
+          "version": "2026.100.1171",
+          "path": "SystemAndResourceEditorPluginLoader.dll",
+          "checksum": "p5GEWq2TQkRV\u002B84IfMIwJY4aCGHzRC8eBkt1Vy0Wr0g="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ZaefhdfhjyUT73d4MqZVI19RPCKrdyv0N/zUcLdyx/mwMypgThVhCIhrzrGFBdmEDXzNFaI/Jg5PeaMLL4sRmFt11ADCw0nSjRV2yJMkfcW3OZ8AdW24wHfAe\u002BUbXkvBnMKh7P\u002Bmizvmx35UJR0gMog69EpG1U4hxjpd\u002Blb0hCE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

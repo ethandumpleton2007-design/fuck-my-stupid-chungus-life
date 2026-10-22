@@ -1,0 +1,62 @@
+{
+  "name": "PluginSelector",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PluginSelectorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/PluginSelectorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "PluginSelector",
+      "localised_name": "PluginSelector_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PluginSelector",
+          "version": "2026.100.1171",
+          "path": "PluginSelector.dll",
+          "checksum": "2nnBHxAvkxzgMlIlxfFdahOkI1md7W3EU4xWKLpy2nU="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PluginSelectorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "PluginSelectorGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "u7W13ORKNvxtmkhWRvJP98V62oAG5sjWRfEV8R4mHWu13rgSAJ6K9Z\u002BuSnWkTDCzOsYNC7DaXAyGwSVm0Mq7nXFs02KGQBksZQChqj5Vw\u002BN3K0RKH1t3MSxYWgeAutLsj\u002B0qr5HKJ425CU0U0NZmRbtv3HH/IjBJ/jVfaVLxLU0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

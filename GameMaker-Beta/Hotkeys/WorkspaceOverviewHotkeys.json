@@ -1,0 +1,34 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open the Workspace Overview window",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Open Workspace Overview"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Tab",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Go one back in the Workspace Overview window",
+      "IsListed": true,
+      "Localisation": "",
+      "Name": "Workspace Overview Flow Backwards"
+    }
+  ],
+  "Source": "Workspace Overview"
+}

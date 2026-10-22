@@ -1,0 +1,48 @@
+{
+  "name": "GoToPlugin",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GoToHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/GoToHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "GoToPlugin",
+      "localised_name": "GoToPlugin_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GoToPlugin",
+          "version": "2026.100.1171",
+          "path": "GoToPlugin.dll",
+          "checksum": "X3C9F1b9eEb0w9i75DXTnSVilc8ES\u002B\u002BiJUJJuw9GINU="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "CpkwaY6HEGAQDeTDFgrkdbwd1J1Mc4ctUAYC/QvBIX1XgbwDFu8Lbd79ZPvO1vvRgvEFrNJsw/U0d7QB/VuCyae1sqW8lItjQY93jcfy46c13t/N1e9cw41n39u0slgk5tLqxshhDzf7Rzt0Aq60fAu26YEAjnG0EkhK86kSjOE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

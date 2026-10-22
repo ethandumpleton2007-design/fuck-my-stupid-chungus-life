@@ -1,0 +1,29 @@
+{
+  "name": "Audio",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Audio",
+      "localised_name": "Audio_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Audio",
+          "version": "2026.100.1171",
+          "path": "Audio.dll",
+          "checksum": "C/vwIbdhvKsw39sen5d1hChboosbw4MWXgbr2s5qm8g="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "FOSQrW6frGkGaXojYZ9gcDmPhjPuF9r82kwK6rVKxi/6DgHEHiOHVEwErKy3nbLb5IGS9McItVUzSm4patFr8tIK6958eXmTLSfYVZNS4gP3k1bZf4XAlJwk\u002BqwmCSbQKM9FSXpQ8\u002BwicB6R47SI53\u002BQ4goKGpkFYO9cGgF/w/0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

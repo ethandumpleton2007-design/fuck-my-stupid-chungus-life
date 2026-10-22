@@ -1,0 +1,31 @@
+{
+  "name": "Portuguese-BrazilianLocalisation",
+  "bundle_version": "2026.0.44-staging",
+  "bundle_description": "Portuguese-Brazilian IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "Portuguese-BrazilianLocalisation",
+      "localised_name": "portuguese_brazilian_localisation",
+      "plugin_version": "2026.0.44-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Portuguese-Brazilian": "portuguese-brazilian.csv"
+          },
+          {
+            "Portuguese-Brazilian": "portuguese-brazilian_dnd.csv"
+          }
+        ]
+      },
+      "description": "Portuguese-Brazilian IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "FF8eRD6AwPbyx3QryGPbe5j\u002BJansfvqEiJ05zO6F5pPOgTF8XjGZ33aKVozcsyaHtjvf2rLrUNZmLxBAoGDOH7ULWsWDTIa\u002BNBG19Qj9ORTZPzKz4QV5lgIEqIiCWvDDLOE8sW/TIBI2UtbzG3qj8g456dxOFzY8Nvo5JBs/Stg=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

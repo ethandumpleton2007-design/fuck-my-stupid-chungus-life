@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PrefabExtractErrorDialog" layout_guid="78b97d2a-4b2d-430a-b5b6-97eb7b2618c5">
+    <Window stylename="default_window" override_flow_index="9999999" height="350dpi_px" width="550dpi_px" localise_title="PrefabExtractErrorTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" top="8dpi_px" bottom="0px" grid_rowlayout="['auto', '1*', '30dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <EmbeddedLinkLabel stylename="label" override_flow_index="9999999" height="32dpi_px" width="" left="0px" top="0px" margin_bottom="8dpi_px" localise_caption="PrefabExtractErrorMsg" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="bordered_scrollpanel_dark" override_flow_index="9999999" scrollpanel_flags="VerticalScroll, HorizontalScroll">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" layout_id="details_stack" layout_guid="3c986b0e-b92b-415e-8809-3bbc1b91e9de" override_flow_index="9999999" left="0px" top="0px" stack_order="TopToBottom" stack_resize="ResizeAll" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="button_close" layout_guid="2521566b-98cd-4926-a634-d8a0ff7ff8e3" override_flow_index="9999999" width="120dpi_px" localise_name="Window_Close" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

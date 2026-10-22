@@ -1,0 +1,34 @@
+{
+  "name": "ProjectToolOutputWindow",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ProjectToolOutputWindow",
+      "localised_name": "ProjectToolOutputWindow_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ProjectToolOutputWindow",
+          "version": "2026.100.1171",
+          "path": "ProjectToolOutputWindow.dll",
+          "checksum": "BjStEPcCyjR3\u002Bq42Nt4dPh0dlI3ag8nY0c7TdF/ImXM="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ymWR\u002BiscK1QSXKMZsGiqeT/pSkbf4YOa4pL0oAFWrmo4wOy40t770WVm8ADTRVuaqQz880efIDurAYhC8j1ZkDPO9AGZjKGnjAITJ9VFm1sWEj4DeroeFcGl2W4NucnjRcLoVb2CYFMRwf6Z8tecFi\u002BTtYSTUxXqwBDgJGpkBc0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

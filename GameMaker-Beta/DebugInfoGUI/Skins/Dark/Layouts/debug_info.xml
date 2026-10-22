@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="DebugInfo" layout_guid="538358e7-27af-4272-ae61-32af274da9ab">
+    <Window stylename="window" override_flow_index="9999999" height="280dpi_px" width="560dpi_px" localise_title="DebugInfo_Title" window_flags="CloseButton, ResizeButton">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', 'auto', 'auto', '1dpi_px', '1*']" row_spacing="8dpi_px">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" left="0dpi_px" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Label stylename="label" height="16dpi_px" width="43dpi_px" left="0px" caption="Set DPI:" />
+                    <NumericTextBox stylename="numeric_text_box" layout_id="textbox_dpi" layout_guid="95dd9201-531d-4f23-a3fd-76115e7a1fdc" left="47px" margin_left="4dpi_px" />
+                    <VerticalSeparator stylename="vertical_separator" left="101px" margin_left="4dpi_px" margin_right="4dpi_px" margin_top="" margin_bottom="" />
+                    <Button stylename="button_up" layout_id="memory_button" layout_guid="d608c4ea-a294-4f65-91f9-0ee728c1e6cf" height="33dpi_px" width="100dpi_px" left="106px" bottom="8dpi_px" click_command="run_memory_info" localise_name="DebugInfo_DumpMemory" />
+                    <VerticalSeparator stylename="vertical_separator" left="210px" margin_left="4dpi_px" margin_right="4dpi_px" margin_top="" margin_bottom="" />
+                    <Button stylename="button_up" layout_id="unstable_button" layout_guid="93bc9a7b-7dfc-45ea-89b1-ce629ddb8515" override_flow_index="9999999" tooltip="Trigger an unstable error" height="33dpi_px" width="80dpi_px" left="215px" name="UNSTABLE" />
+                    <Button stylename="button_up" layout_id="crash_button" layout_guid="0be62786-7f12-4b78-873e-a1cd6628c09b" override_flow_index="9999999" tooltip="Force a native crash (produces crash dump)" height="33dpi_px" width="80dpi_px" left="303px" margin_left="8dpi_px" name="CRASH 1" />
+                    <Button stylename="button_up" layout_id="crash_button2" layout_guid="5c605e8c-93d6-4cff-898c-d99191f346aa" override_flow_index="9999999" tooltip="Force a managed crash (no crash dump produced)" height="33dpi_px" width="80dpi_px" left="391px" margin_left="8dpi_px" name="CRASH 2" />
+					<Button stylename="button_up" layout_id="emergency_restart" layout_guid="5c605e8c-93d6-4cff-898c-d99191f346ba" override_flow_index="9999999" tooltip="Force emergency restart" height="33dpi_px" width="80dpi_px" left="373px" margin_left="8dpi_px" name="!RESTART!" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" left="0dpi_px" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <Label stylename="label" height="16dpi_px" width="47dpi_px" left="0px" caption="Set Skin:" />
+                    <ComboBox stylename="combobox_panel" layout_id="skin_select" layout_guid="5f92c969-20b4-4628-853d-09257fbe71e7" left="47px">
+                      <ListBoxItems />
+                    </ComboBox>
+                    <Button stylename="button_up" layout_id="skin_button" layout_guid="ff484789-443d-433c-b4e6-a6cc72160eda" height="33dpi_px" width="100dpi_px" left="167px" localise_name="DebugInfo_SkinChangeButton" />
+                    <CheckBox stylename="checkbox_stack" layout_id="check_count" layout_guid="454b1503-8515-43f0-a08f-b479cb4ae1c7" override_flow_index="9999999" left="275px" margin_left="8dpi_px" name="Count Gadgets" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0dpi_px" stack_resize="ResizeAll">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="show_bounds_checkbox" layout_guid="117ca021-a776-4302-8709-3e2055a3c678" override_flow_index="9999999" left="0px" name="Draw gadget bounds" />
+                    <CheckBox stylename="checkbox_stack" layout_id="show_dimensions_checkbox" layout_guid="7a258bf1-be0b-45fb-b74b-66e6571c20cb" override_flow_index="9999999" left="153px" margin_left="8dpi_px" name="Show dimensions" />
+                    <Button stylename="button_up" layout_id="select_parent_btn" layout_guid="aefcec8b-0d6e-46f9-b385-7a2f024f294a" override_flow_index="9999999" height="33dpi_px" width="96dpi_px" left="287px" margin_left="8dpi_px" name="Select parent" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <HorizontalSeparator stylename="horizontal_separator" margin_left="" margin_right="" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="4" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="scroll_panel" layout_id="rpanel" layout_guid="dbba5e24-5cae-413c-9aa8-bb8865ce6508" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

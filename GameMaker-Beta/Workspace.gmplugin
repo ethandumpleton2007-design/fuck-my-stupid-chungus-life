@@ -1,0 +1,26 @@
+{
+  "name": "Workspace",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "WorkspaceHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/WorkspaceHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "H01NQPtXZxSBwHU8GGV\u002B9NnlkbVgk7dOzjqpnd1c0QnjnzAEu5\u002BcwwAklnHgCTvgATGHSWr4732zg8JSVA9Shfxqb3lxrGB3cfEn3LI7cC\u002B6Wsyozq/7rpDFBKyWS2kyH0fUSftK3Zi2AxoCHg/vNAEUHypDIySY6rfUmnfvWiA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

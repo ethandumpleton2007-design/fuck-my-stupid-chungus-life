@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_IncludedFile" layout_guid="5fb44e30-67a2-4bd8-a521-36312406e7e9">
+    <InspectorIncludedFileGadget stylename="grid_container" override_flow_index="9999999" top="0dpi_px" grid_rowlayout="['auto', 'auto']" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" layout_id="labels_grid" layout_guid="7e7e75b5-e55c-4370-99f4-05bbe9c10ab2" override_flow_index="9999999" grid_rowlayout="['auto', 'auto', 'auto']" grid_columnlayout="['auto', '1*']" column_spacing="10dpi_px" grid_resize="ResizeGridHeight">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="59dpi_px" left="4dpi_px" top="0dpi_px" margin_right="8dpi_px" margin_bottom="8dpi_px" localise_caption="IncludedFile_FileName" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="FileNameLabel" layout_guid="8f478a09-ce76-4e64-b91f-06a73fb50b63" override_flow_index="9999999" height="16dpi_px" width="0dpi_px" left="0dpi_px" top="0dpi_px" margin_bottom="0dpi_px" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="48dpi_px" left="4dpi_px" top="0dpi_px" margin_right="8dpi_px" margin_bottom="8dpi_px" localise_caption="IncludedFile_FileSize" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="FileSizeLabel" layout_guid="f66651f2-26af-4d54-85be-6a903bf867b2" override_flow_index="9999999" height="16dpi_px" width="35dpi_px" left="0dpi_px" top="0dpi_px" margin_bottom="8dpi_px" localise_caption="IncludedFile_FileSizeKB" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="60dpi_px" left="4dpi_px" margin_right="8dpi_px" localise_caption="IncludedFile_Platforms" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeHeight">
+                  <Gadgets>
+                    <Button stylename="button_up" layout_id="AllButton" layout_guid="19f4ae47-b7e8-4830-8590-1cf498d36173" height="24dpi_px" width="70dpi_px" left="0dpi_px" margin_right="10dpi_px" localise_name="IncludedFile_AllPlatforms" />
+                    <Button stylename="button_up" layout_id="NoneButton" layout_guid="f9109d87-951e-4426-9d41-e8f0c3afcb1b" height="24dpi_px" width="70dpi_px" left="80dpi_px" top="123dpi_px" localise_name="IncludedFile_NoPlatforms" />
+                  </Gadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ListBox stylename="list_box" layout_id="platformList" layout_guid="81b8d861-5a9f-474f-b2da-5f12eb7b5508" override_flow_index="9999999" height="240dpi_px" width="" left="4dpi_px" right="8dpi_px" top="8dpi_px" margin_top="8dpi_px">
+          </ListBox>
+        </ChildGadgets>
+      </Cell>
+    </InspectorIncludedFileGadget>
+  </Layout>
+</Layouts>

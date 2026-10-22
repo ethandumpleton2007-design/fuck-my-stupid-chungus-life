@@ -1,0 +1,48 @@
+{
+  "name": "IDEOnBoarding",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "IDEOnBoardingGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "IDEOnBoardingGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "IDEOnBoarding",
+      "localised_name": "IDEOnBoarding_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "IDEOnBoarding",
+          "version": "2026.100.1171",
+          "path": "IDEOnBoarding.dll",
+          "checksum": "sJom2tT2O85xCaSzTICuVDhu5Gk6JNUFf/e1HKc8NDI="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "t1acx1V4bvz5OXRz1GiWUGWPbR2UC5\u002BccuPr0HUOOTTUkcAookq2wqnHvWVPHY07pX7UBmQ6me1JSbfwxWKaTz2UKHHSlXmQ3yKyNkUlzT\u002Bvj57JSn7M8eQrAWVplgyWsGkkoT0Ej7JOP5X/kqfbH0hbDHBwT19JwTIXncVQKlQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

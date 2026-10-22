@@ -1,0 +1,15 @@
+Name,English,Translation,Restrictions,Comment
+_Language,English,English,,Language name - in English
+_LanguageNative,English,English,,Language name in the native language
+_LanguageCode,en,en,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
+PrefabBuilder,Prefab Builder,Prefab Builder,,prefs namespace
+PrefabBuilder_PkgNameWarningTT,Package Name is invalid (required for publishing only),Package Name is invalid (required for publishing only),,package name warning tooltip
+PrefabBuilder_CollectionNameWarningTT,Collection Name is required,Collection Name is required,,collection name warning tooltip
+PrefabBuilder_PackageIdWarningTT,"Package ID is required\n- composed of one or more . separated parts, each part should only contain 0-9, a-z, A-Z _ or - and must start with a letter","Package ID is required\n- composed of one or more . separated parts, each part should only contain 0-9, a-z, A-Z _ or - and must start with a letter",,package id warning tooltip
+PrefabBuilder_InvalidPackageId2,"The Package ID is not a valid name.\nShould be composed one or more dot (.) separated parts; each part should only contain 0-9, a-z, A-Z _ or - and must start with a letter","The Package ID is not a valid name.\nShould be composed one or more dot (.) separated parts; each part should only contain 0-9, a-z, A-Z _ or - and must start with a letter",,package id invalid message
+PrefabBuilder_PkgNameWarningMsg,"Package can be created and installed but a valid Package Name is required for publishing via npm.\n - Package Name can only contain lowercase a-z0-9._-\n - Name can only begin with a dot(.) or an underscore(_) if it has a scope.\n - can be no more than 214 characters long","Package can be created and installed but a valid Package Name is required for publishing via npm.\n - Package Name can only contain lowercase a-z0-9._-\n - Name can only begin with a dot(.) or an underscore(_) if it has a scope.\n - can be no more than 214 characters long",,invalid package name msg
+PrefabBuilder_NpmDocsLink,"See <a href=""https://docs.npmjs.com/cli/v11/configuring-npm/package-json#name"">npm docs</a> for details","See <a href=""https://docs.npmjs.com/cli/v11/configuring-npm/package-json#name"">npm docs</a> for details",,npm package name docs link
+pfbuilder_saveLocation,Prefab Builder save location,Prefab Builder save location,,prefab builder pref
+pfbuilder_projectdir,Project directory,Project directory,,pfbuilder pref
+pfbuilder_userdir,GameMaker user directory,GameMaker user directory,,pfbuilder pref
+pfbuilder_pkgNameConfirm,Invalid package name confirmation,Invalid package name confirmation,,pfbuilder pref

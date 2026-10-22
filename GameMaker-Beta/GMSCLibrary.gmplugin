@@ -1,0 +1,29 @@
+{
+  "name": "GMSCLibrary",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMSCLibrary",
+      "localised_name": "GMSCLibrary_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GMSCLibrary",
+          "version": "2026.100.1171",
+          "path": "GMSCLibrary.dll",
+          "checksum": "9NOrIYI1gkPgT10boOFbifhYRS49NdS6a/B7Z\u002B\u002B55T8="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "Hu/U9hHvm66MM6zzWjQ/IZ7NFhn0RLo4MlC03a3C/Bx/TziB4oc\u002B\u002BUy34KVbkDERAIBE66gRTA13HO2bRD\u002BLphrUpJlBtet2wrPz\u002BKr/KJhgWURkt0nU/8WwQ7iO0uAflyA8P\u002BXuPdpcKW/z\u002BFIxbDff2oGqHnvUjhEENZ\u002BvwZA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

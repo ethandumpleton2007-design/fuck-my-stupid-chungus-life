@@ -1,0 +1,110 @@
+{
+  "onboarding_img_bg": {
+    "image": "IDEOnBoarding_bg.png",
+    "image_flags": "Centre, Stretch"
+  },
+
+  "onboarding_img_logo": {
+    "image": "IDEOnBoarding_logo.png",
+    "width": "194dpi_px",
+    "height": "249dpi_px",
+    "image_flags": "Stretch, Centre"
+  },
+
+  "onboarding_play": {
+    "base": "onboarding_bg_frame",
+    "left": "0dpi_px",
+    "top": "19dpi_px",
+    "width": "362dpi_px",
+    "height": "175dpi_px"
+  },
+
+  "onboarding_ins": {
+    "base": "onboarding_bg_frame",
+    "left": "0dpi_px",
+    "top": "18dpi_px",
+    "width": "362dpi_px",
+    "height": "167dpi_px"
+  },
+
+  "onboarding_output": {
+    "base": "onboarding_bg_frame",
+    "left": "0dpi_px",
+    "top": "18dpi_px",
+    "width": "362dpi_px",
+    "height": "136dpi_px"
+  },
+
+  "onboarding_help": {
+    "base": "onboarding_bg_frame",
+    "top": "18dpi_px",
+    "right": "0dpi_px",
+    "width": "362dpi_px",
+    "height": "136dpi_px"
+  },
+
+  "onboarding_ab": {
+    "base": "onboarding_bg_frame",
+    "top": "18dpi_px",
+    "right": "0dpi_px",
+    "width": "362dpi_px",
+    "height": "337dpi_px"
+  },
+
+  "onboarding_mask": {
+    "top": "0dpi_px",
+    "left": "0dpi_px",
+    "width": "100%",
+    "height": "100%"
+  },
+
+  "onboarding_info_panel": {
+    "left": "20dpi_px",
+    "top": "30dpi_px",
+    "right": "20dpi_px"
+  },
+
+  "onboarding_markdown_image": {
+    "width": "16dpi_px",
+    "height": "16dpi_px",
+    "image_flags": "Stretch",
+    "background_color": "onboarding_markdown_image_bg"
+  },
+
+  "onboarding_bg_frame": {
+    "position": [
+      [ 0, 0, 21, 21 ],
+      [ 21, 0, 21, 21 ],
+      [ 42, 0, 21, 21 ],
+      [ 0, 21, 21, 21 ],
+      [ 21, 21, 21, 21 ],
+      [ 42, 21, 21, 21 ],
+      [ 0, 42, 21, 21 ],
+      [ 21, 42, 21, 21 ],
+      [ 42, 42, 21, 21 ]
+    ],
+    "frame_name": "card_bg_dropshadow.png",
+    "colour": "onboarding_frame",
+    "mouse_events": "true"
+  },
+
+  "onboarding_title_frame": {
+    "position": [
+      [ 0, 0, 21, 21 ],
+      [ 21, 0, 21, 21 ],
+      [ 42, 0, 21, 21 ],
+      [ 0, 21, 21, 21 ],
+      [ 21, 21, 21, 21 ],
+      [ 42, 21, 21, 21 ],
+      [ 0, 42, 21, 21 ],
+      [ 21, 42, 21, 21 ],
+      [ 42, 42, 21, 21 ]
+    ],
+    "frame_name": "card_title.png",
+    "colour": "onboarding_title_frame",
+    "height": "39dpi_px",
+    "top": "0dpi_px",
+    "left": "0dpi_px",
+    "frame_options": "Frame_DPI_Stretch"
+  }
+}

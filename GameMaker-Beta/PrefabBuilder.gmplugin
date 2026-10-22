@@ -1,0 +1,65 @@
+{
+  "name": "PrefabBuilder",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PrefabBuilder",
+      "localised_name": "prefab_builder_name",
+      "plugin_version": "2026.100.1171",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PrefabBuilder",
+          "version": "2026.100.1171",
+          "path": "PrefabBuilder.dll",
+          "checksum": "QxjE6sND2HHl6LnIFNikkJ3aJn7t4NDASexKDxzNbV4="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PrefabBuilderGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "PrefabBuilderGUI/Skins/Dark",
+          "PrefabBuilderGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "PrefabBuilderEnglishLocalisation",
+      "localised_name": "prefab_builder_english_localisation",
+      "plugin_version": "2026.100.1171",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "English": "PrefabBuilderLanguages/english.csv"
+          }
+        ]
+      },
+      "description": "English IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "LDG3Uxnv4NGgBmpA63\u002BKrYBBkd\u002BRjsvcsCNb65klIZd6AHb/Kw20cwy7etDeh3gnvcQx52CfBqzCD1ddzyjb8FePJ3\u002BcJmTEnFoKfoEWeSWMVCe7axjpgafRJ42Xb4IzBQ3cI8n4Yyd4X9p1XtKDillyX37A98q7GKCBYY56jS8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

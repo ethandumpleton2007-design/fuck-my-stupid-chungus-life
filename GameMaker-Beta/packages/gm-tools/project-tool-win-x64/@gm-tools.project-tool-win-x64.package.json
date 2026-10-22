@@ -1,0 +1,27 @@
+{
+  "name": "@gm-tools/project-tool-win-x64",
+  "version": "2026.0.176",
+  "description": "ProjectTool for win-x64",
+  "publishConfig": {
+    "registry": "https://gmpm.gamemaker.io/"
+  },
+  "keywords": [
+    "GameMaker",
+    "Tool",
+    "ProjectTool"
+  ],
+  "bin": {
+    "projecttool": "ProjectTool.exe"
+  },
+  "author": "GameMaker",
+  "license": "",
+  "files": [ "*"],
+  "dependencies": {},
+  "gm": {
+    "destination" : "gm-tools/project-tool-win-x64",
+    "supportedArchitecture": "win-x64",
+    "tool": {
+      "path": "ProjectTool.exe"
+    }
+  }
+}

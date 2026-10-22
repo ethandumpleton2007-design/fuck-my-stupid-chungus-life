@@ -1,0 +1,15 @@
+{
+  "$PackageFile": "v1",
+  "Packages": [
+    {
+      "$PackageEntry": "v1",
+      "Package": "@gm-tools/project-tool-{$TARGET}@~2026.0",
+      "Platforms": "All"
+    },
+    {
+      "$PackageEntry": "v1",
+      "Package": "@gm-tools/IDE-Updater-Windows@~2026.0",
+      "Platforms": "Windows"
+    }
+  ]
+}

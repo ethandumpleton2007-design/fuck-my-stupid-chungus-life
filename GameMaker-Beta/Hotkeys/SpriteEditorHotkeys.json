@@ -1,0 +1,143 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Space",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle between play and pause if the current editor has play controls",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Play",
+      "Name": "SpriteEditor.Play"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageDown",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump to the end of an animation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Jump To End",
+      "Name": "SpriteEditor.JumpToEnd"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "PageUp",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Jump to the start of an animation",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Jump To Start",
+      "Name": "SpriteEditor.JumpToStart"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Add a new sprite frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Add Frame",
+      "Name": "SpriteEditor.AddFrame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the Image Editor when having a sprite selected in the workspace",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_edit_sprite",
+      "Name": "SpriteEditor.EditSprite",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "E",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Import image",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_import_image",
+      "Name": "Import Image",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Open the Resize Properties window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_resize_image",
+      "Name": "Resize Sprite",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Sprite Editor"
+}

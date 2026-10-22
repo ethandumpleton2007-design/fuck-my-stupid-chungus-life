@@ -1,0 +1,31 @@
+{
+  "name": "SpanishLocalisation",
+  "bundle_version": "2026.0.48-staging",
+  "bundle_description": "Spanish IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "SpanishLocalisation",
+      "localised_name": "spanish_localisation",
+      "plugin_version": "2026.0.48-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Spanish": "spanish.csv"
+          },
+          {
+            "Spanish": "spanish_dnd.csv"
+          }
+        ]
+      },
+      "description": "Spanish IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "FAFn7B2DS65Sb9Sb72cVfE9IZffe9OJ7BqHrKTcjsC/0MJFSlRlQ2jJK7/zjU4sJy7r1Uqci9vUyF57CdEpAzDSKTSf\u002Bbsnu6Wtp0yoTRx1BS3f042cSKFKhnkqra02EXp4tPmT/WWn6dUdFVvr07r8CSUrg9tIkTdSLxNB340M=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

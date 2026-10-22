@@ -1,0 +1,925 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Space",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle between play and pause if the current editor has play controls",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Play",
+      "Name": "ImageEditor.Play"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Add a new sprite frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Add Frame",
+      "Name": "ImageEditor.AddFrame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "ImageEditor.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Invert the current selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Invert Selection",
+      "Name": "ImageEditor.InvertSelection",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Plus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Equals",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Increase the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Increase Brush Size",
+      "Name": "ImageEditor.IncreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Minus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "KeypadMinus",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Decrease the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Decrease Brush Size",
+      "Name": "ImageEditor.DecreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "V",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Toggle vertical split view",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Vertical Split",
+      "Name": "Toggle Vertical Split"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "H",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Toggle horizontal split view",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Horizontal Split",
+      "Name": "Toggle Horizontal Split"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Remove horizontal and vertical split",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Remove Horizontal and Vertical Split",
+      "Name": "Remove Horizontal and Vertical Split"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "C",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Show the image at its actual size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Centre Image with Unit Scale",
+      "Name": "Centre Image with Unit Scale"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Fit the image to centre",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Centre Image with Zoom",
+      "Name": "Centre Image with Zoom"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the next sprite frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_next_frame",
+      "Name": "Select Next Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the previous sprite frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_previous_frame",
+      "Name": "Select Previous Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "B",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Make a brush from the current selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_brush_from_selection",
+      "Name": "Make Brush From Selection",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "B",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Import a sprite frame from an image file",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_import_files",
+      "Name": "Import Frame From File",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "A",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Import sprites from an image strip file",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_import_from_strip",
+      "Name": "Import From Strip",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Export the current sprite as a PNG file",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Export To PNG",
+      "Name": "Export To PNG"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Up",
+      "Name": "ImageEditor.MoveSelectionUp"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Down",
+      "Name": "ImageEditor.MoveSelectionDown"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Left",
+      "Name": "ImageEditor.MoveSelectionLeft"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Right",
+      "Name": "ImageEditor.MoveSelectionRight"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Period",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Pixel Brush tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_pixel_brush",
+      "Name": "Select Pixel Brush"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "B",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle the brush",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_toggle_selection_brush",
+      "Name": "Toggle Selection Brush"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Arc tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_ArcTool",
+      "Name": "Select Arc Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "O",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Colour Picker tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_ColourPickerTool",
+      "Name": "Select Colour Picker"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "H",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Colour Remove tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_ColourRemover",
+      "Name": "Select Colour Remover"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "V",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Colour Replace tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_ColourReplacer",
+      "Name": "Select Colour Replacer"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "C",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Ellipse tool and set it to draw an outlined ellipse",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Ellipse Tool - Outline",
+      "Name": "Select Ellipse Tool - Outline"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "C",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Select the Ellipse tool and set it to draw a filled ellipse",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Ellipse Tool - Filled",
+      "Name": "Select Ellipse Tool - Filled"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Eraser tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_EraseTool",
+      "Name": "ImageEditor.SelectEraseTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Fill (or Paint Bucket) tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_FillTool",
+      "Name": "ImageEditor.SelectFillTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Flip tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Flip Tool",
+      "Name": "ImageEditor.SelectFlipTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Rotate brush tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_FreeRotateTool",
+      "Name": "Select Free Rotate Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "L",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Line tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_LineTool",
+      "Name": "ImageEditor.SelectLineTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "W",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Magic Wand tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_MagicWandTool",
+      "Name": "Select Magic Wand Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Mirror tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Mirror Tool",
+      "Name": "ImageEditor.SelectMirrorTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Paintbrush tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_PaintbrushTool",
+      "Name": "ImageEditor.SelectPaintbrushTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Pan tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_PanTool",
+      "Name": "Select Pan Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Polygon tool, ready to draw an outlined polygon",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Polygon Tool - Outline",
+      "Name": "Select Polygon Tool - Outline"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Select the Polygon tool, ready to draw a filled polygon",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Polygon Tool - Filled",
+      "Name": "Select Polygon Tool - Filled"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select Rectangle tool, ready to draw an outlined rectangle (Brush Builder Tools)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rectangle Tool - Outline",
+      "Name": "Select Rectangle Tool - Outline"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Select the Rectangle tool, ready to draw a filled rectangle",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rectangle Tool - Filled",
+      "Name": "Select Rectangle Tool - Filled"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Z",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Rotate the current brush clockwise by 90 degrees",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rotate Image Tool",
+      "Name": "ImageEditor.SelectRotateImageTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "S",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Rectangle tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_RectangleTool",
+      "Name": "Select Rect Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Q",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Paint Selection tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_SelectionPaintTool",
+      "Name": "Selection Paint Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Text tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_TextTool",
+      "Name": "Select Text Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Trim all the zero-alpha pixels from around the edges of a sprite",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Auto Trim Frames",
+      "Name": "Auto Trim Frames"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftShift",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightShift",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Snap Tool Modifier",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Snap Tool Modifier",
+      "Name": "Snap Tool Modifier"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Hold to bring up the colour picker when selecting a left (LMB) or right colour (RMB) instead",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_OpenColourPanelOnSelect",
+      "Name": "Open Colour Panel On Select",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the arc's first control point",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Arc Move Control Point A",
+      "Name": "Arc Tool Move Control Point",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the arc's second control point",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Arc Move Control Point B",
+      "Name": "Arc Tool Move Control Point Alt"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Replace colour with alpha",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ColourReplaceWithAlpha",
+      "Name": "Colour Replacer Tool Replace With Alpha"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftShift",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightShift",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Draw a regular shape (a square instead of a rectangle, a circle instead of an ellipse, etc.)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Draw Regular Shape",
+      "Name": "Draw Regular Shape"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Draw a centred shape",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Draw Centred Shape",
+      "Name": "Draw Centred Shape"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Fill tool tile with brush",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_FillToolTileWithBrush",
+      "Name": "Fill Tool Tile With Brush"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Use the colour picker subtool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_ColourPickerSubtool",
+      "Name": "Colour Picker Subtool",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Z",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Use the brush scaler subtool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_BrushScalerSubtool",
+      "Name": "Brush Scaler Subtool"
+    }
+  ],
+  "Source": "Image Editor"
+}

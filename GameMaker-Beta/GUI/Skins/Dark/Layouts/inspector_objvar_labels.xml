@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ObjVar_LabelEditor" layout_guid="8851f67d-5e7c-4d0c-b9cf-e732d49a81a3">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '32dpi_px', '32dpi_px', '1*']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="67dpi_px" left="10dpi_px" localise_caption="ObjVar_DisplayName" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <TextBox stylename="text_box" layout_id="textbox_name" override_flow_index="9999999" height="" left="10dpi_px" right="10dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="64dpi_px" left="10dpi_px" localise_caption="ObjVar_Description" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <MultiLineTextBox stylename="multiline_text_box" layout_id="textbox_description" override_flow_index="9999999" height="" width="" left="10dpi_px" right="10dpi_px" top="0px" bottom="10dpi_px" localise_default_caption="ObjectVar_DescDetail" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

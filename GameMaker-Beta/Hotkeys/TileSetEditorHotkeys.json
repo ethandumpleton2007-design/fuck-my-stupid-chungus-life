@@ -1,0 +1,513 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Invert the current selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Invert Selection",
+      "Name": "TileSetEditor.InvertSelection",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the previous tile animation (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_prev_anim",
+      "Name": "Select Previous Tile Animation"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the next tile animation (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_next_anim",
+      "Name": "Select Next Tile Animation"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the previous tile animation frame (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_prev_anim_frame",
+      "Name": "Select Previous Tile Animation Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the next tile animation frame (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_next_anim_frame",
+      "Name": "Select Next Tile Animation Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the tile animation up (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_anim_up",
+      "Name": "Move Tile Animation Up"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the tile animation up (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_anim_down",
+      "Name": "Move Tile Animation Down"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the tile animation frame left (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_anim_frame_left",
+      "Name": "Move Tile Animation Frame Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the tile animation frame right (in the Tile Animation window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_anim_frame_right",
+      "Name": "Move Tile Animation Frame Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Plus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Equals",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Increase the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Increase Brush Size",
+      "Name": "TileSetEditor.IncreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Minus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "KeypadMinus",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Decrease the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Decrease Brush Size",
+      "Name": "TileSetEditor.DecreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "O",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the tileset properties",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_tileset_properties",
+      "Name": "Open TileSet Properties",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "O",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "B",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the Brush Builder window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_brush_builder",
+      "Name": "Open Brush Builder",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "B",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the Tile Animation window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_tile_animation",
+      "Name": "Open Tile Animation",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "T",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the Auto Tiling window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_open_auto_tiling",
+      "Name": "Open Auto Tiling",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "A",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Eraser tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_EraseTool",
+      "Name": "Select Erase Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Fill (or Paint Bucket) tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_FillTool",
+      "Name": "Select Fill Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Flip tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Flip Tool",
+      "Name": "Select Flip Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "L",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Line tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_LineTool",
+      "Name": "Select Line Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Mirror tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Mirror Tool",
+      "Name": "Select Mirror Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Paintbrush tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_PaintbrushTool",
+      "Name": "Select Paintbrush Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Z",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Rotate the current brush clockwise by 90 degrees",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rotate Image Tool",
+      "Name": "Select Rotate Image Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select auto tile tool (in the Brush Builder Tools)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_AutoTileTool",
+      "Name": "Select Auto Tile Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the tile inheritance tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_TileInheritanceTool",
+      "Name": "Select Tile Inheritance Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the tile rectangle tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_TileRectTool",
+      "Name": "Select Tile Rect Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "S",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the tile selection tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_TileSelectionTool",
+      "Name": "Select Tile Selection Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a full auto tile set (Auto Tiling window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_autotile_add_full_set",
+      "Name": "Add 47 Tile Set",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add an auto tile transition set (Auto Tiling window)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_autotile_add_transition_set",
+      "Name": "Add 16 Tile Set",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "G",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle the auto tile guide",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_autotile_show_guide",
+      "Name": "Toggle Auto Tile Guide Overlay"
+    }
+  ],
+  "Source": "Tile Set Editor"
+}

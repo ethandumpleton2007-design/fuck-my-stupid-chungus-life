@@ -1,0 +1,29 @@
+{
+  "name": "IDE",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "IDE",
+      "localised_name": "IDE_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "IDE",
+          "version": "2026.100.1171",
+          "path": "IDE.dll",
+          "checksum": "xrTycPQf64WlXcKVqTCTFATOkgLHlO2SsQJeIWyIsj4="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "u9fjGZMpbOY4niKa1ssJghCskPwJEDexD/Qx6T0qwWBNNSg2WfMXYQP2CniCObysHR5zOAm11c4l5VHKAAm710W27DJGeFRFHwsAn37rpis6AjORK1peQxZ7G1EVxni2opOBJfrtTeoeUGn/qp2H97zVAFRrvVA8zL/2H93/YQE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

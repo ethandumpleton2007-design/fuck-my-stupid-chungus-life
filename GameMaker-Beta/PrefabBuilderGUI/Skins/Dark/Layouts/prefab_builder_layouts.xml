@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PrefabPackageSuccessDialog_Window" layout_guid="b57d5eee-7c11-49f7-992f-567e00325be3">
+    <Window stylename="confirm_dialog">
+      <Layout layout_name="PrefabPackageSuccessDialog" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PrefabPackageSuccessDialog" layout_guid="7b1e66de-048f-409e-9c8f-3a2998684b69">
+    <Layout layout_name="BasicWindowFrame" />
+    <Client>
+      <ChildGadgets>
+        <Grid stylename="grid_container" grid_rowlayout="['1*', 'auto', 'auto']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+            <ChildGadgets>
+              <StackPanel stylename="stack_panel">
+                <ChildGadgets>
+                  <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="920768a4-7b93-431c-9d6d-0ca0e39d0855" left="10px" image="YesTick32.png" />
+                  <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="64e3e462-7cbd-4793-940b-c8e8d7e02017" override_flow_index="9999999" left="52px" top="0dpi_px" localise_caption="Package_Local_SuccessMsg" />
+                </ChildGadgets>
+              </StackPanel>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*', 'auto']" column_spacing="20dpi_px">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="user2_button" layout_id="user1_button" layout_guid="c04db702-1ea3-4566-ba58-fcae093fd9a7" override_flow_index="9999999" margin_right="8dpi_px" name="Install Prefab" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="open_explorer_button" layout_guid="6e1c839f-0709-4b4c-8902-55fe6c23de2e" override_flow_index="9999999" margin_right="8dpi_px" localise_name="ResourceNode_OpenInExplorer" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Button stylename="button_up" layout_id="cancel_button" layout_guid="acbc52f7-017e-40e9-a948-cf528dced46d" override_flow_index="9999999" width="60dpi_px" margin_right="8dpi_px" localise_name="Window_Close" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Client>
+    <Cell layout_id="window_client_panel" layout_guid="f2f5270e-1e13-4a3a-8df6-586913bccbf1" row="1" column="1" stylename="window_client_panel" flow_index="0" />
+  </Layout>
+  <Layout layout_name="PB_DistributeWindow" layout_guid="1a346f5f-3fc3-4f85-b4dc-29ae46e0962d">
+    <Window stylename="default_window" width="500dpi_px" override_flow_index="9999999" localise_title="PrefabBuilder_Distribute">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['32dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '32dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="123dpi_px" left="0px" localise_caption="PrefabBuilder_Registries" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="ab_add_button" layout_id="btn_add_registry" layout_guid="1b182d7b-db8e-401b-8077-2eba43afc122" override_flow_index="9999999" localise_tooltip="PrefabBuilder_AddRegEntryTT" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="bordered_scrollpanel_dark_alpha" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['24dpi_px', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="34dpi_px" left="10dpi_px" localise_caption="PrefabBuilder_Name" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell layout_id="registry_list_cell" layout_guid="47c70f27-684f-4fef-95f4-dd378c807a86" row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ListBox stylename="list_box" layout_id="registry_listbox" layout_guid="4d963b11-c701-4fff-b566-f1c292ab1413" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" top="0px" bottom="8dpi_px">
+                        <ListBoxItems />
+                      </ListBox>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PB_RegistryListItem" layout_guid="7da20397-b27c-4590-9b12-dfea0ce403c3">
+    <Grid stylename="grid_container" override_flow_index="9999999" height="28dpi_px" grid_columnlayout="['1*', '28dpi_px', '40dpi_px', '140dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="label" layout_id="label_name" layout_guid="e02d7779-a841-4e0d-b541-50cf8d5df1a6" override_flow_index="9999999" height="16dpi_px" width="169dpi_px" left="0px" caption="gmpm-private.gamekmaker.io" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="no_frame_button" layout_id="btn_edit" layout_guid="b298ab26-d465-4999-83e6-f60ab17b4e10" override_flow_index="9999999" width="24dpi_px" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Buttons\icon_IDE_pencil.png" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="no_frame_button" layout_id="btn_delete" layout_guid="5697d721-3dc5-4757-aace-02bbe225e097" override_flow_index="9999999" width="24dpi_px" right="0px" icon_flags="Centre" font_icon="[&quot;anim_curve_icon_font&quot;, &quot;icon_ac_delete&quot;]" vector_icon_size="17dpi_px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Button stylename="button_up" layout_id="btn_publish" layout_guid="16faa826-399c-4e9d-8171-5dbc6224b4b3" override_flow_index="9999999" width="120dpi_px" right="0px" localise_name="PrefabBuilder_Publish" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="PB_RegistryEdit_Window" layout_guid="9331f65b-05ab-436c-ac2e-8b559262fde1">
+    <Window stylename="ab_borderless_window" override_flow_index="9999999" height="258dpi_px" localise_title="PrefabBuilder_EditRegistry" window_flags="Borderless, CloseButton">
+      <Client>
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="10dpi_px" right="10dpi_px" top="8dpi_px" stack_order="TopToBottom">
+            <ChildGadgets>
+              <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="22dpi_px" left="0px" top="0px" margin_bottom="2dpi_px" localise_caption="PrefabBuilder_Url" />
+              <TextBox stylename="text_box" layout_id="url_textbox" layout_guid="3a647a48-5495-4735-b32a-bb5aa961128e" override_flow_index="9999999" top="18px" margin_bottom="10dpi_px" />
+              <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="59dpi_px" left="0px" top="52px" margin_bottom="2dpi_px" localise_caption="PrefabBuilder_Username" />
+              <TextBox stylename="text_box" layout_id="username_textbox" layout_guid="b9ffcfdb-b426-4751-94e2-067c1d3ce166" override_flow_index="9999999" top="70px" margin_bottom="10dpi_px" />
+              <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="54dpi_px" left="0px" top="104px" margin_bottom="2dpi_px" localise_caption="PrefabBuilder_Password" />
+              <TextBox stylename="text_box" layout_id="password_textbox" layout_guid="c83b8e00-4fed-4c17-9e7b-b2ea78b90f5d" override_flow_index="9999999" top="122px" margin_bottom="4dpi_px" />
+              <CheckBox stylename="checkbox_stack" layout_id="show_password" layout_guid="3a623366-4c83-4a37-b1d4-6abd1ced67b3" override_flow_index="9999999" left="0px" top="150px" localise_name="Settings_ShowPassword" />
+              <Button stylename="button_up" layout_id="btn_apply" layout_guid="238c39b2-04cc-4040-b93c-f6d65280a501" override_flow_index="9999999" width="120dpi_px" right="0dpi_px" top="179px" margin_top="10dpi_px" localise_name="Button_OK" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicBorderlessWindowFrame" layout_guid="53cfe63e-6679-4383-b1ab-f891ade9d6f6" />
+    </Window>
+  </Layout>
+  <Layout layout_name="PF_MinVersionGrid_Content" layout_guid="670bafde-76ef-41cf-970b-b5703de8384d">
+    <!-- <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" margin_top="2dpi_px" grid_columnlayout="['40dpi_px', '1*', 'auto']"> -->
+    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Label stylename="label" layout_id="label" layout_guid="47b0ea73-3c94-4cc6-baa5-e4f8d5a2ec12" override_flow_index="9999999" height="16dpi_px" width="35dpi_px" left="0px" caption="Stable" />
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" grid_columnlayout="['1*', '1*', '1*']" column_spacing="6dpi_px">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <NumericTextBox stylename="numeric_text_box" layout_id="min_version_major" layout_guid="d4f505c6-b99f-4a97-b50f-f7a1a6d1e44f" override_flow_index="9999999" width="" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <NumericTextBox stylename="numeric_text_box" layout_id="min_version_minor" layout_guid="0d11ab25-f818-4f08-bbee-99c2d3f7faa7" override_flow_index="9999999" width="" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <NumericTextBox stylename="numeric_text_box" layout_id="min_version_build" layout_guid="ab72dfdd-58d4-44d8-8cc9-800e08d26343" override_flow_index="9999999" width="" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </Cell>
+    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+      <ChildGadgets>
+        <CloseButton stylename="close_button_up" layout_id="btn_remove" layout_guid="b2f7f41f-3793-4599-aad1-857a17979a87" override_flow_index="9999999" right="0px" top="" margin_left="2dpi_px" margin_bottom="" />
+      </ChildGadgets>
+    </Cell>
+    <!-- </Grid> -->
+  </Layout>
+  <Layout layout_name="PrefabBuilder2" layout_guid="c13d0a59-60d2-415f-9fc9-e8b419c3c42c">
+    <Grid stylename="window_client_panel" override_flow_index="9999999" grid_rowlayout="['1*', '40dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="prefab_builder_grid">
+            <ColumnDockSplitter stylename="dock_splitter" override_flow_index="9999999" height="598px" width="14dpi_px" left="298px" top="0px" splitter_anchor="First" row="0" column="1" rowspan="1" columnspan="1" />
+            <Cell layout_id="cell_details" layout_guid="f51279f3-8be1-416a-9b8b-810b9e0e9988" row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" width="" left="6dpi_px" right="0dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" right="4dpi_px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                      <ChildGadgets>
+                        <Grid stylename="grid_container" override_flow_index="9999999" left="0px" top="0px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" column_spacing="20dpi_px" grid_resize="ResizeGridHeight">
+                          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <StackPanel stylename="stack_panel_full" override_flow_index="9999999" width="100%" left="0px" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                <ChildGadgets>
+                                  <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="92dpi_px" top="10px" localise_caption="PrefabBuilder_PublisherName" />
+                                  <TextBox stylename="text_box" layout_id="publisher_name" layout_guid="4722c769-acd7-4f5b-a2d3-45f8d9133a23" override_flow_index="9999999" top="28px" />
+                                  <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" top="62px" margin_top="10dpi_px" margin_bottom="2dpi_px" stack_resize="ResizeHeight">
+                                    <ChildGadgets>
+                                      <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="95dpi_px" margin_top="2dpi_px" margin_bottom="" localise_caption="PrefabBuilder_CollectionName" />
+                                      <Image stylename="listviewexplorer_warning_icon" layout_id="collection_warning_icon" layout_guid="dfe4fe31-6ad5-452c-a929-d76869977e44" override_flow_index="9999999" localise_tooltip="PrefabBuilder_CollectionNameWarningTT" height="18dpi_px" left="99px" margin_left="4dpi_px" />
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                  <TextBox stylename="text_box" layout_id="collection_name" layout_guid="ee3cf18d-6754-492e-875c-e43d031b0235" override_flow_index="9999999" top="82px" />
+                                  <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" top="116px" margin_top="10dpi_px" margin_bottom="2dpi_px" stack_resize="ResizeHeight">
+                                    <ChildGadgets>
+                                      <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="65dpi_px" margin_top="2dpi_px" margin_bottom="" localise_caption="PrefabBuilder_PackageID" />
+                                      <Image stylename="listviewexplorer_warning_icon" layout_id="packageid_warning_icon" layout_guid="f0caef94-a678-43ec-952d-35acc7ba066e" override_flow_index="9999999" localise_tooltip="PrefabBuilder_PackageIdWarningTT" height="18dpi_px" left="69px" margin_left="4dpi_px" />
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                  <TextBox stylename="text_box" layout_id="package_id" layout_guid="f0355af7-5ba8-40e9-a111-3718c937769a" override_flow_index="9999999" top="136px" />
+                                  <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="42dpi_px" top="168px" margin_top="8dpi_px" localise_caption="PrefabBuilder_Version" />
+                                  <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" top="186px" grid_columnlayout="['1*', '1*', '1*']" column_spacing="10dpi_px">
+                                    <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                      <ChildGadgets>
+                                        <NumericTextBox stylename="numeric_text_box" layout_id="version_major" layout_guid="17bdf3a3-79a9-4926-be94-3a6d9ed3dabb" override_flow_index="9999999" width="" />
+                                      </ChildGadgets>
+                                    </Cell>
+                                    <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                      <ChildGadgets>
+                                        <NumericTextBox stylename="numeric_text_box" layout_id="version_minor" layout_guid="dea97bef-1be8-4809-a4c9-ae01fe69519a" override_flow_index="9999999" width="" />
+                                      </ChildGadgets>
+                                    </Cell>
+                                    <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                                      <ChildGadgets>
+                                        <NumericTextBox stylename="numeric_text_box" layout_id="version_build" layout_guid="c9104f8a-7621-4a52-9426-fd94f83b22ac" override_flow_index="9999999" width="" />
+                                      </ChildGadgets>
+                                    </Cell>
+                                  </Grid>
+                                  <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="100dpi_px" top="220px" localise_caption="PrefabBuilder_ShortDesc" />
+                                  <TextBox stylename="text_box" layout_id="desc_short" layout_guid="aafdf3a0-5c89-4455-a149-dcb285890400" override_flow_index="9999999" top="238px" />
+                                </ChildGadgets>
+                              </StackPanel>
+                            </ChildGadgets>
+                          </Cell>
+                          <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                            <ChildGadgets>
+                              <StackPanel stylename="stack_panel_full" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                <ChildGadgets>
+                                  <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="23dpi_px" top="8px" margin_top="8dpi_px" localise_caption="PrefabBuilder_Icon" />
+                                  <StackPanel stylename="stack_panel" override_flow_index="9999999" top="26px" stack_resize="ResizeHeight">
+                                    <ChildGadgets>
+                                      <Button stylename="settings_browse_button" layout_id="icon_browse" layout_guid="01106bd5-7cac-476a-bcd6-404aca117bcd" override_flow_index="9999999" left="5px" />
+                                      <Label stylename="label" layout_id="max_size_label" layout_guid="851473a4-a13c-4b29-8604-aabd4934cdd0" override_flow_index="9999999" height="16dpi_px" width="67dpi_px" left="50px" localise_caption="PrefabBuilder_MaxXY" />
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                  <Image stylename="image" layout_id="icon_image" layout_guid="215bfb66-524b-420d-9d8a-cf33cab427dc" override_flow_index="9999999" height="128dpi_px" width="128dpi_px" left="0px" top="61px" image_flags="Stretch, Centre, KeepAspectRatio" />
+                                  <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="133dpi_px" top="199px" localise_caption="PrefabBuilder_PkgDeps" />
+                                  <ListBox stylename="list_box" layout_id="pkg_deps_list" layout_guid="64000ccc-c2d7-4bc6-8d7f-89fb52b291f7" override_flow_index="9999999" height="80dpi_px" top="217px">
+                                    <ListBoxItems />
+                                  </ListBox>
+                                </ChildGadgets>
+                              </StackPanel>
+                            </ChildGadgets>
+                          </Cell>
+                        </Grid>
+                        <StackPanel stylename="stack_panel" layout_id="package_fields_stack" layout_guid="ba592a94-f7f5-4b8d-8fd6-f37b2356179c" override_flow_index="9999999" top="309px" margin_top="12dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                          <ChildGadgets>
+                            <StackPanel stylename="stack_panel" layout_id="pub_sep_stack" layout_guid="9f96b36f-949c-4f2e-8b44-d789c41184ca" override_flow_index="9999999" top="0px" stack_resize="ResizeHeight">
+                              <ChildGadgets>
+                                <Label stylename="label_deactivated" override_flow_index="9999999" height="16dpi_px" width="57dpi_px" left="0px" top="0px" caption="Publishing" />
+                                <Image stylename="help_icon" override_flow_index="9999999" tooltip="These fields are only relevant if you intend to publish the package via npm" left="61px" top="16px" margin_left="4dpi_px" />
+                                <HorizontalSeparator stylename="horizontal_separator" left="82px" />
+                              </ChildGadgets>
+                            </StackPanel>
+                            <Grid stylename="grid_container" override_flow_index="9999999" top="24px" margin_top="8dpi_px" grid_rowlayout="['auto']" grid_columnlayout="['1*', '1*']" column_spacing="20dpi_px" grid_resize="ResizeGridHeight">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" layout_id="pub_lhs_stack" layout_guid="805da440-5720-44f9-9f0a-1f00b5faa14f" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                    <ChildGadgets>
+                                      <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" top="0px" margin_bottom="2dpi_px" stack_resize="ResizeHeight">
+                                        <ChildGadgets>
+                                          <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="84dpi_px" top="2px" margin_top="2dpi_px" margin_bottom="" localise_caption="PrefabBuilder_PackageName" />
+                                          <Image stylename="listviewexplorer_warning_icon" layout_id="pkgname_warning_icon" layout_guid="1d8ca058-415b-4644-8f09-3b2c9320fc00" override_flow_index="9999999" localise_tooltip="PrefabBuilder_PkgNameWarningTT" height="18dpi_px" left="88px" top="18px" margin_left="4dpi_px" />
+                                        </ChildGadgets>
+                                      </StackPanel>
+                                      <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="106px" top="20px" grid_columnlayout="['auto', '1*', 'auto', '1*']">
+                                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <Label stylename="label_deactivated" override_flow_index="9999999" height="16dpi_px" width="11dpi_px" caption="@" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <TextBox stylename="text_box" layout_id="package_scope" layout_guid="66f0b6ca-01b0-4e18-9745-fa5db8c349d4" override_flow_index="9999999" localise_default_caption="PackageMan_Scope" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                        <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <Label stylename="label_deactivated" override_flow_index="9999999" height="16dpi_px" width="4dpi_px" margin_left="1dpi_px" margin_right="1dpi_px" caption="/" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                        <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <TextBox stylename="text_box" layout_id="package_name" layout_guid="82c3202e-5bfa-442f-8e98-746ebddc6e2e" override_flow_index="9999999" margin_top="4dpi_px" localise_default_caption="PrefabBuilder_Name" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                      </Grid>
+                                      <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="54dpi_px" top="52px" margin_top="8dpi_px" localise_caption="PrefabBuilder_Keywords" />
+                                      <TextBox stylename="text_box" layout_id="keywords" layout_guid="e6915ea2-2a9a-4944-a925-9dde4e120d89" override_flow_index="9999999" top="70px" default_caption="comma,separated,keywords" />
+                                      <StackPanel stylename="stack_panel" override_flow_index="9999999" top="98px" margin_top="4dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                        <ChildGadgets>
+                                          <Grid stylename="grid_container" layout_id="min_ide_version" layout_guid="ad26cc30-8f7d-4f65-8815-9c42dd825c8c" override_flow_index="9999999" height="24dpi_px" top="8px" margin_top="8dpi_px" grid_columnlayout="['1*', '20dpi_px']">
+                                            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                              <ChildGadgets>
+                                                <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="120dpi_px" margin_top="8dpi_px" localise_caption="PrefabBuilder_MinIDEVersion" />
+                                              </ChildGadgets>
+                                            </Cell>
+                                            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                              <ChildGadgets>
+                                                <Button stylename="ab_add_button" layout_id="btn_add_minver" layout_guid="986b6df3-887e-4925-a1b4-c91ab4fde5ab" override_flow_index="9999999" height="20dpi_px" width="20dpi_px" />
+                                              </ChildGadgets>
+                                            </Cell>
+                                          </Grid>
+                                          <StackPanel stylename="stack_panel" layout_id="minver_stack" layout_guid="8d1ff92f-478a-4015-85c2-55f3aa8caf2b" override_flow_index="9999999" top="32px" margin_top="0dpi_px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+                                        </ChildGadgets>
+                                      </StackPanel>
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <StackPanel stylename="stack_panel" layout_id="pub_rhs_stack" layout_guid="0b04c01e-87b9-4478-aa8b-485aa65ec354" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight">
+                                    <ChildGadgets>
+                                      <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="67dpi_px" top="0px" margin_top="" localise_caption="PrefabBuilder_Desc" />
+                                      <MultiLineTextBox stylename="multiline_text_box" layout_id="desc_full" layout_guid="4bcd9b0b-b628-417e-88b6-e5788071982e" override_flow_index="9999999" height="120dpi_px" width="" left="67px" top="18px" />
+                                      <Label stylename="pfb_field_label" override_flow_index="9999999" height="16dpi_px" width="42dpi_px" top="146px" margin_top="8dpi_px" localise_caption="PrefabBuilder_License" />
+                                      <Grid stylename="grid_container" override_flow_index="9999999" height="24dpi_px" left="106px" top="164px" grid_columnlayout="['1*', '28dpi_px']">
+                                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <FileInputGadget stylename="file_input" layout_id="license_browse" layout_guid="5041411c-5124-4b2d-97ba-6fa8cbc987aa" override_flow_index="9999999" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                        <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                          <ChildGadgets>
+                                            <Button stylename="no_frame_button" layout_id="license_view_button" layout_guid="482be364-721e-4903-946a-ab65e06c2325" override_flow_index="9999999" localise_tooltip="PrefabBuilder_LicenseViewTT" width="24dpi_px" right="0px" icon_flags="Centre" font_icon="[&quot;asset_type_icon_font&quot;, &quot;AT_icon_scripts&quot;]" vector_icon_size="18dpi_px" />
+                                          </ChildGadgets>
+                                        </Cell>
+                                      </Grid>
+                                    </ChildGadgets>
+                                  </StackPanel>
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </StackPanel>
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" layout_id="grid_rhs" layout_guid="88991dba-497c-46a4-9c5a-59fdeb730d96" override_flow_index="9999999" left="8dpi_px" right="8dpi_px" top="4dpi_px" bottom="8dpi_px" grid_rowlayout="['32*']" grid_columnlayout="['70%', '1*']" column_spacing="10dpi_px">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['24dpi_px', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['24dpi_px', '1*', '50dpi_px', '50dpi_px']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Button stylename="no_frame_button" layout_id="button_refresh_tree" layout_guid="a309a96b-edd2-4f5a-b10e-cb014d84c8fa" override_flow_index="9999999" localise_tooltip="PrefabBuilder_RefreshTreeTT" icon_flags="Stretch, Centre, KeepAspectRatio" icon="Runtime\icon_IDE_refresh.png" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="37dpi_px" localise_caption="PrefabBuilder_Assets" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="47dpi_px" localise_caption="PrefabBuilder_Included" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="label" override_flow_index="9999999" height="16dpi_px" width="36dpi_px" localise_caption="PrefabBuilder_Visible" />
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell layout_id="tree_cell" layout_guid="cced0e88-e681-49d7-ad89-e114ac84dd8e" row="1" column="0" stylename="bordered_scrollpanel_dark" flow_index="0" />
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['24dpi_px', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '32dpi_px']">
+                              <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Label stylename="label" layout_id="asset_deps_label" layout_guid="d34ff2c8-5391-4898-b140-67ffaa36d137" override_flow_index="9999999" height="16dpi_px" width="103dpi_px" left="0px" localise_caption="PrefabBuilder_DepsResource" />
+                                </ChildGadgets>
+                              </Cell>
+                              <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                                <ChildGadgets>
+                                  <Button stylename="ab_add_button" layout_id="btn_add_asset_deps" layout_guid="9c09594e-407e-4c32-b2cf-1176c71d679a" override_flow_index="9999999" width="24dpi_px" />
+                                </ChildGadgets>
+                              </Cell>
+                            </Grid>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell layout_id="deps_cell" layout_guid="d5f59963-d227-45f7-ab8f-87037070c7d2" row="1" column="0" stylename="bordered_scrollpanel_dark" flow_index="0" />
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" right="20dpi_px" stack_order="RightToLeft" stack_resize="ResizeHeight">
+            <ChildGadgets>
+              <Button stylename="button_up" layout_id="btn_close" layout_guid="85882a02-0ff5-4754-8721-a9eca0d4369f" override_flow_index="9999999" width="100dpi_px" right="0px" localise_name="Window_Close" />
+              <Button stylename="button_up" layout_id="btn_package_install" layout_guid="fd2dd801-89c6-45f2-8ee4-8706e8cccf75" override_flow_index="9999999" width="160dpi_px" right="150px" margin_right="50dpi_px" localise_name="PrefabBuilder_PackageInstall" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

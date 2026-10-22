@@ -1,0 +1,71 @@
+{
+  "name": "AnimCurveEditor",
+  "bundle_version": "2026.100.1171",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "AnimCurveEditor",
+      "localised_name": "anim_curve_editor_name",
+      "plugin_version": "2026.100.1171",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMAnimCurve",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AnimCurveEditor",
+          "version": "2026.100.1171",
+          "path": "AnimCurveEditor.dll",
+          "checksum": "k8bNQEonyy4LZ6FM7rKqmUY9P72lQDjLrZrfWuvwN6I="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "AnimCurveGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "AnimCurveGUI/Skins/Dark",
+          "AnimCurveGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "AnimCurveEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/AnimCurveEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "r3MZd8AudqlW7GVJbsz1L/YRhoLpRSWAPHPeD0moIJryuRQvOdVbs2dhOpRX4ewJtKGZjJTzuxM22bH/ohoH4dltHOrhdvaKeNhK\u002BkW2IK6gabGuE2leIDbkmqSIfrbVDES2tmhQh0E\u002BEMR2c/zzExvERnOr7BqCMxxGYymfdvI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

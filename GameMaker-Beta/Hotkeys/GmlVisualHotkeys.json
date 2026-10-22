@@ -1,0 +1,122 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Add a comment",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Add Comment",
+      "Name": "Add Comment"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Remove a comment",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Remove Comment",
+      "Name": "Remove Comment"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Disable the selected nodes",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Disable Selected Nodes",
+      "Name": "Disable Selected Nodes",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "K",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "K",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Enable the selected nodes",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Enable Selected Nodes",
+      "Name": "Enable Selected Nodes",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "K",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftShift",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightShift",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Drag all",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Drag All",
+      "Name": "Drag All"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Pan to the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Pan To",
+      "Name": "GmlVisual.PanTo",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "P",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "GML Visual"
+}

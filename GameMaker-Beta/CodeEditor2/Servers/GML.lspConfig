@@ -1,0 +1,10 @@
+{
+	"name": "GML",
+	"scopes": [
+		"source.gml"
+	],
+	"type": "Process",
+	"path": "GameMakerLanguageServer",
+	"args": "--log-level=${LogLevel:String} ${WaitDebugger}",
+	"logLevel": "None"
+}
