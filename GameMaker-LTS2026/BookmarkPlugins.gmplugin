@@ -1,0 +1,38 @@
+{
+  "name": "BookmarkPlugins",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "BookmarkPlugins",
+      "localised_name": "BookmarkPlugins_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "BookmarkPlugins",
+          "version": "2026.0.16",
+          "path": "BookmarkPlugins.dll",
+          "checksum": "yTmf/P1IwlJMrVKsQUDbW\u002BuvWrlVNwYFyHGjRggvkGQ="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "CodeEditor2",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "yVFdO7YyZ3Lnnwk1Pv\u002BXR92rR3VN3DVtyPP4IjR8INdZVBbwgwZUwxdkXYy0MxnHi5L\u002BfRzBH7tdbnE2vn8vA8PvZwtWBJ6VcfbtluR6t6cSHx8re7ErYJtEFEsJchNEUrKjsjyu6/vdDDLeNNzXDPiwZqdUJgvNzbOV5VSYxvc=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

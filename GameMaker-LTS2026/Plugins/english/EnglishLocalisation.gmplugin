@@ -1,0 +1,31 @@
+{
+  "name": "EnglishLocalisation",
+  "bundle_version": "2026.0.16",
+  "bundle_description": "English IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "EnglishLocalisation",
+      "localised_name": "english_localisation",
+      "plugin_version": "2026.0.16",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "English": "english.csv"
+          },
+          {
+            "English": "english_dnd.csv"
+          }
+        ]
+      },
+      "description": "English IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "hv8ZafJPXmE17K30n02wd\u002BvfS6P3xUseHWv6UnpfKo5lCH1Hg4vHxZtr\u002BUcvc8RlvY5Q/i6/Mg3jWeZg7VjJ2Ii6DRhfvFAZ2O50lz7vrJkIaGmaHG1F1RJztpsBfIuDUF5uauX9WLaYAaapYoq6BnNr\u002B57oaOIsNJub17oBYUk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

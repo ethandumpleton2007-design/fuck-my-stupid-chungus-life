@@ -1,0 +1,29 @@
+{
+  "name": "GMSProxy",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMSProxy",
+      "localised_name": "GMSProxy_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GMSProxy",
+          "version": "2026.0.16",
+          "path": "GMSProxy.dll",
+          "checksum": "43CIZ\u002Bbi1abtq6MLhw5P0Gve5yWiBVSjQEN4Ngo4GS0="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "xtJbNVllsL9sdZYarN7Z//Ge/A5lJ2cp7isfXw4kAY6hzb8wK1w8miN5hTqd6mf5pba5FfPG97DqRFuLFTAlFsf\u002BdXre52peam5d4BWiDHpKIl3q0YDbE\u002BZaFexCSBwGERitKOenKmJSF/qLX\u002B/45ts5DlZq\u002BotFQprxM59HOJE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

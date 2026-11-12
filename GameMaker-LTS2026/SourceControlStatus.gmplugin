@@ -1,0 +1,38 @@
+{
+  "name": "SourceControlStatus",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SourceControlStatus",
+      "localised_name": "source_control_status_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SourceControlStatus",
+          "version": "2026.0.16",
+          "path": "SourceControlStatus.dll",
+          "checksum": "9Bp2t\u002BqJtGfMfBWTpUF4yCDE\u002BBk4yomGg9ESE/LV3Vo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        },
+        {
+          "dependency_name": "SourceControlGit",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "VmtMurfMZkdWIZum5j8yVPalgxIrxuhzYdZX9FJR\u002B4WbqvxUrhUl9RSyx5ggFnxVGpWGsBJbTxc8ykuJiyLPTjXWBS3fUbF4jHrrXqhQi1yrTrzRR6E73MxHAbrgrbS3B2F3ToZ2ivezw9lldSJEapBhlgdbG5OmhYL7tTf8R04=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

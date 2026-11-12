@@ -1,0 +1,48 @@
+{
+  "name": "LocalPackage",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "LocalPackage",
+      "localised_name": "LocalPackage_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "LocalPackage",
+          "version": "2026.0.16",
+          "path": "LocalPackage.dll",
+          "checksum": "Ggygk\u002BaTzc3YvHAdiCiE6F6PezyHNtMhXxq/1AaJBmI="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "LocalPackageGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "LocalPackageGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "FGpPW0qT1WZMUWrZvCrLd3wnQFwk1pD\u002BYEnZbSGmP/HEQCOZkMJXH\u002BpaVVdfs1pIxAERAL9/ROVMA9QsIY5N/sUmj003LbMU65gBLeqO1P5TBx7zppJDv8vs\u002BKi\u002B91raSFYs\u002BJTGIZfppuegSPwgzac5w8YNcqrQxA3amfTsdno=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

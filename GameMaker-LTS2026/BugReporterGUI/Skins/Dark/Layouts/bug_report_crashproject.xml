@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="BugReport_IncludeCrashProjectDialog_Win">
+	<Window stylename="default_window" override_flow_index="9999999" height="240dpi_px" localised_title="BugRep_IncludeCrashProject_Title">
+		<Layout layout_name="BugReport_IncludeCrashProjectDialog" />
+	</Window>
+  </Layout>
+	
+  <Layout layout_name="BugReport_IncludeCrashProjectDialog" layout_guid="8616a8e7-142c-41ff-918b-cbed729c8276">
+	  <Layout layout_name="BasicWindowFrame" />
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '32dpi_px', '10dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel">
+                  <ChildGadgets>
+                    <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="81dab2b5-01ae-48e7-9617-11528bef7761" left="10px" />
+                    <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="87d91cf4-014b-40fb-8e17-10872fdec378" override_flow_index="9999999" left="52px" top="0dpi_px" localise_caption="BugRep_IncludeCrashProject" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="no_button" layout_guid="6dbf0cab-265a-4eef-8dd5-534cc859da9e" flow_index="1" override_flow_index="9999999" width="140dpi_px" margin_right="8dpi_px" localise_name="CrashReport_DontReport" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="yes_button" layout_guid="2f29880a-0c6e-468e-8e36-1275eded7674" override_flow_index="9999999" width="140dpi_px" margin_right="8dpi_px" localise_name="Button_OK" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+  </Layout>
+</Layouts>

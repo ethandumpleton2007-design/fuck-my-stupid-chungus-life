@@ -1,0 +1,38 @@
+{
+  "name": "MissingPrefabHandler",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "MissingPrefabHandler",
+      "localised_name": null,
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "MissingPrefabHandler",
+          "version": "2026.0.16",
+          "path": "MissingPrefabHandler.dll",
+          "checksum": "Opjn2EhPqJcjdZzOKqw4ryO/\u002Bp2V6ZasacPIVEW2vgM="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        },
+        {
+          "dependency_name": "PackageManagerUI",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "JslhNaGhv/jbh7vHbEryjZiWB7Wbo4CHUNvR5PtehtYpEraBBp\u002BIk0eBvxV9Gy13/BFoxEf\u002BlETZhD1dOrFeiRx75uKCz3E7iZ\u002BAtk\u002BZKsd3UXzslZK18gZt/dhv7WQg23\u002B25E6I6I2uF8B8kRkCmYXALejfnNrt6KrSnUtDcBM=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

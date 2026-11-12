@@ -1,0 +1,33 @@
+{
+  "name": "HotkeyPluginLoader",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "HotkeyPluginLoader",
+      "localised_name": null,
+      "plugin_version": "2026.0.16",
+      "type": "loader",
+      "plugin_data": {
+        "supported_types": [
+          "hotkey"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [
+        {
+          "assembly_name": "HotkeyPluginLoader",
+          "version": "2026.0.16",
+          "path": "HotkeyPluginLoader.dll",
+          "checksum": "4AciZFHsbngBJFXhB7KEgI1IlUEDN2fPZRp5LuGr1T0="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "zrhG7KK/pJaH2CJgx1pBJ0nx3Ozmix/Isk\u002B3nrrEzsCDyHMiLecCQdbI8odFUxi6\u002B1U9GXVgUwkI6odvMkMwBvumQRWI1y2iILpnyl4Sxqmt47DW6SwK7sBtwDFb/cAan\u002BTlKi//bLbFZbRvUyw8Lg2WEl9bXjY96nPAu0aePdI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

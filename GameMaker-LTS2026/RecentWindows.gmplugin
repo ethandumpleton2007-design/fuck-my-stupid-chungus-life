@@ -1,0 +1,34 @@
+{
+  "name": "RecentWindows",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "RecentWindows",
+      "localised_name": "recent_windows_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "RecentWindows",
+          "version": "2026.0.16",
+          "path": "RecentWindows.dll",
+          "checksum": "VMhRPqu9fJfCRzkyyVLPugAktpiCwoc4YQ9RByaHVY8="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "sUUjv4iXp46Q2dQCQyzvjBS5LfQ4dxOOwM9c4BeivoqwEUZ8jmK1FO1lxiJQTx\u002B8pDznMbd7qz5EMmnWk816X7BuOC/O/r4drDS815zlzaFc5mIUmM9XltwxH6lAZ328Wy4\u002BKkGA17DEZiRKX2tErWrS1N1bjbI5uh3e3kxj1/w=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

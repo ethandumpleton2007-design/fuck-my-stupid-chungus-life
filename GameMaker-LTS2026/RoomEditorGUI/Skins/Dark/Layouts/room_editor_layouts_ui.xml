@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="RoomEditor_LayersView2" layout_guid="14c3d817-0af6-4c6b-badb-308ffff1fd35">
+    <Window stylename="layer_view_window" override_flow_index="9999999" height="310dpi_px" width="377dpi_px" help_tag="room_editor" localise_title="RoomEditor_Layers" window_flags="CloseButton, MinimizeButton, ResizeButton, ScrollBars">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" grid_rowlayout="['auto', '1*', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="layer_grid" grid_rowlayout="['auto']" grid_columnlayout="['1*', 'auto', 'auto']">
+                  <Cell row="0" column="1" stylename="layer_grid_panel" flow_index="0">
+                    <ChildGadgets>
+                      <RoomEditor_LayerVisibilityCheckbox layout_id="global_vischeck" stylename="visible_checkbox_stack" bind_property="layers" base_style="visible_checkbox" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="layer_grid_panel" flow_index="0">
+                    <ChildGadgets>
+                      <RoomEditor_LayerLockedCheckbox layout_id="global_lockcheck" stylename="lock_checkbox_stack" bind_property="layers" base_style="lock_checkbox" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="basic_scrollpanel_box" layout_id="room_layers_cell" flow_index="0">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_order="TopToBottom">
+                  <ChildGadgets>
+                    <Grid stylename="grid_container" layout_id="uifolder_grid" layout_guid="cf69a599-7e07-43ec-a827-7769624e5234" override_flow_index="9999999" height="40dpi_px" top="0px" grid_rowlayout="['1*', '8dpi_px']">
+                      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <TreeView stylename="gadget_treeview" layout_id="uifolder_tree" layout_guid="35416f17-b351-4b73-98c6-467991204676" override_flow_index="9999999" height="24dpi_px" colour="#00FFFFFF" node_stylename="room_layer_view" accept_dragged_nodes="False">
+                            <Node stylename="treeviewnode_panel" selectable="True" expanded="False">
+                              <Grid stylename="layer_grid" override_flow_index="9999999" left="11px" grid_rowlayout="['auto']" grid_columnlayout="['auto', '1*', '0px', 'auto', 'auto']">
+                                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                                  <ChildGadgets>
+                                    <Image stylename="room_uilayer_icon" layout_id="layer_icon" layout_guid="174ae1d3-07d3-4239-a864-953f5b5813fc" override_flow_index="9999999" width="26dpi_px" vector_icon_size="20dpi_px" />
+                                  </ChildGadgets>
+                                </Cell>
+                                <Cell row="0" column="1" stylename="layer_grid_panel" flow_index="0">
+                                  <ChildGadgets>
+                                    <Label stylename="layer_label" layout_id="layer_editlabel" layout_guid="041c87e7-3587-45cb-9a6b-a266f4f5f71e" override_flow_index="9999999" height="16dpi_px" left="4dpi_px" localise_caption="RoomUI_UIFolder" />
+                                  </ChildGadgets>
+                                </Cell>
+                                <Cell row="0" column="3" stylename="layer_grid_panel" flow_index="0">
+                                  <ChildGadgets>
+                                    <CheckBox stylename="visible_checkbox_stack" layout_id="uifolder_vischeck" layout_guid="9070a839-6686-4cd4-a1c4-18ca173b4907" bind_property="visible" base_style="visible_checkbox" />
+                                  </ChildGadgets>
+                                </Cell>
+                                <Cell row="0" column="4" stylename="layer_grid_panel" flow_index="0">
+                                  <ChildGadgets>
+                                    <CheckBox stylename="lock_checkbox_stack" bind_property="locked" base_style="lock_checkbox" />
+                                  </ChildGadgets>
+                                </Cell>
+                              </Grid>
+                            </Node>
+                          </TreeView>
+                        </ChildGadgets>
+                      </Cell>
+                      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                        <ChildGadgets>
+                          <HorizontalSeparator stylename="horizontal_separator" layout_id="uifolder_separator" layout_guid="84c1aaaa-a326-40e6-9353-69145133d776" override_flow_index="9999999" />
+                        </ChildGadgets>
+                      </Cell>
+                    </Grid>
+                    <RoomEditor_LayerView stylename="room_layer_view" layout_id="layers_view" layout_guid="5c26cbdb-f007-467e-ab8c-02808ab7aa31" override_flow_index="9999999" top="40px" colour="#00FFFFFF" bind_property="layers" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['32dpi_px', '1*', '32dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="ab_add_button" layout_id="add_layer_button" layout_guid="0500b859-0cc5-4026-9baf-305685367985" override_flow_index="9999999" localise_tooltip="RoomEditor_CreateLayer" height="" vector_icon_size="19dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <RoomEditor_InheritButton stylename="button_up" override_flow_index="9999999" localise_tooltip="RoomEditor_InheritLayersToolTip" height="24dpi_px" width="60dpi_px" right="10dpi_px" bind_property="inheritLayers" localise_name="RoomEditor_Inherit" parent_property="parentRoom" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="animcurve_trash_button" layout_id="delete_layer" layout_guid="89759dbc-2c4b-443b-b194-d368bfa02cf1" override_flow_index="9999999" localise_tooltip="RoomEditor_DeleteSelectedLayer" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+  <Layout layout_name="RoomCreateLayerGrid" layout_guid="8f6f7da2-e831-4b7f-9f23-5e372e17a4d3">
+    <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '90dpi_px']">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <ScrollPanel stylename="default_scrollpanel" layout_id="content_panel" layout_guid="93c7ed62-59f0-4ada-9563-042586602cf0" override_flow_index="9999999" left="2dpi_px" right="2dpi_px" top="2dpi_px" bottom="2dpi_px" scrollpanel_flags="VerticalScroll, AdjustToScrollBars">
+            <ChildGadgets>
+              <StackPanel stylename="list_view_wrap_panel" layout_id="wrap_panel" layout_guid="36e32720-1a16-4c9b-b807-460fe037f4bf" />
+            </ChildGadgets>
+          </ScrollPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="6dpi_px" right="6dpi_px" grid_rowlayout="['28dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="rm_bold_grey_label" layout_id="layer_title" layout_guid="ab6de0a8-56a9-4c69-8afe-189d282d8e03" override_flow_index="9999999" height="18px" width="56px" left="0dpi_px" localise_caption="RoomEdLayer_TitleArg" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="rm_small_grey_label" layout_id="layer_desc" layout_guid="f00171b4-21e2-48e9-885c-b2c7dfdf0483" override_flow_index="9999999" height="" width="" left="0px" top="0px" caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book." auto_ellipsis="True" word_wrap="True" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+  <Layout layout_name="RoomLayer_Button" layout_guid="d98845da-5ea4-4ba9-9000-14d8d758658b">
+    <ScrollPanel stylename="ab_asset_frame" height="76dpi_px" width="76dpi_px">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" left="4dpi_px" right="4dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '24dpi_px']" grid_resize="None">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Image stylename="" layout_id="resource_icon" layout_guid="9da90e61-04b8-4823-9fee-fa24a9ea4790" override_flow_index="9999999" top="4dpi_px" bottom="0px" image_flags="Stretch, Centre, KeepAspectRatio" image="RoomEditor\icon_RE_assetlayer.png" />
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Label stylename="label_centre" layout_id="resource_label" layout_guid="3514209e-4068-4e91-8499-958f9439cb0e" height="16px" caption="Resource " auto_size="True" word_wrap="True" />
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+  <Layout layout_name="RoomUI_CanvasSettings" layout_guid="5a41e451-cc26-4ab6-8386-d66953c04609">
+    <ScrollPanel stylename="default_scrollpanel" override_flow_index="9999999" height="166dpi_px" width="296dpi_px" scrollpanel_flags="None">
+      <ChildGadgets>
+        <Grid stylename="grid_container" override_flow_index="9999999" left="12dpi_px" right="12dpi_px" top="4dpi_px" bottom="4dpi_px" grid_rowlayout="['1*', '1*', '1*', '1*']">
+          <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['80dpi_px', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="62px" left="0dpi_px" localise_caption="RoomUI_UIPreview" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <ComboBox stylename="combobox_panel" layout_id="preset_combo" layout_guid="4c6254d7-be97-4271-9a03-a9875c5863d2" override_flow_index="9999999" width="">
+                      <ListBoxItems />
+                    </ComboBox>
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['80dpi_px', 'auto', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="66px" left="0px" localise_caption="RoomUI_Orientation" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" override_flow_index="9999999" stack_resize="ResizeAll">
+                      <ChildGadgets>
+                        <ToggleButton stylename="roomui_portrait_icon" layout_id="toggle_portrait" layout_guid="c8366b49-e704-410a-88e7-880f3ba4c87a" override_flow_index="9999999" left="0px" />
+                        <ToggleButton stylename="roomui_landscape_icon" layout_id="toggle_landscape" layout_guid="3670e018-647f-47ca-8f3c-a32547b0106a" override_flow_index="9999999" left="29px" margin_left="5dpi_px" />
+                      </ChildGadgets>
+                    </StackPanel>
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <CheckBox stylename="checkbox_stack" layout_id="checkbox_clip" layout_guid="a940ac32-003b-4768-9099-99731e41254a" override_flow_index="9999999" right="0px" localise_name="RoomUI_ClipContents" stack_order="RightToLeft" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['80dpi_px', '30dpi_px', '1*', '40dpi_px', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="37px" left="0px" localise_caption="RoomUI_Offset" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" left="0px" localise_caption="Inspector_Field_X" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="inspector_numeric_textbox" layout_id="offset_x" layout_guid="59be150f-5a6d-4562-a3a5-04747379ffa3" override_flow_index="9999999" width="60dpi_px" right="0px" min="-4096" max="4096" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="7px" left="10dpi_px" localise_caption="Inspector_Field_Y" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="inspector_numeric_textbox" layout_id="offset_y" layout_guid="b47ca518-7b0c-47ae-936b-6f8d31328753" override_flow_index="9999999" width="60dpi_px" right="0px" min="-4096" max="4096" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+          <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+            <ChildGadgets>
+              <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['80dpi_px', '30dpi_px', '1*', '40dpi_px', '1*']">
+                <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="26px" left="0px" localise_caption="RoomUI_Size" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="11px" left="0px" localise_caption="Inspector_Field_Width" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="inspector_numeric_textbox" layout_id="canvas_w" layout_guid="10a90ceb-dc62-45e0-bb09-adbee04d82be" override_flow_index="9999999" width="60dpi_px" right="0px" min="1" max="4096" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <Label stylename="label" override_flow_index="9999999" height="16px" width="9px" left="10dpi_px" localise_caption="Inspector_Field_Height" />
+                  </ChildGadgets>
+                </Cell>
+                <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+                  <ChildGadgets>
+                    <NumericTextBox stylename="inspector_numeric_textbox" layout_id="canvas_h" layout_guid="e91246cf-b4f7-4dd1-b9d4-f2d98f0f422e" override_flow_index="9999999" width="60dpi_px" right="0px" min="1" max="4096" />
+                  </ChildGadgets>
+                </Cell>
+              </Grid>
+            </ChildGadgets>
+          </Cell>
+        </Grid>
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

@@ -1,0 +1,128 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "TimelineEditor.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Change the selected timeline moment",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Change Moment",
+      "Name": "Change Moment",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "E",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Merge the selected timeline moments",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Merge Moment",
+      "Name": "Merge Moment",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "M",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Unselect timeline moments",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_unselect_moments",
+      "Name": "Unselect All Moments",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "U",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Enter",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Edit moment (jump to code editor)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Edit Moment",
+      "Name": "Edit Moments"
+    }
+  ],
+  "Source": "Time Line Editor"
+}

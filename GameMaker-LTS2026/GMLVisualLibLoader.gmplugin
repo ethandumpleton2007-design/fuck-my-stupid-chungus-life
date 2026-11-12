@@ -1,0 +1,33 @@
+{
+  "name": "GMLVisualLibLoader",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMLVisualLibLoader",
+      "localised_name": null,
+      "plugin_version": "2026.0.16",
+      "type": "loader",
+      "plugin_data": {
+        "supported_types": [
+          "gmlvisuallib"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [
+        {
+          "assembly_name": "GMLVisualLibLoader",
+          "version": "2026.0.16",
+          "path": "GMLVisualLibLoader.dll",
+          "checksum": "yVqiH\u002B5BJDZKh/yKmIN3c\u002BDDlUkQ/Uo9HhCFL9zdHUs="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ZUbsjJp9L8eGPF3kMRh2jFR1NJDXYe7vsyqmya\u002B\u002BMFou05XDC5S7d3gdqg3IHjyjYqhqCVGNOF/2fWzWM/vwbBvcLvBcxl0Dtc7aWtdDNK/h\u002BKDOnkl85FFGXJvXLFKEtIUOMKUtDltxsozNZ4k35IPtxm8AoHWnYGZLeNxkEgU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

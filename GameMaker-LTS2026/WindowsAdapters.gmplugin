@@ -1,0 +1,29 @@
+{
+  "name": "WindowsAdapters",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "WindowsAdapters",
+      "localised_name": "windows_adapters_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "WindowsAdapters",
+          "version": "2026.0.16",
+          "path": "WindowsAdapters.dll",
+          "checksum": "PDKYi1p2iCM0qwuZ0saVdFoly/v3zniAdHAxD/\u002BDQV0="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "0MWUfOfBZbFg2TYiCKu87f32yXO\u002Bx9cxmpH6qUbKGnPniv6J8XhvNolllf6i6946x1M9id0vdsK8aPBYf3kUJbk2\u002B1Klm94I5jcYnHB4JvAK6\u002Bbt\u002BoKMA2IjT4fnXXMMGmu5juJqeccchaWX\u002BwPRpvs40fK1GRr2RfjjGXSKbA0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

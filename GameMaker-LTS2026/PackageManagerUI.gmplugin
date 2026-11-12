@@ -1,0 +1,74 @@
+{
+  "name": "PackageManagerUI",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PackageManagerUIHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/PackageManagerUIHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "PackageManagerUI",
+      "localised_name": "package_manager_ui_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManagerUI",
+          "version": "2026.0.16",
+          "path": "PackageManagerUI.dll",
+          "checksum": "ZABEhX\u002B3enEJ6tZCyHQ8QJ470YcpKb9ePaIAkUy6htQ="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        },
+        {
+          "dependency_name": "PluginSelector",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PackageNotifier",
+      "localised_name": "package_notifier_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PackageManagerUI",
+          "version": "2026.0.16",
+          "path": "PackageManagerUI.dll",
+          "checksum": "ZABEhX\u002B3enEJ6tZCyHQ8QJ470YcpKb9ePaIAkUy6htQ="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "PackageManager",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "jM7xG22149A1OnOXRaTmUPveWozZGrHIpn3zC6YCCN1CLdykuiFXZYCCvKUEcp5QZ4cf6ji\u002ByKVrdWWPFSsjhIMKzsRSuuAt6lbTZTDmy567cSE3BUazg\u002BsRVJdLLbSR1cxAub2527ypDQ7SinvEm6ZIc4dwEmTmAX9YsOz5FCQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "YYCodeEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "YYCodeEditor",
+      "localised_name": "YYCodeEditor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "YYCodeEditor",
+          "version": "2026.0.16",
+          "path": "YYCodeEditor.dll",
+          "checksum": "op/7ao/S/STd/M7eSeUog1/eOoMWg3Pai8LXFH9khqY="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "i5gxs2aOUbu1oBEM/oMRh8q8RO8bWSRstJPy4/pELdqzDy\u002B48UEIMZgoiletA/sucxlF7iRGG6sX3RBzFqAguGton\u002BRjn0Uq2yW5g8nedyU247C5UFRtVqPwrSIYBlonUd7tuLRzw9Rpw8zbwiIQ2/7AaE967y1PJnv/K0KfnCY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

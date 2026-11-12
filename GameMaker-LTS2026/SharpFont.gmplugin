@@ -1,0 +1,29 @@
+{
+  "name": "SharpFont",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SharpFont",
+      "localised_name": "SharpFont_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SharpFont",
+          "version": "2026.0.16",
+          "path": "SharpFont.dll",
+          "checksum": "gUCh/gueYBXDe7\u002BY9cIZ52f3A\u002BO4oQVpGTHokE0uoxc="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "QFWfQf3y/15zSzSUp9TXyyIgb43qzO2CMBWLtkY1jro9S37YubigjUuIDdcD58V5Il4gNwgS187CFQ7c3OYSemURh\u002BaOit64h4n50Dzzh7fbiKnyRTUX0SN\u002B3iVygGoKgZrF8AJgvr1EpKTzkfoF9tJS1R0G5v/ohGuDvHVEoCY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

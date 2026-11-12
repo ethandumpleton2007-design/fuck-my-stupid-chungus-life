@@ -1,0 +1,56 @@
+{
+  "name": "ParticleSystemEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ParticleSystemEditor",
+      "localised_name": "particle_system_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMParticleSystem",
+            "MinVersion": "1.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ParticleSystemEditor",
+          "version": "2026.0.16",
+          "path": "ParticleSystemEditor.dll",
+          "checksum": "snwfaZcofe8xrIOrjhrXuKBmFuk0ekl5q/IbHpb8VxE="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "SequenceEditingHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "ParticleSystemEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/ParticleSystemEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "EpnhPP41r441Zw5AGLSMgF3PNXsKPAbeGzQzZ2Zg5P/i4r2/8jHgtJIm064a21TKRSI5QnOFsGnhXramvvn9PEXcMV\u002Bd6rXsUTjZbfDFzsOKLC9GsmCrDxTeacd55VFuJfDd3rkYyInraSdDWPyUYj9Z5/N2mG8l2//0\u002BQWf24g=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

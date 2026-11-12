@@ -1,0 +1,29 @@
+{
+  "name": "Steamworks.NET",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Steamworks.NET",
+      "localised_name": "Steamworks.NET_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Steamworks.NET",
+          "version": "2026.0.16",
+          "path": "Steamworks.NET.dll",
+          "checksum": "W1I6jtmT0IDUDaiRI5GubWvAak/SkNJ5ftoT55ryshk="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "DK7/Y9fvMPWdhP5cOj3g8e\u002BKcrrRSQW4Bg3aPU2qh81iLmT7p\u002BZyRPD8EsT1kVDjGdUjq6k\u002BmhhD79ipfAW8tLmegGjy7te6j7VAm07OwOAleVDp2ddCI3GcdtDL8AnEm1v9EJNAZpw0RRkvWLPKW9JWDHsFZhJ6keDUKxezre8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

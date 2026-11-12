@@ -1,0 +1,34 @@
+{
+  "name": "SourceControlOutputWindow",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SourceControlOutputWindow",
+      "localised_name": "SourceControlOutputWindow_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SourceControlOutputWindow",
+          "version": "2026.0.16",
+          "path": "SourceControlOutputWindow.dll",
+          "checksum": "gwuyd\u002BkKET7RUmbcNJkQ79ABQZ7rd/nIS5RHF3T3e18="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "XCmKLFb/BopvNdQkvjPL7vN26izoQ/cxmD/zT5jWSZj1dDbDIJJwv1xgl1StZresxXBuMy5Dry6hNe9txvEfJ7BdOxr\u002BMcZJ17MOAQHqzrZcgSocEOuehJ2nHNQDICZkiRF4n8WyfSQoql/75ELRJF8G6vYKPG0rnM\u002BOGjtA\u002BVs=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

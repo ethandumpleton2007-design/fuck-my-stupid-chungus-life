@@ -1,0 +1,62 @@
+{
+  "name": "SearchAndReplace",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SearchAndReplaceHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/SearchAndReplaceHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "SearchAndReplace",
+      "localised_name": "SearchAndReplace_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SearchAndReplace",
+          "version": "2026.0.16",
+          "path": "SearchAndReplace.dll",
+          "checksum": "P3AnYpxCSL08Zh61/mtbrR5gBo9pwiT/1Pq3xcFwL2k="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "SearchAndReplaceGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "SearchAndReplaceGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "EYALz9fPk\u002B0V7ozlZSs0It8mkBAJwGaNzhnwtJGSQo4vfgwoGBftb8M03wA2fM0ttcpQOt55Tq\u002B1vxM6OFAFnqZFFnkBMsvAvRoyiNV3U5z1tlehatM1ya1YpPSEXJvrcnNGFFKo/5uniY\u002BWO6ihk0LhN1i5dsi5PNyCwMehG68=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

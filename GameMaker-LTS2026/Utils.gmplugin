@@ -1,0 +1,29 @@
+{
+  "name": "Utils",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Utils",
+      "localised_name": "Utils_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Utils",
+          "version": "2026.0.16",
+          "path": "Utils.dll",
+          "checksum": "OuvDzpUuxSciagCQU8WROG068OiJZRCwxQhXDTNo\u002Bl0="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "UsDCh4DPlaGGqaKZV1yY6oT7xtKB5dZGRifku6KvjU5t0LdsTwbAxatawFwUY0t/j6gke6AJduwUCkF7\u002Bk5oa4QkLYAxZhkXt77Fmc/T4ClyZwiYEd79HeToUAfv5kA8zQdC8QzjtaCezP9ou\u002BGeUUMAV1sYOXtMxVjuW23gr\u002BE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

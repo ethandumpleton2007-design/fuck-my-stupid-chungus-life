@@ -1,0 +1,492 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 1",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 1",
+      "Name": "Set Bookmark 1",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number1",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 2",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 2",
+      "Name": "Set Bookmark 2",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number2",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number3",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 3",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 3",
+      "Name": "Set Bookmark 3",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number3",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number4",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 4",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 4",
+      "Name": "Set Bookmark 4",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number4",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number5",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 5",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 5",
+      "Name": "Set Bookmark 5",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number5",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number6",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 6",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 6",
+      "Name": "Set Bookmark 6",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number6",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number7",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 7",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 7",
+      "Name": "Set Bookmark 7",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number7",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number8",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 8",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 8",
+      "Name": "Set Bookmark 8",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number8",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Set bookmark 9",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Set Bookmark 9",
+      "Name": "Set Bookmark 9",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number9",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number1",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 1",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 1",
+      "Name": "Get Bookmark 1",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number1",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number2",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 2",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 2",
+      "Name": "Get Bookmark 2",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number2",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number3",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 3",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 3",
+      "Name": "Get Bookmark 3",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number3",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number4",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 4",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 4",
+      "Name": "Get Bookmark 4",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number4",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number5",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 5",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 5",
+      "Name": "Get Bookmark 5",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number5",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number6",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 6",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 6",
+      "Name": "Get Bookmark 6",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number6",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number7",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 7",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 7",
+      "Name": "Get Bookmark 7",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number7",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number8",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 8",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 8",
+      "Name": "Get Bookmark 8",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number8",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Go to bookmark 9",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Get Bookmark 9",
+      "Name": "Get Bookmark 9",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number9",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Bookmarks"
+}

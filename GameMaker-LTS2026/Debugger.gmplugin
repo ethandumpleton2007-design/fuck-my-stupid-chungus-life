@@ -1,0 +1,71 @@
+{
+  "name": "Debugger",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "Debugger",
+      "localised_name": "debugger_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "Debugger",
+          "version": "2026.0.16",
+          "path": "Debugger.dll",
+          "checksum": "l7YIC4BcqHITJ\u002BMF4BDX3EaTpdMN/l0pH3u\u002Beb/h4EI="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "BuildHotkeys",
+          "version": "*"
+        },
+        {
+          "dependency_name": "CodeEditor2",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "DebuggerGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "DebuggerGUI/Skins/Dark",
+          "DebuggerGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "DebuggerHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/DebuggerHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "g0SXL90ZlRI8fickrIY9UNOg8Pv7rj8JINE2jlXZ\u002Bn/m\u002B0jrgvx\u002BqzIs211nu4RU5SkhTSv/D9BAC4PzzTtUMuJHEvnvfVLZfAhILB1gdt0dBsOjRCK2lxrye6BrvuTh4DXKIG0rAdPjJ2uVaEdhospjzSyLXc7pYebqTJ8OVw8=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

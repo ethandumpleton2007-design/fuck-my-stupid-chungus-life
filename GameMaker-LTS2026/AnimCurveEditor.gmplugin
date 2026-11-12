@@ -1,0 +1,71 @@
+{
+  "name": "AnimCurveEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "AnimCurveEditor",
+      "localised_name": "anim_curve_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMAnimCurve",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AnimCurveEditor",
+          "version": "2026.0.16",
+          "path": "AnimCurveEditor.dll",
+          "checksum": "PyigwVwXg2rQyc54ncH\u002Brn0CNsKb1rvU66NV7gAWNHo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "AnimCurveGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "AnimCurveGUI/Skins/Dark",
+          "AnimCurveGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "AnimCurveEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/AnimCurveEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "cLhmD6k2/55o2lz3VO4FYlzFrR8GKMW9ssAS\u002BUtA7Yka56\u002BlPJjPP9V2t4O5HA3wr6CB8WoNpGp5XCQJdKbjoDD7K/NwnvvhgiuxbN6legq8Cn5e3TF1vpA\u002BkvNrRHm1I7h4A1HncoepoebRbKnenb7CKhO1I1A9aOm31WNkliE=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

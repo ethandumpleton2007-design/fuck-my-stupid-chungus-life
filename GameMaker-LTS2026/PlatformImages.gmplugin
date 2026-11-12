@@ -1,0 +1,48 @@
+{
+  "name": "PlatformImages",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PlatformImages",
+      "localised_name": "PlatformImages_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PlatformImages",
+          "version": "2026.0.16",
+          "path": "PlatformImages.dll",
+          "checksum": "s\u002BchSikieGJhKSQe2PvekG7qwYVJHkUxxpFC/22mcQo="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PlatformImagesGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "PlatformImagesGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "sWeKYdgz0pq/DfAzXtLxhNOFPH4Mm9o2o\u002Bc6pdDSFPGOM8Km4qlEP6/izM9vnI7gIOVt1B8L4ZrrOCi4G4c0vBWz9h\u002B7F/S5/55xwJGhTBO/62mxU37hJ0ywmzdsGK5E/f6qMddENkbdB\u002BfyZnl\u002B8dM7xiKzG9V6K8yZsufr5n4=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

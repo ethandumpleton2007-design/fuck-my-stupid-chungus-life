@@ -1,0 +1,29 @@
+{
+  "name": "ProjectToolPopup",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ProjectToolPopup",
+      "localised_name": "projecttool_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ProjectToolPopup",
+          "version": "2026.0.16",
+          "path": "ProjectToolPopup.dll",
+          "checksum": "V57/2\u002BPIRQ2ZmG5/g/noRTYeyhPRk35JAnaVpCv5iuA="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "kM7zm/3vdl0iHxle5wLP\u002Blk4QWltYZIFlzOyqXp1G/AO8GL76b6fXyV4GvNZusHXzJOaxoPYQd\u002BPZdAimbKrZJ0pnPeW6RjNmbKmtwYvHvXDTtVgni6yNH38XAn\u002B01xcCkdROvepiY662B\u002BOD3UdTcu9tLz\u002BJD\u002BwaNtTGG\u002BQC2c=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,958 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Space",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle between play and pause if the current editor has play controls",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Play",
+      "Name": "SequenceEditor.Play"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "SequenceEditor.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Translate tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_tool_translate",
+      "Name": "Select Translate Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "S",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Scale tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_tool_scale",
+      "Name": "Select Scale Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Rotate tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rotate Sequence Tool",
+      "Name": "Select Rotate Sequence Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Origin tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_tool_origin",
+      "Name": "Select Origin Tool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Toggle the canvas rulers",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_toggle_canvas_rulers",
+      "Name": "Toggle Canvas Rulers",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F7",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Split Keyframe",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_split_keyframe",
+      "Name": "Split Key Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F8",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Remove the keyframes at the playhead position on the currently selected tracks",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_remove_keyframe",
+      "Name": "Remove Key Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F9",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Add a keyframe at the playhead position for all selected items on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Add Key Frame",
+      "Name": "Add Key Frame"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F10",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle autokey",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_toggle_autokey",
+      "Name": "Toggle Autokey"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Q",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle multiselect origin",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_toggle_multiselect_origin",
+      "Name": "Toggle Multiselect Origin"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Center the selected items around their origins",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Center Item Origin",
+      "Name": "Center Item Origin",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Reset the position on the canvas of the currently selected items",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_reset_item_position",
+      "Name": "Reset Item Position",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Home",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Toggle translation paths on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_toggle_translation_path",
+      "Name": "Toggle Translation Path",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "P",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Move the playhead left by 1 frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_playhead_left1",
+      "Name": "Move Playhead Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the playhead left by 10 frames",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_playhead_left10",
+      "Name": "Move Playhead Left 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Move the playhead right by 1 frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_playhead_right1",
+      "Name": "Move Playhead Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Shift, Alt"
+        }
+      ],
+      "Description": "Move the playhead right by 10 frames",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_playhead_right10",
+      "Name": "Move Playhead Right 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the selected keys left by 1 frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_keys_left1",
+      "Name": "Move Keys Left",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the selected keys left by 10 frames",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_keys_left10",
+      "Name": "Move Keys Left 10",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Left",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Move the selected keys right by 1 frame",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_keys_right1",
+      "Name": "Move Keys Right",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Move the selected keys right by 10 frames",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_move_keys_right10",
+      "Name": "Move Keys Right 10",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Right",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the selected items left on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_left",
+      "Name": "Move Canvas Items Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the selected items left on the canvas (10x)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_left_10x",
+      "Name": "Move Canvas Items Left 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the selected items right on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_right",
+      "Name": "Move Canvas Items Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the selected items right on the canvas (10x)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_right_10x",
+      "Name": "Move Canvas Items Right 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the selected items up on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_up",
+      "Name": "Move Canvas Items Up"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the selected items up on the canvas (10x)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_up_10x",
+      "Name": "Move Canvas Items Up 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the selected items down on the canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_down",
+      "Name": "Move Canvas Items Down"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the selected items down on the canvas (10x)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_move_canvas_items_down_10x",
+      "Name": "Move Canvas Items Down 10"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftBracket",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Trim selected keys left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_trim_key_left",
+      "Name": "Trim Key Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightBracket",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Trim selected keys right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_trim_key_right",
+      "Name": "Trim Key Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Split Key Two Tracks",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_split_key_two_tracks",
+      "Name": "Split Key to Separate Tracks",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightBracket",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Stretch the selected keys right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_stretch_keys_right",
+      "Name": "Stretch Keys Right"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftBracket",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Stretch the selected keys left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_stretch_keys_left",
+      "Name": "Stretch Keys Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the playhead to the next keyframe in the selected parameter tracks",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Next Keyframe",
+      "Name": "Go To Next Keyframe"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "N",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the playhead to the previous keyframe in the selected parameter tracks",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Previous Keyframe",
+      "Name": "Go To Previous Keyframe"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the next key",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_next_key",
+      "Name": "Select Next Key"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "N",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the previous key",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_prev_key",
+      "Name": "Select Previous Key"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the playhead to the start of the sequence",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Start",
+      "Name": "Go To Start"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the playhead to the end of the sequence",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To End",
+      "Name": "Go To End"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Home",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the start of the selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Start of Selection",
+      "Name": "Go To Start of Selection"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "End",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the end of the selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To End of Selection",
+      "Name": "Go To End of Selection"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle expand/collapse for the selected tracks in the Track Panel",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Expand Selected Tracks",
+      "Name": "Expand Selected Tracks"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Toggle expand/collapse for all tracks",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Expand All Tracks",
+      "Name": "Expand All Tracks"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Select the track above the current track in the Track Panel",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_track_above",
+      "Name": "Select Track Above"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Select the track below the current track in the Track Panel",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_track_below",
+      "Name": "Select Track Below"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Add the track above the current track to the selection in the Track Panel",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_track_above_additive",
+      "Name": "Select Track Above Additive",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Up",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Add the track below the current track to the selection in the Track Panel",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_select_track_below_additive",
+      "Name": "Select Track Below Additive",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Down",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "M",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new clipping mask track",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_new_clipping_mask",
+      "Name": "New Clipping Mask",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "M",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "G",
+          "Modifier": "Alt"
+        }
+      ],
+      "Description": "Create a new group track and add the selected tracks to it",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_new_group",
+      "Name": "New Group"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new moment at the playhead position",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_sequence_new_moment",
+      "Name": "New Moment",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "Number9",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number9",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the next moment",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Next Event",
+      "Name": "Go To Next Event"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Number8",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Move the playhead to the previous moment",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Go To Previous Event",
+      "Name": "Go To Previous Event"
+    }
+  ],
+  "Source": "Sequence Editor"
+}

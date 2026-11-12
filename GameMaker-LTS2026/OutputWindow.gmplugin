@@ -1,0 +1,48 @@
+{
+  "name": "OutputWindow",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "OutputWindow",
+      "localised_name": "OutputWindow_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "OutputWindow",
+          "version": "2026.0.16",
+          "path": "OutputWindow.dll",
+          "checksum": "HQ1\u002B4vFnX3hGoDmkA8QCGEJ6GxBWWZXT3lwKMQ\u002BF8YE="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "OutputWindowGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "OutputWindowGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "IxAijKIDvhAkU7ON7jezl5/SpIwIMgA\u002ByOc\u002BDt8X5j3FlyH/81JqIPLkjuHmJA0FQT5kf4H86L48RfIG7xq1qEx80rpSGlj8ZnSabONp7L4Oclij4FbMqf6VHW3EAvKVchUCtnPo3qLSike309vEClGZ82RMH2d\u002Bgwrpy4Ewbj4=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

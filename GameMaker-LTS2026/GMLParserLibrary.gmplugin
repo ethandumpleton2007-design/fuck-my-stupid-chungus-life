@@ -1,0 +1,29 @@
+{
+  "name": "GMLParserLibrary",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMLParserLibrary",
+      "localised_name": "GMLParserLibrary_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "GMLParserLibrary",
+          "version": "2026.0.16",
+          "path": "GMLParserLibrary.dll",
+          "checksum": "rSCFxvDxQRh8U4bnFf9k1gj2pk097utdFHOda9TPbRg="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "egCkwFS0noxnJ1DN7CIoS6JMjI76P8f7nQbSjI8pahLI77J0H\u002BC2gB423sbe2Xpnrk8v3F43NISqFD1JkWiQerN/XHsRin7DwEur6rugRHNW\u002BA3PauwtiVPhGTBUipeDIiuJtokfzmI2GrVz0Xs1NJjQfHz\u002BVr\u002BLpI8j8kL\u002BTWw=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

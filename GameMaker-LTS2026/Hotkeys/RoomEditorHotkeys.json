@@ -1,0 +1,814 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Duplicate",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Duplicate",
+      "Name": "RoomEditor.Duplicate",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "D",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Invert the current selection",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Invert Selection",
+      "Name": "RoomEditor.InvertSelection",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Plus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v2",
+          "Keys": "Equals",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Increase the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Increase Brush Size",
+      "Name": "RoomEditor.IncreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Minus",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "KeypadMinus",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Decrease the brush size",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Decrease Brush Size",
+      "Name": "RoomEditor.DecreaseBrushSize"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Up",
+      "Name": "RoomEditor.MoveSelectionUp"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Down",
+      "Name": "RoomEditor.MoveSelectionDown"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Left",
+      "Name": "RoomEditor.MoveSelectionLeft"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Move the current selection right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Move Selection Right",
+      "Name": "RoomEditor.MoveSelectionRight"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Open the instance creation order window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Instance Creation Order",
+      "Name": "Open Instance Creation Order",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "L",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Open the layer view",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Layer View",
+      "Name": "Open Layer View",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "L",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open the tile selection window",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Tile Selection Window",
+      "Name": "Open Tile Selection Window",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "T",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Mirror individual elements of selection horizontally",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Mirror As Individuals",
+      "Name": "Mirror As Individuals"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Mirror horizontally as group",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Mirror As Group",
+      "Name": "Mirror As Group"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "Shift"
+        }
+      ],
+      "Description": "Flip individual elements of selection vertically",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Flip As Individuals",
+      "Name": "Flip As Individuals"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Flip selection as group vertically",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Flip As Group",
+      "Name": "Flip As Group"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Toggle macro editing mode",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Macro Editing Mode",
+      "Name": "Toggle Macro Editing Mode",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "E",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "G",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Generate tile map from image",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Generate Tile Map From Image",
+      "Name": "Generate Tile Map From Image",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "G",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "B",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new background layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Background Layer",
+      "Name": "Create Background Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "B",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "I",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new instance layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Instance Layer",
+      "Name": "Create Instance Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "I",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "Control, Alt"
+        }
+      ],
+      "Description": "Add new tile layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Tile Layer",
+      "Name": "Create Tile Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "T",
+              "Modifier": "Alt, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add new path layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Path Layer",
+      "Name": "Create Path Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "P",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "A",
+          "Modifier": "RightControl"
+        }
+      ],
+      "Description": "Add new asset layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Asset Layer",
+      "Name": "Create Asset Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "A",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new effect layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Effect Layer",
+      "Name": "Create Effect Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "E",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "U",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new ui layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create UI Layer",
+      "Name": "Create UI Layer",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "U",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Add a new layer folder",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Create Layer Folder",
+      "Name": "Create Layer Folder",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Paint with the selected resource",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Paint With Resource",
+      "Name": "Paint With Resource"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "RightControl"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "RightControl"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "RightControl"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "RightControl"
+        }
+      ],
+      "Description": "Paint with the selected resource performing precise item placement",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Precise Item Placement",
+      "Name": "Paint With Resource Precise Item Placement",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select from any layer",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select From Any Layer",
+      "Name": "Select From Any Layer"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Apply margin/padding to opposite edge when dragging",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UIMarginDragOpposite",
+      "Name": "Margin Drag Opposite"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "C",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Clone dragged node on canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UIFlexPanelDragClone",
+      "Name": "Clone Dragged FlexPanel"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Reparent dragged node on canvas",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UIFlexPanelDragReparent",
+      "Name": "Reparent Dragged FlexPanel"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightAlt",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select deepest UI layer node",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_UIDeepSelect",
+      "Name": "UI Deep Select"
+    },
+    {
+      "$Hotkey": "",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightControl",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Auto Create Flex Node",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_AutoCreateFlexNode",
+      "Location": [
+        "Room Editor"
+      ],
+      "Name": "Auto Create Flex Node",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "LeftGui",
+              "Modifier": "None"
+            },
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "RightGui",
+              "Modifier": "None"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "E",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Eraser tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_EraseTool",
+      "Name": "RoomEditor.SelectEraseTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Fill (or Paint Bucket) tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_FillTool",
+      "Name": "RoomEditor.SelectFillTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Flip tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Flip Tool",
+      "Name": "RoomEditor.SelectFlipTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "L",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Line tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_LineTool",
+      "Name": "RoomEditor.SelectLineTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Mirror tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Mirror Tool",
+      "Name": "RoomEditor.SelectMirrorTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "D",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Select the Paintbrush tool",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_select_PaintbrushTool",
+      "Name": "RoomEditor.SelectPaintbrushTool"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Z",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Rotate the current brush clockwise by 90 degrees",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Select Rotate Image Tool",
+      "Name": "RoomEditor.SelectRotateImageTool"
+    }
+  ],
+  "Source": "Room Editor"
+}

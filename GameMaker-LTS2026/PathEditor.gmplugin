@@ -1,0 +1,61 @@
+{
+  "name": "PathEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "PathEditor",
+      "localised_name": "path_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMPath",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "PathEditor",
+          "version": "2026.0.16",
+          "path": "PathEditor.dll",
+          "checksum": "GAgC1lKA2NgbUP/fMNJsSae4gFiy0jS\u002B97Kirfo5cEs="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "PathEditingHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "PathEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "PathEditorGUI/Skins/Dark",
+          "PathEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "BHeWClSuODQLq7wHTTObnloMTl\u002BwdJmiLC3rEXWmJe1OlDad01BcOJvVSGiYhDREArjL0G2jjdnDPledeHe4uSK6f\u002B6FOgA50voiPpZYda3NLjxr0IQ8Sa6xIDWfgd\u002Bggj5lcSBC05qMP71ZjQeNMD1MSILvasFWXgUC0Ucqf/s=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

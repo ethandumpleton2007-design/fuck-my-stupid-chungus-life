@@ -1,0 +1,31 @@
+{
+  "name": "FrenchLocalisation",
+  "bundle_version": "2024.14.33-staging",
+  "bundle_description": "French IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "FrenchLocalisation",
+      "localised_name": "french_localisation",
+      "plugin_version": "2024.14.33-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "French": "french.csv"
+          },
+          {
+            "French": "french_dnd.csv"
+          }
+        ]
+      },
+      "description": "French IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ADCvua7pU2LOFL/7Atfzbwt/Gt3FIT1R253sovBwh30GI01Mo6w5G9vxPQfzp6TcPJvjXLCrWdoDDMcepUe\u002BCcQoYOOktWBLPmrhTO4PqKdKVOT\u002Bt623P7bWvSpUjR7GjaVJ7HniA/mEsgFFwEKpOYYk8ZDHqFY7ibqIC4\u002BhA14=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

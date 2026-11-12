@@ -1,0 +1,29 @@
+{
+  "name": "OSCore",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "OSCore",
+      "localised_name": "OSCore_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "OSCore",
+          "version": "2026.0.16",
+          "path": "OSCore.dll",
+          "checksum": "ZrhwQpYjgCeK4XAxovFhu0LF/10KSSy0xrK0RjuDv6c="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "zg43OMOAkI8dS7KTWBchgIvyyfEgyLpnOJQvo/Fmwr29K\u002BAVktjK2pFIDUj5p65rGv0dxP\u002BlfSCq6OSG8a3SQ8p69cRUV70ii65H6qNFCRKIPIo1b5\u002BwHGbJfhA5saIl9fD3rtC\u002BEvw8Gwo9CR6BKGiS4WSLI2Kjq7WSJvm0DjI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

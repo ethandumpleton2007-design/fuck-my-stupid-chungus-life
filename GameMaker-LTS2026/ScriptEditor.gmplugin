@@ -1,0 +1,29 @@
+{
+  "name": "ScriptEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ScriptEditor",
+      "localised_name": "script_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ScriptEditor",
+          "version": "2026.0.16",
+          "path": "ScriptEditor.dll",
+          "checksum": "lobMwWguSC5C8Xz5q3S73JbFEL5Z0lSTD2TE03OUyeY="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "VPexqaIHHJt5Rp4acyV2/opK\u002BcXcNjh\u002BesWFEvOEuloVpj3Q8Brh7noHx3d9UYMmFVLiTrmzFZzzOBC0EbkYJCxqGnbwaYwCqmn\u002BbkocGU80XHQ4T8gp46Uyr7UD\u002B/\u002BKZguSsi6ly2olPN2BNqgzM0PEUhWTzL5RQoFW\u002BJ15pFk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

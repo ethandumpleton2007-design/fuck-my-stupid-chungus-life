@@ -1,0 +1,48 @@
+{
+  "name": "BugReporter",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "BugReporter",
+      "localised_name": "bug_reporter_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "BugReporter",
+          "version": "2026.0.16",
+          "path": "BugReporter.dll",
+          "checksum": "AqZoKfhaq6A0O\u002Bh9Ai7ocUUO8e23kc7yfZi2sLH5CQQ="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "BugReporterGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "BugReporterGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "ikXzVCphfsf3FQkfUzgIBNfcBw5Gudm2\u002BY0KI\u002BvUKVE8/WPPWlKTPssenn4XPI4LOKhr0QrpRuDSv1avBoeM/6VNqsqU6omGjtgsnQs76rkUCbYCaE0N18TBM7mFR5OrOfaSLa9fD6VYLzkLwJCqkE5iv6GX70RstBf0WG5aGi0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

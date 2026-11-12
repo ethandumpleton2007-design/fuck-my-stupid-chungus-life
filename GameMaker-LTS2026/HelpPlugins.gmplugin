@@ -1,0 +1,34 @@
+{
+  "name": "HelpPlugins",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "HelpPlugins",
+      "localised_name": "HelpPlugins_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "HelpPlugins",
+          "version": "2026.0.16",
+          "path": "HelpPlugins.dll",
+          "checksum": "AGLVM5hGmNwVknWTj8D\u002BgSMstHhsWH0Kr4Cttu7p0bs="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "Hyq4DBq41SGraP4OQuYEfPh5\u002B3prz3vsSmGZzlr7kRPUWLdTGpZ61r8FNZ7Icnc59MXiYdE/He0ta3gGMX6wyh4NZ445c9j4N7VPXZVMXb2ARPn\u002BHS5QO9qdXCJaWb9ylHFNmMZA1of47Ew/7v55qsRLFMQGqdYpSZU9rZwsux0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

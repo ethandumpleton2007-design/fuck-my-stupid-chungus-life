@@ -1,0 +1,38 @@
+{
+  "name": "CodeDiagnostics",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "CodeDiagnostics",
+      "localised_name": "CodeDiagnostics_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "CodeDiagnostics",
+          "version": "2026.0.16",
+          "path": "CodeDiagnostics.dll",
+          "checksum": "YrO\u002BvKSKKgn9L9s1o1js4\u002BuX9ZjjmtfJ/Wub0HhzQLA="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "TextEditor2Hotkeys",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "q9fvN7j8Q6wkRFg3FQp6xJis\u002B5elUjFSpXJ5zo74lC/A4gbaTFNavzdky9Q2h9XeBrSavhNhZwjprwxuG04TLiaSHpIjEv0g6Agghec817sYnzSwMJY5\u002BRDFhjh9NxGmqi0EH1z2Z4kmnfEOXChfx3Sy//OmERIaxq1Ol4pwqTM=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

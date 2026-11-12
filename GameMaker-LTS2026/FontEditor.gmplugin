@@ -1,0 +1,66 @@
+{
+  "name": "FontEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "FontEditor",
+      "localised_name": "font_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMFont",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "FontEditor",
+          "version": "2026.0.16",
+          "path": "FontEditor.dll",
+          "checksum": "KTL40OV3pHMn8ue\u002Bls76fqVrojSeO6qxJXHtqolH6FA="
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "FontEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "FontGUI/Skins/Dark",
+          "FontGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "FontEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/FontEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "W0UPIa5JgidDaue2jWphSUTkflUkDgSymY\u002BtalnClymXdwgLx5Dw80BRyKYGgIRaBtHs/brhhqXYHzWlgbM3dwEPu6zqXHhIgMcKHZFL6CdFmrqUc0NRnOdchNpqG8ulkzIG1/6XM0fTRXBLjx3nA\u002BpA3VOV4hrXSgm2I1RGuHM=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "ObjectEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ObjectEditor",
+      "localised_name": "object_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMObject",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ObjectEditor",
+          "version": "2026.0.16",
+          "path": "ObjectEditor.dll",
+          "checksum": "p9xMC11MzY8wyvW9TvygGUBAh4ZnuryRqYH181Hjiyk="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "SequenceEditingHotkeys",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "ObjectEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "ObjectEditorGUI/Skins/Dark",
+          "ObjectEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "ObjectEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/ObjectEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "K5GFmDSBAYD9iQxccaLNNFwv4y77yzO8qx\u002BazrG/g9xVYNNZcSBu\u002Ba1EkP51bttGK0pYBnWFIqR3CaznXWZSNnPygXZAHstUGZEVZ0QkOax\u002B84fEQPmyaYv5syNPD6WiwWVFwR1xvrCU0JcO2DjZmPYgMX/1i/LfomXhbBNzLdk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

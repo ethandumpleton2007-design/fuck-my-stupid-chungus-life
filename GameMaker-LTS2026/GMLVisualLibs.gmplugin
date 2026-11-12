@@ -1,0 +1,26 @@
+{
+  "name": "GMLVisualLibs",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "GMLVisualLibs",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gmlvisuallib",
+      "plugin_data": {
+        "Libs": [
+          "GMLVisualLibs"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "I4HNTKWS4DGOhvrw1xpuefYbH6u\u002B0p89XDRf54VRyqQ7vdU0z/x9gF9f8eP3Zn3bQNDX7bO621vOTwGKb4dlrBS9gPDn6Q7SM6i5Z/p/30emCz6agJbvG6tm3GdXOeEgW5FtfzMgvWpTAMpW9gWzbEGWinzZj1fyOdwqS9JAhPQ=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,20 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F9",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Toggle breakpoints",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Toggle Breakpoints",
+      "Name": "Toggle Breakpoints"
+    }
+  ],
+  "Source": "Breakpoints"
+}

@@ -1,0 +1,52 @@
+{
+  "name": "ExtensionsEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ExtensionsEditor",
+      "localised_name": "ExtensionsEditor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMExtension",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ExtensionsEditor",
+          "version": "2026.0.16",
+          "path": "ExtensionsEditor.dll",
+          "checksum": "\u002BICuBRa5PxJ5GTUvHJmrLyRyc0DofCsqClf2s0avzBg="
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "ExtensionsEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "ExtensionsEditorGUI/Skins/Dark",
+          "ExtensionsEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "qicb7nWD/7zrJxbUPalNR5hbDAukuN4xkLmSwU0c0XrxbXdzhCh6dp6IAooM7sQR0Ic9QO4zK3zVG0\u002BNcO5Df3iRXp1aX1UPXk8LvZzsBeXg5Tpk4N/pWaYJBzMUL99ZPDvzHxbO0wpIzhb2vMNSLZB21wTJra9f4NnxxwtBIVU=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

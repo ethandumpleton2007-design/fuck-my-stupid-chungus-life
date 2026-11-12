@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Layouts>
+  <Layout layout_name="OnBoardingPanel" layout_guid="90073852-ACEF-4FBD-9C86-90C345468F67">
+    <ScrollPanel layout_id="onboarding_panel" layout_guid="1FC924E5-8DA0-41E4-8B41-18FBCBA307B7">
+      <Gadgets>
+        <Image stylename="onboarding_img_bg" layout_id="onboarding_bg" layout_guid="5A471390-3181-49B7-B838-CE65FA5FDAD3" />
+        <Image stylename="onboarding_img_logo" layout_id="onboarding_logo" layout_guid="DC14D6A8-6F94-484A-B230-BF26E7993857" />
+        <ScrollPanel layout_id="onboarding_play" layout_guid="A36D7B8A-31CB-4391-8458-F1C76D999F4E" width="363dpi_px" height="194dpi_px" left="0px" top="0px">
+          <ChildGadgets>
+            <ScrollPanel stylename="onboarding_play" layout_id="onboarding_play_frame">
+              <ChildGadgets>
+                <ScrollPanel left="20dpi_px" top="30dpi_px" right="20dpi_px">
+                  <ChildGadgets>
+                    <MarkdownPanel layout_id="onboarding_play_text_1" layout_guid="239FC20A-ED05-437D-8691-1D7A414F897F" left="0px" top="0px" height="16dpi_px" width="100%" />
+                    <Image image="OnBoarding_Play/onboarding_play_screenshot.png" left="0px" top="31dpi_px" width="309dpi_px" height="31dpi_px" image_flags="Stretch" />
+                    <MarkdownPanel layout_id="onboarding_play_text_2" layout_guid="0411DAAC-1BCD-48DD-8409-2361BB7D4382" left="0px" top="77dpi_px" height="16px" />
+                  </ChildGadgets>
+                </ScrollPanel>
+                <Image stylename="onboarding_mask" layout_id="onboarding_play_mask" image_path="Settings/AdaptiveIcons/mask_square.png" image_flags="Stretch" colour="#00ffffff" />
+              </ChildGadgets>
+            </ScrollPanel>
+            <ScrollPanel stylename="onboarding_title_frame" width="118dpi_px">
+              <ChildGadgets>
+                <Label height="16dpi_px" auto_size="true" font_name="OpenSans" font_bold="true" colour="onboarding_title_label" localise_caption="IDEOnBoarding_Play_Title"/>
+              </ChildGadgets>
+            </ScrollPanel>
+            <Image image="card_arrow_play.png" right="6dpi_px" top="6dpi_px" width="64dpi_px" height="64dpi_px" image_flags="Stretch" />
+          </ChildGadgets>
+        </ScrollPanel>
+        <ScrollPanel layout_id="onboarding_ins" layout_guid="CA861F42-A41E-472F-80F0-353C2FAD817D" width="361dpi_px" height="226dpi_px" left="0px">
+          <ChildGadgets>
+            <ScrollPanel stylename="onboarding_ins" layout_id="onboarding_ins_frame">
+              <ChildGadgets>
+                <ScrollPanel stylename="onboarding_info_panel">
+                  <ChildGadgets>
+                    <MarkdownPanel layout_id="onboarding_ins_text_1" layout_guid="F3614F5B-CBE6-4E54-A365-31D6BCFE9D5B" left="0px" top="0dpi_px" />
+                    <MarkdownPanel layout_id="onboarding_ins_text_2" layout_guid="112C6E9E-1667-4E84-8654-C11849840A13" left="0px" top="60dpi_px" />
+                  </ChildGadgets>
+                </ScrollPanel>
+                <Image stylename="onboarding_mask" layout_id="onboarding_ins_mask" image_path="Settings/AdaptiveIcons/mask_square.png" image_flags="Stretch" colour="#00ffffff" />
+              </ChildGadgets>
+            </ScrollPanel>
+            <ScrollPanel stylename="onboarding_title_frame" width="90dpi_px">
+              <ChildGadgets>
+                <Label height="16dpi_px" auto_size="true" font_name="OpenSans" font_bold="true" colour="onboarding_title_label" localise_caption="IDEOnBoarding_Ins_Title"/>
+              </ChildGadgets>
+            </ScrollPanel>
+            <Image image="card_arrow_ins.png" left="6dpi_px" bottom="6dpi_px" width="64dpi_px" height="64dpi_px" image_flags="Stretch" />
+          </ChildGadgets>
+        </ScrollPanel>
+        <ScrollPanel layout_id="onboarding_output" layout_guid="AAA101A1-732E-4BE7-99C3-0F00C20AC983" width="362dpi_px" height="171dpi_px" left="0px" bottom="0px">
+          <ChildGadgets>
+            <ScrollPanel stylename="onboarding_output" layout_id="onboarding_output_frame">
+              <ChildGadgets>
+                <ScrollPanel stylename="onboarding_info_panel" top="23dpi_px">
+                  <ChildGadgets>
+                    <MarkdownPanel layout_id="onboarding_output_text" layout_guid="43D188D7-7D0D-4B0E-8E2A-14DD64582157" left="0dpi_px" top="0dpi_px"/>
+                  </ChildGadgets>
+                </ScrollPanel>
+                <Image stylename="onboarding_mask" layout_id="onboarding_output_mask" image_path="Settings/AdaptiveIcons/mask_square.png" image_flags="Stretch" colour="#00ffffff" />
+              </ChildGadgets>
+            </ScrollPanel>
+            <ScrollPanel stylename="onboarding_title_frame" width="118dpi_px">
+              <ChildGadgets>
+                <Label height="16dpi_px" auto_size="true" font_name="OpenSans" font_bold="true" colour="onboarding_title_label" localise_caption="IDEOnBoarding_Output_Title"/>
+              </ChildGadgets>
+            </ScrollPanel>
+            <Image image="card_arrow_output.png" left="6dpi_px" bottom="3dpi_px" width="64dpi_px" height="64dpi_px" image_flags="Stretch" />
+          </ChildGadgets>
+        </ScrollPanel>
+        <ScrollPanel layout_id="onboarding_help" layout_guid="19586B05-897C-425A-912D-EFECD62A2B12" width="363dpi_px" height="171dpi_px" right="0px" bottom="0px">
+          <ChildGadgets>
+            <ScrollPanel stylename="onboarding_help" layout_id="onboarding_help_frame">
+              <ChildGadgets>
+                <Image stylename="onboarding_mask" layout_id="onboarding_help_mask" image_path="Settings/AdaptiveIcons/mask_square.png" image_flags="Stretch" colour="#00ffffff" />
+                <StackPanel stylename="onboarding_info_panel" top="42dpi_px" stack_resize="ResizeHeight">
+                  <ChildGadgets>
+                    <MarkdownPanel layout_id="onboarding_help_text" layout_guid="AEF095A8-FEB6-4DB6-ABDC-BEF0F19C251E" left="0px" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </ScrollPanel>
+            <ScrollPanel stylename="onboarding_title_frame" width="90dpi_px">
+              <ChildGadgets>
+                <Label height="16dpi_px" auto_size="true" font_name="OpenSans" font_bold="true" colour="onboarding_title_label" localise_caption="IDEOnBoarding_Help_Title"/>
+              </ChildGadgets>
+            </ScrollPanel>
+            <Image image="card_help.png" right="6dpi_px" top="0dpi_px" width="64dpi_px" height="64dpi_px" image_flags="Stretch" />
+          </ChildGadgets>
+        </ScrollPanel>
+        <ScrollPanel layout_id="onboarding_ab" layout_guid="AD940DB2-AD5B-42F5-94FB-F6D700FD9B77" width="362dpi_px" height="355dpi_px" right="0px" top="0px">
+          <ChildGadgets>
+            <ScrollPanel stylename="onboarding_ab" layout_id="onboarding_ab_frame">
+              <ChildGadgets>
+                <ScrollPanel stylename="onboarding_info_panel" right="30dpi_px">
+                  <ChildGadgets>
+                    <MarkdownPanel layout_id="onboarding_ab_text_1" layout_guid="E2676EB7-7362-40C0-85B9-90AAF3D462AB" left="0px" top="10dpi_px" />
+                    <MarkdownPanel layout_id="onboarding_ab_text_2" layout_guid="0B9F3F9F-1D3B-41AF-83DD-5FA439848B63" left="0px" top="95dpi_px" />
+                    <Image image="OnBoarding_AB/onboarding_ab_screenshot.png"  width="290dpi_px" height="79dpi_px" left="0px" top="179dpi_px" image_flags="Stretch"/>
+                  </ChildGadgets>
+                </ScrollPanel>
+                <Image stylename="onboarding_mask" layout_id="onboarding_ab_mask" image_path="Settings/AdaptiveIcons/mask_square.png" image_flags="Stretch" colour="#00ffffff" />
+              </ChildGadgets>
+            </ScrollPanel>
+            <ScrollPanel stylename="onboarding_title_frame" width="109dpi_px">
+              <ChildGadgets>
+                <Label height="16dpi_px" auto_size="true" font_name="OpenSans" font_bold="true" colour="onboarding_title_label" localise_caption="IDEOnBoarding_AB_Title"/>
+              </ChildGadgets>
+            </ScrollPanel>
+            <Image image="card_arrow_ab.png" right="6dpi_px" top="6dpi_px" width="64dpi_px" height="64dpi_px" image_flags="Stretch" />
+          </ChildGadgets>
+        </ScrollPanel>
+      </Gadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

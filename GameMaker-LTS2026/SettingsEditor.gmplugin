@@ -1,0 +1,48 @@
+{
+  "name": "SettingsEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SettingsEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/SettingsEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "SettingsEditor",
+      "localised_name": "SettingsEditor_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SettingsEditor",
+          "version": "2026.0.16",
+          "path": "SettingsEditor.dll",
+          "checksum": "PLMQ8oyJv\u002B8BAq8Qd16C\u002B77qPZ5jyLeutzi2tLZWllA="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "PQmk4fW/yHYE\u002B/nT5OSSnQFcujTJuUkEbJprluzc2iryGtaBSifetEixFNB30b5ya4e2U1oPLIc4ApQ9\u002BBMBUHNBTzve7FjqbMckFkkQvFJGwYzYlGQUryI2N5Oerxbs333\u002BFYutGZ5Opc/su4aOoIDW08ERO7NJ4PQNDvn9rD4=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

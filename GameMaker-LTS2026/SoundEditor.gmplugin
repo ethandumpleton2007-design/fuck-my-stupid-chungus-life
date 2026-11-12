@@ -1,0 +1,71 @@
+{
+  "name": "SoundEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SoundEditor",
+      "localised_name": "sound_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMSound",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SoundEditor",
+          "version": "2026.0.16",
+          "path": "SoundEditor.dll",
+          "checksum": "\u002B1G6KxH6FRoVWjykYdO6OiLQKUdFyNgaPh5gEMWCIwY="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "SoundEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "SoundEditorGUI/Skins/Dark",
+          "SoundEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "SoundEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/SoundEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "BH2f1I58LPari3BWSgJnKKMl\u002B/wTk7fRkPXjkLecMoEDD0zc2zZzeafbPBAo000oF\u002Bx\u002BoNlYCJt5cDY1aMxj9y5GtKDlKCBXC81iJf9fbYKX7ogCiemiJocJQfderK7fHaD83H0hHMmleT5oxXxBHGsTlH0Zh99cp5RPBx2xx8k=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

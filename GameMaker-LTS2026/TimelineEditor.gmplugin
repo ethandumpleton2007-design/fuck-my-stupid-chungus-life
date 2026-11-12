@@ -1,0 +1,71 @@
+{
+  "name": "TimelineEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "TimelineEditor",
+      "localised_name": "timeline_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "Resource Editor",
+      "plugin_data": {
+        "Editable": [
+          {
+            "ResourceType": "GMTimeline",
+            "MinVersion": "2.0",
+            "MaxVersion": "0.0"
+          }
+        ]
+      },
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "TimelineEditor",
+          "version": "2026.0.16",
+          "path": "TimelineEditor.dll",
+          "checksum": "UR2F3CvZ56eI/uApfFRyHG9c0blnR4QMIy0IVRZ2m\u002Bw="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "TimelineEditorGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "Skins": [
+          "TimelineEditorGUI/Skins/Dark",
+          "TimelineEditorGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "TimelineEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/TimelineEditorHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "YK3C6ZUioae6pgMMs7sr0qq0zx5tpxnqAh3dYcOBI610DWWo9wNzucR0338COqshCH9oKmybDZraqUZpMzOVCfn9vcc8vT02WstsdDxPaAR5CeUaJmrOWMkkEjlD3/1oiNBYUjBOKhOX/fF8oVS9Nj6x9s1KJrWPPZ/Jf9Mtwts=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

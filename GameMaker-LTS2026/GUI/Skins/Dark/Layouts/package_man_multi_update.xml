@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="PMan_MultiUpdateWin" layout_guid="3db818e2-d276-4d2a-bf87-7bde64571826">
+    <Window stylename="default_window" override_flow_index="9999999" width="700dpi_px" right="20dpi_px" top="20dpi_px" localise_title="PackageMan_MultiUpdateTitle">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', '32dpi_px']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <ScrollPanel stylename="default_scrollpanel" layout_id="scroll_panel" layout_guid="3be5da4c-4e1d-4867-a95b-799389a22cd1" override_flow_index="9999999" scrollpanel_flags="VerticalScroll">
+                  <ChildGadgets>
+                    <StackPanel stylename="stack_panel" layout_id="item_stack" layout_guid="6948f14a-8a4f-4ddf-a894-1ac5e29e0bc3" override_flow_index="9999999" top="0px" stack_order="TopToBottom" stack_resize="ResizeHeight" />
+                  </ChildGadgets>
+                </ScrollPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_update" layout_guid="ec5a17cc-269e-44c1-84e1-fca2323a3ef8" override_flow_index="9999999" bottom="0dpi_px" localise_name="PackageMan_MultiUpdateTitle" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+
+  <Layout layout_name="PMan_MultiUpdate_Item2" layout_guid="a9c9ed9b-cb39-491e-9744-dfaeb9fb58bd">
+    <Grid stylename="grid_container" layout_id="multiupdate_entry" layout_guid="8049299a-3398-4420-9b74-568b272df076" override_flow_index="9999999" height="40dpi_px" left="0px" top="0px" grid_rowlayout="['32dpi_px']" grid_columnlayout="['32dpi_px', '28dpi_px', '1*', 'auto', 'auto']" column_spacing="2dpi_px">
+      <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Image stylename="pman_progress_spinner" layout_id="spinner_icon" layout_guid="1e80fe90-aa1b-406b-9519-39409d33f893" override_flow_index="9999999" />
+          <Image stylename="pman_icon_tick" layout_id="result_icon" layout_guid="11bca9d3-bad2-41d9-b785-f397ef26b9c0" override_flow_index="9999999"/>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <CheckBox stylename="checkbox_stack" layout_id="checkbox" layout_guid="0d29c516-0e7a-41e8-82c5-02a3d9012157" override_flow_index="9999999" left="0px" />
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" left="0px" stack_order="TopToBottom" stack_resize="ResizeWidth">
+            <ChildGadgets>
+              <Label stylename="pman_label11" layout_id="label_name" layout_guid="927f3547-2cb7-4e36-bc0b-5add9c783770" override_flow_index="9999999" height="20dpi_px" width="192dpi_px" left="0px" top="4px" caption="Effect - Windblown Particles" />
+              <Label stylename="" layout_id="label_scope" layout_guid="ae343b18-5056-4f86-878e-308312c30699" override_flow_index="9999999" height="16dpi_px" width="194dpi_px" left="0px" top="24px" caption="@gmrt-third-party-release-win-x64" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="3" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <StackPanel stylename="stack_panel" override_flow_index="9999999" margin_right="12dpi_px" stack_resize="ResizeAll">
+            <ChildGadgets>
+              <Label stylename="pman_label9" layout_id="label_current_version" layout_guid="f6ebea3b-9382-41e6-b2ca-6e747e970ca7" override_flow_index="9999999" height="16dpi_px" width="34dpi_px" left="0px" caption="17.7.4" />
+              <Image stylename="image" override_flow_index="9999999" width="16dpi_px" left="34px" image_flags="Centre" font_icon="[&quot;General_IDE_Icons&quot;, &quot;IDE_icon_arrow_right&quot;]" vector_icon_size="10dpi_px" />
+              <Label stylename="pman_label_medium" layout_id="label_available_version" layout_guid="9676c49b-28ad-489a-8e5d-a1b7a52b097a" override_flow_index="9999999" height="24dpi_px" width="50dpi_px" left="50px" caption="18.0.0" />
+            </ChildGadgets>
+          </StackPanel>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="0" column="4" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Label stylename="pman_label_italic_blue" layout_id="label_package" layout_guid="17e7b940-982a-4568-ab77-d1d6f1fef2ad" override_flow_index="9999999" height="16dpi_px" width="78dpi_px" right="0px" caption="LanguagesTest" />
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

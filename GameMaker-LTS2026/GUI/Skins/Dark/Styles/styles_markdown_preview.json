@@ -1,0 +1,297 @@
+{
+  "tooltip_markdown_panel": {
+    "colour": "#00000000",
+    "stack_resize": "ResizeHeight",
+    "stack_order": "TopToBottom",
+    "halign": "hAlignLeft"
+  },
+  "tooltip_markdown_panel_line": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "LeftToRight",
+    "stack_flags": "Wrap",
+    "left": "0px",
+    "width": "100%"
+  },
+  "tooltip_markdown_list_line": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "LeftToRight",
+    "stack_flags": "Wrap",
+    "left": "0px",
+    "height": "24dpi_px"
+  },
+  "tooltip_markdown_code_inline": {
+    "font_name": "system-monospace",
+    "colour": "#FF7EAEDD",
+    "top": "0px",
+    "left": "0px",
+    "margin_top": "0dpi_px",
+    "margin_bottom": "1dpi_px",
+    "margin_left": "3dpi_px",
+    "margin_right": "3dpi_px",
+    "font_size": 9
+  },
+  "tooltip_markdown_code_inline_bg": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "content_flags": "ScaleToFit",
+    "halign": "hAlignLeft",
+    "colour": "#19FFFFFF",
+    "margin_top": "1dpi_px"
+  },
+  "tooltip_markdown_blockquote": {
+    "grid_resize": "ResizeGrid",
+    "grid_columnlayout": [ "4dpi_px", "1*" ],
+    "grid_rowlayout": [ "auto" ],
+    "halign": "hAlignLeft",
+    "width": "100%",
+    "colour": "#FF222222",
+    "margin_top": "5dpi_px",
+    "margin_bottom": "5dpi_px"
+  },
+  "tooltip_markdown_blockquote_line": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "LeftToRight",
+    "halign": "hAlignLeft",
+    "stack_flags": "Wrap",
+    "width": "100%",
+    "margin_left": "10px",
+    "grid_resize": "ResizeGrid",
+    "grid_columnlayout": [ "5dpi_px", "1*" ],
+    "grid_rowlayout": [ "auto" ]
+  },
+  "tooltip_markdown_blockquote_lhs": {
+    "colour": "#FF876030"
+  },
+  "tooltip_markdown_blockquote_rhs": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "stack_flags": "Wrap",
+    "left": "10dpi_px",
+    "margin_top": "3dpi_px",
+    "margin_bottom": "3dpi_px"
+  },
+  "tooltip_markdown_term_container": {
+    "grid_resize": "ResizeGrid",
+    "grid_columnlayout": [ "4dpi_px", "1*" ],
+    "grid_rowlayout": [ "auto" ]
+  },
+  "tooltip_markdown_term_definition": {
+    "grid_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "stack_flags": "Wrap",
+    "left": "15dpi_px",
+    "margin_top": "5dpi_px",
+    "margin_bottom": "5dpi_px"
+  },
+  "tooltip_markdown_list": {
+    "stack_resize": "ResizeHeight",
+    "stack_order": "TopToBottom",
+    "margin_left": "21dpi_px",
+    "width": "100%",
+    "left": "0px"
+  },
+  "tooltip_markdown_list_wrapper": {
+    "left": "0px",
+    "top": "0px",
+    "grid_resize": "ResizeGridHeight",
+    "grid_rowlayout": "auto",
+    "grid_columnlayout": [ "20px", "1*" ],
+    "margin_top": "0px",
+    "width": "100%"
+  },
+  "tooltip_markdown_table": {
+    "column_spacing": "8dpi_px",
+    "row_spacing": "8dpi_px",
+    "grid_resize": "ResizeGrid"
+  },
+  "tooltip_markdown_h1": {
+    "font_size": 24,
+    "font_stylename": "Bold",
+    "top": "0px",
+    "margin_top": "0px",
+    "margin_bottom": "8dpi_px",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_h1hr": {
+    "height": "1dpi_px",
+    "margin_top": "0px",
+    "top": "0px",
+    "margin_bottom": "28dpi_px",
+    "margin_left": "0px",
+    "margin_right": "0px",
+    "colour": "#2EFFFFFF"
+  },
+  "tooltip_markdown_h2": {
+    "font_size": 18,
+    "font_stylename": "Bold",
+    "top": "0px",
+    "margin_top": "24dpi_px",
+    "margin_bottom": "6dpi_px",
+    "halign": "hAlignLeft",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_h2hr": {
+    "height": "1dpi_px",
+    "margin_top": "0px",
+    "top": "0px",
+    "margin_bottom": "16dpi_px",
+    "margin_left": "0px",
+    "margin_right": "0px",
+    "colour": "#2EFFFFFF"
+  },
+  "tooltip_markdown_h3": {
+    "font_size": 15,
+    "font_stylename": "Bold",
+    "margin_top": "24dpi_px",
+    "margin_bottom": "16dpi_px",
+    "halign": "hAlignLeft",
+    "top": "0px",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_h4": {
+    "font_size": 12,
+    "font_stylename": "Bold",
+    "margin_top": "24dpi_px",
+    "margin_bottom": "16dpi_px",
+    "halign": "hAlignLeft",
+    "top": "0px",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_h5": {
+    "font_size": 9,
+    "font_stylename": "Bold",
+    "margin_top": "24dpi_px",
+    "margin_bottom": "16dpi_px",
+    "halign": "hAlignLeft",
+    "top": "0px",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_h6": {
+    "font_size": 10.2,
+    "font_stylename": "Bold",
+    "margin_top": "24dpi_px",
+    "margin_bottom": "16dpi_px",
+    "halign": "hAlignLeft",
+    "top": "0px",
+    "left": "0px",
+    "word_wrap": "true",
+    "colour": "#FFDADADA"
+  },
+  "tooltip_markdown_hr": {
+    "height": "1dpi_px",
+    "margin_top": "7dpi_px",
+    "margin_bottom": "7dpi_px",
+    "margin_left": "0px",
+    "margin_right": "0px",
+    "colour": "#ff404040"
+  },
+
+  "tooltip_markdown_p": {
+    "halign": "hAlignLeft",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_b": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Bold",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_i": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Italic",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_s": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Strikethrough",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_sub": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Subscript",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_sup": {
+    "halign": "hAlignLeft",
+    "font_stylename": "Superscript",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_abbr": {
+    "halign": "hAlignLeft",
+    "word_wrap": "true",
+    "colour": "#FFDADADA",
+    "font_stylename": "Dashed-Underline",
+    "font_size": 9,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_link": {
+    "colour": "userlogin_link",
+    "cursor": "Pointer",
+    "font_size": 9.5,
+    "margin_bottom": "2dpi_px"
+  },
+  "tooltip_markdown_code_default": {
+    "font_name": "system-monospace",
+    "halign": "hAlignLeft",
+    "font_size": 9
+  },
+  "tooltip_markdown_code": {
+    "base": "tooltip_markdown_code_default",
+    "colour": "#FFDADADA",
+    "font_size": 9
+  },
+  "tooltip_markdown_code_bg": {
+    "stack_resize": "ResizeAll",
+    "content_flags": "ScaleToFit",
+    "left": "0px",
+    "width": "100%",
+    "colour": "#800A0A0A",
+    "margin_bottom": "12dpi_px",
+    "top": "0px"
+  },
+  "tooltip_markdown_code_container": {
+    "stack_resize": "ResizeAll",
+    "stack_order": "TopToBottom",
+    "content_flags": "ScaleToFit",
+    "left": "0px",
+    "width": "100%",
+    "margin_top": "12dpi_px",
+    "margin_bottom": "12dpi_px",
+    "margin_left": "12dpi_px",
+    "margin_right": "12dpi_px",
+    "top": "0px"
+  },
+  "tooltip_markdown_image": {
+    "image_flags": "KeepAspectRatio, Stretch, Resize, Downscale, Clamp",
+    "width": "100%",
+    "height": "1px"
+  }
+}

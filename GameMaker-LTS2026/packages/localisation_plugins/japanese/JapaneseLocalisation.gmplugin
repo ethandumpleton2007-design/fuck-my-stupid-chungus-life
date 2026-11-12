@@ -1,0 +1,31 @@
+{
+  "name": "JapaneseLocalisation",
+  "bundle_version": "2024.14.29-staging",
+  "bundle_description": "Japanese IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "JapaneseLocalisation",
+      "localised_name": "japanese_localisation",
+      "plugin_version": "2024.14.29-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "Japanese": "japanese.csv"
+          },
+          {
+            "Japanese": "japanese_dnd.csv"
+          }
+        ]
+      },
+      "description": "Japanese IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "tQiAoICKzn6K/w3wqsBthk9d3P1tI83vh3uXGRVY6lOuLUL91chfNiDUjoRKv04B9d5/qvyPZNdNYYeRsvlMFX84uA5vDxmh44wESi/YArTNWo79nzuS1HRbtXw31xKMwqdzzcK7sYXcr3DbUhTHFflK/nr8g6D3MuJmF7igtx0=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

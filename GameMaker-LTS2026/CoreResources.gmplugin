@@ -1,0 +1,29 @@
+{
+  "name": "CoreResources",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "CoreResources",
+      "localised_name": "CoreResources_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "CoreResources",
+          "version": "2026.0.16",
+          "path": "CoreResources.dll",
+          "checksum": "n2oOKkEhdIm/kQcbzXx3OxSRkSN0mrwNbuzPHQtYK2w="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "dTuEr/8OETQOyMSXuPxAPKxKPseR8dsr/o5LxvU/VxG8TNS714i6dHadnv/cL6qjZZNgQ4T/CCMB3\u002BTgUnSOf0\u002Bgjwab\u002B85o11oCN64BMk2GWJKKUhnC1/2QtZtrexMrvi/6R0ZG3QrwF7eYHToYgQV5YmsA8ucBeIeZKZ5Rmyk=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

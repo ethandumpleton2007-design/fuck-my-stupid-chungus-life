@@ -1,0 +1,66 @@
+{
+  "name": "BreakpointPlugins",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "BreakpointPlugins",
+      "localised_name": "BreakpointPlugins_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "BreakpointPlugins",
+          "version": "2026.0.16",
+          "path": "BreakpointPlugins.dll",
+          "checksum": "JbxtzG1QhIgDUJIXp8tv5BZ20wenPb0k\u002BxvXTTy2ns0="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        },
+        {
+          "dependency_name": "CodeEditor2",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "BreakpointPluginsGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "BreakpointPluginsGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "BreakpointHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "./Hotkeys/BreakpointHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "PN3CgTUSh5gNSofJnSlIe1\u002Bnad4TkYqqnjBPmUpsMqnNR0/qan7jf3Pm1GN91hkTvjInH/x3bOfQCG/KS72vhJAkPNfgutfmB1gXeFK8P2siszdO6Z0SUBeNM6UASeVRfoCrWpFkpzZ8IV4FSWl1Y3mjd86x5d1SMs9jXjaPvPg=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="ObjVar_ConflictDialog" layout_guid="448529ab-d12d-490b-bfeb-be1a572a6035">
+    <Window stylename="default_window" override_flow_index="9999999" height="260dpi_px" localise_title="ObjVar_NameConflictTitle" window_flags="CloseButton, ResizeButton, DockingDisabled, DesktopTransferDisabled">
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['1*', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['52dpi_px', '1*', '32dpi_px']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bb22f4ac-4244-46d6-9680-fd4f717c6199" override_flow_index="9999999" left="10dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['auto', '1*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="3b69ce48-1c00-41e4-beb1-5c9053cbd2f2" override_flow_index="9999999" left="0px" top="10dpi_px" margin_top="10dpi_px" margin_bottom="10dpi_px" localise_caption="ObjVar_ChildConflictMessage" auto_size="True" auto_ellipsis="False" />
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <ListBox stylename="list_box" layout_id="listbox" layout_guid="758d6ae1-1531-4f20-b29d-5bbbf9a6b85f" override_flow_index="9999999">
+                              <ListBoxItems />
+                            </ListBox>
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="ok_button" layout_guid="ef8509bb-dd2c-4daa-88de-ef3c7b1c533c" override_flow_index="9999999" width="100dpi_px" margin_top="16dpi_px" localise_name="Button_OK" />
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

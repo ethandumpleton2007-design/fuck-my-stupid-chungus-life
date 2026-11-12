@@ -1,0 +1,49 @@
+{
+  "name": "StartScreen",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "StartScreen",
+      "localised_name": "start_screen_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "StartScreen",
+          "version": "2026.0.16",
+          "path": "StartScreen.dll",
+          "checksum": "Y//v0oLSlHSj8HwJQsQV7W4f\u002Bwl6\u002BFZK6qNfN\u002BY0oH8="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "StartScreenGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "StartScreenGUI/Skins/Dark",
+          "StartScreenGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "FakwNdy6o/nN6i7ClqWcPYXFNlXDZ\u002BtUohnEZY48pKJ3ObW0iAH4TEkGkw3LqWu39jrY9nB6EM/mDP3gHszOai9J2ZcmhTSyGgg4eeINXc3H9U0b87gS3EhLGLEyFuv1\u002BKU7sss0VhIFBAvi\u002BZkOc\u002BXeo6zkuTPEdE1tbUnrvsg=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

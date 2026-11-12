@@ -1,0 +1,205 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "P",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Pan to the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Pan To",
+      "Name": "Pan To",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "P",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Reverse the path, i.e. make the path's last point the first and its first point the last",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Reverse Path",
+      "Name": "Reverse Path",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "R",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "X",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Mirror the path around its center position (horizontally)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Mirror Path",
+      "Name": "Mirror Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Y",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Flip the path around its center position (vertically)",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Flip Path",
+      "Name": "Flip Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "LeftShift",
+          "Modifier": "None"
+        },
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "RightShift",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Shift the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Shift Path",
+      "Name": "Shift Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "R",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Rotate the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Rotate Path",
+      "Name": "Rotate Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "T",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Translate the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Translate Path",
+      "Name": "Translate Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "S",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Scale the path",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Scale Path",
+      "Name": "Scale Path"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Up",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Shift up",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Shift Path Up",
+      "Name": "Shift Path Up"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Down",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Shift down",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Shift Path Down",
+      "Name": "Shift Path Down"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Left",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Shift left",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Shift Path Left",
+      "Name": "Shift Path Left"
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "Right",
+          "Modifier": "None"
+        }
+      ],
+      "Description": "Shift right",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Shift Path Right",
+      "Name": "Shift Path Right"
+    }
+  ],
+  "Source": "Path Editing"
+}

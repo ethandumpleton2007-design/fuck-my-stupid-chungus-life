@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Layouts>
+  <Layout layout_name="Notes_MarkdownView" layout_guid="D901A0D9-FBE1-4056-ADB0-7FDA5216C2CF">
+    <ScrollPanel layout_id="Notes_Markdown_ScrollPanel" colour="#ff222222" width="100%" height="100%" scrollpanel_flags="VerticalScroll,AdjustToScrollBars">
+      <ChildGadgets>
+        <MarkdownPanel layout_id ="Notes_Markdown_MarkdownPanel" left="12dpi_px" right="12dpi_px" top="12dpi_px" />
+      </ChildGadgets>
+    </ScrollPanel>
+  </Layout>
+</Layouts>

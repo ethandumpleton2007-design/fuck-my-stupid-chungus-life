@@ -1,0 +1,63 @@
+{
+  "name": "AssetBrowser",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "AssetBrowser",
+      "localised_name": "asset_browser_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "AssetBrowser",
+          "version": "2026.0.16",
+          "path": "AssetBrowser.dll",
+          "checksum": "gBpLm5a06jck63WV0sgMccEAsGEzMQSeGdjCyALZIHE="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonUI",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "AssetBrowserGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "AssetBrowserGUI/Skins/Dark",
+          "AssetBrowserGUI/Skins/Light"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    },
+    {
+      "plugin_name": "AssetBrowserHotkeys",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "Hotkeys/AssetBrowserHotkeys.json"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "gE165qE3aYxbb1PgY7hYppCz32wGmRWaaYomGNNOwaPLK\u002BYP3Wwkl0UGUTcoDIl5RBIWLkWASeLprvmyMcRp3/gzpgjmLlFBHwgl5cofubc\u002BzATZ9mOLcYXtcp5TTeH/TrG6DYTI\u002B02Dl//g10CQbYMRk5SEeffRCTokBjGUb2U=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

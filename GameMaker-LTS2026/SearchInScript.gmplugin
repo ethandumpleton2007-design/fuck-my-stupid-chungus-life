@@ -1,0 +1,48 @@
+{
+  "name": "SearchInScript",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SearchInScript",
+      "localised_name": "SearchInScript_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SearchInScript",
+          "version": "2026.0.16",
+          "path": "SearchInScript.dll",
+          "checksum": "x4iPgpbFsTUyygE59C4\u002BQymThzRevtenupBNulVPHm4="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        }
+      ]
+    },
+    {
+      "plugin_name": "SearchInScriptGUI",
+      "localised_name": null,
+      "plugin_version": "1.0.0",
+      "type": "gui",
+      "plugin_data": {
+        "skins": [
+          "SearchInScriptGUI/Skins/Dark"
+        ]
+      },
+      "description": null,
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "MtGFVS9V4efbPG\u002BDnkUCK7KsaJSsT45xiaVfXCEjnYYWmjvxsCiaAvVpReK0liiy\u002B9piHv7lxY9xi8CGzwmL3Wv300t9bI97uCGFEUtsofu80NMhbWq0ofR0DCjGnCYWHNyABihp2c0Hjz42Znd4QknesFTkELjWw2xobAzzoiY=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,38 @@
+{
+  "name": "SearchOutputWindow",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SearchOutputWindow",
+      "localised_name": "SearchOutputWindow_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SearchOutputWindow",
+          "version": "2026.0.16",
+          "path": "SearchOutputWindow.dll",
+          "checksum": "Fpgl4qrp1IzziV5wbJW4LD3eVgYxOUKPktmlBV3bhSs="
+        }
+      ],
+      "dependencies": [
+        {
+          "dependency_name": "CommonPluginFunctionality",
+          "version": "*"
+        },
+        {
+          "dependency_name": "SearchAndReplaceHotkeys",
+          "version": "*"
+        }
+      ]
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "G5xfA58L8WmEyk4Fey8zZ2xSzEOsb9qIzLKkWJBrp4OOIRYsa2gDDoM7Ua0DkhfZsyrCBj0/mmh89wm26gdRQQqLOXMQO2/LOwRScXlN8\u002BMZBEsOddO7zk5nGL\u002BPnIYI1bqwbThlB6X4lmG2a/RygNIloQr8k12bBqIK5NawyaA=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

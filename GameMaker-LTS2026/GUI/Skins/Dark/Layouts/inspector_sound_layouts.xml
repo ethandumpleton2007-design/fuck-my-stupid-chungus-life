@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+  <Layout layout_name="Inspector_Sound_CompressionQuality" layout_guid="9e3beeaa-68e6-4b67-8f20-cd82fb6697fe">
+    <LabeledInspectorPanel>
+      <InspectorValueCombo stylename="inspector_group_combo" bind_inspector="true" height="28dpi_px" values="[0,1,2,3,4,5,6,7,8,9,10]" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Inspector_Sound_SampleRate" layout_guid="c1e56f6a-a8b2-416d-84ac-41f99f08e0fc">
+    <LabeledInspectorPanel>
+      <InspectorValueCombo stylename="inspector_group_combo" bind_inspector="true" height="28dpi_px" values="[5512,11025,22050,32000,44100,48000]" />
+    </LabeledInspectorPanel>
+  </Layout>
+  <Layout layout_name="Ins_SoundPreviewPanel" layout_guid="fd8affa7-a550-4b4c-a78b-410405a66ab1">
+    <Grid stylename="grid_container" override_flow_index="9999999" top="0dpi_px" grid_rowlayout="['98dpi_px', '32dpi_px']" grid_resize="ResizeGridHeight">
+      <Cell row="0" column="0" layout_guid="af090f46-cea1-4213-b404-c43ef4a9191e" stylename="grid_container_panel" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" layout_id="size_graph_grid" grid_columnlayout="['155dpi_px', '1*']" override_flow_index="9999999">
+            <Cell row="0" column="0" stylename="soundins_size_bg" layout_id="size_labels_cell" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" grid_rowlayout="['20dpi_px', '20dpi_px', '20dpi_px', '20dpi_px']" grid_columnlayout="['78dpi_px', '1*']" top="2dpi_px" bottom="16dpi_px" override_flow_index="9999999">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="no_frame_button" layout_id="hide_size_info_button" localise_tooltip="Inspector_SoundHideSizeInfoTooltip" layout_guid="96348cb6-b063-45ca-9357-3040da897bd7" override_flow_index="9999999" left="18dpi_px" right="42dpi_px" icon_flags="Centre" font_icon="[&quot;soundeditor_icon_font&quot;, &quot;au_icon_fileinfo&quot;]" vector_icon_size="10dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="no_frame_button" layout_id="copy_size_info_button" localise_tooltip="Inspector_SoundCopySizeInfoTooltip" layout_guid="445c3e63-ad04-44c4-b514-dedc26b12ec3" override_flow_index="9999999" width="10dpi_px" left="50dpi_px" right="8dpi_px" icon_flags="Centre" font_icon="[&quot;soundeditor_icon_font&quot;, &quot;au_icon_copyfile&quot;]" vector_icon_size="10dpi_px" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_orig_size_name" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundOriginalSizeName" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_orig_size_val" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundOriginalSizeValueMB" localise_tooltip="Inspector_SoundOriginalSizeValueTooltip" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="2" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_export_size_name" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundExportSizeName" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_export_size_val" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundExportSizeValueMB" localise_tooltip="Inspector_SoundExportSizeValueTooltip" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="3" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_size_ratio_name" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundSizeRatioName" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="3" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Label stylename="label" layout_id="label_size_ratio_val" override_flow_index="9999999" left="5dpi_px" localise_caption="Inspector_SoundSizeRatioValue" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" layout_id="graph_cell" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Image stylename="soundins_graph_image" layout_id="graph_image" layout_guid="5212e290-5c1d-4b4b-a204-d003145e2d9a" override_flow_index="9999999"/>
+                <Grid stylename="grid_container" override_flow_index="9999999" grid_rowlayout="['20dpi_px', '1*']" top="2dpi_px" bottom="16dpi_px">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" layout_id="graph_button_grid" override_flow_index="9999999" grid_rowlayout="['20dpi_px']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Button stylename="no_frame_button" layout_id="show_size_info_button" localise_tooltip="Inspector_SoundShowSizeInfoTooltip" layout_guid="0f4d02c3-cb10-4d10-941e-01bf1e1be695" override_flow_index="9999999" left="18dpi_px" width="18dpi_px" icon_flags="Centre" font_icon="[&quot;soundeditor_icon_font&quot;, &quot;au_icon_fileinfo&quot;]" vector_icon_size="10dpi_px" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Grid stylename="grid_container" layout_id="graph_label_grid" override_flow_index="9999999" grid_rowlayout="['0.7*', '0.3*']">
+                        <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Image stylename="progress_spinner_anim" layout_id="graph_progress_spinner" layout_guid="98b8c7e1-a5cd-41a0-8627-585603edd0ba" override_flow_index="9999999" height="32dpi_px" width="32dpi_px" bottom="6dpi_px" />
+                            <Label stylename="label" layout_id="graph_label_top" bottom="6dpi_px" override_flow_index="9999999"/>
+                          </ChildGadgets>
+                        </Cell>
+                        <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+                          <ChildGadgets>
+                            <Label stylename="label" layout_id="graph_label_bottom" override_flow_index="9999999" localise_caption="Inspector_SoundConverting" top="1dpi_px" />
+                          </ChildGadgets>
+                        </Cell>
+                      </Grid>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+      <Cell row="1" column="0" stylename="bordered_scrollpanel_dark_alpha" flow_index="0">
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['165dpi_px', '1*']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Label stylename="label" layout_id="label_duration" override_flow_index="9999999" height="16dpi_px" width="50dpi_px" left="5dpi_px" localise_caption="SoundMixer_Duration" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" width="160dpi_px" grid_columnlayout="['1*', '1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="dopesheet_btn_play" layout_id="btn_play" right="0dpi_px" override_flow_index="9999999" layout_guid="cd6b2b29-1ce6-4a15-ac68-1052cf2c7c82"/>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="dopesheet_btn_gotostart" layout_id="btn_rewind" override_flow_index="9999999" layout_guid="cd646152-6717-4d1e-8c3c-400ec388d622"/>
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="2" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <ToggleButton stylename="dopesheet_btn_playback" layout_id="btn_loopmode" left="0dpi_px" override_flow_index="9999999" layout_guid="6a8ac3af-7b7f-45a1-af67-3890c36af811"/>
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Cell>
+    </Grid>
+  </Layout>
+</Layouts>

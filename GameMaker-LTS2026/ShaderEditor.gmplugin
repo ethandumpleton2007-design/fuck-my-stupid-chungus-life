@@ -1,0 +1,29 @@
+{
+  "name": "ShaderEditor",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "ShaderEditor",
+      "localised_name": "shader_editor_name",
+      "plugin_version": "2026.0.16",
+      "type": "System",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "ShaderEditor",
+          "version": "2026.0.16",
+          "path": "ShaderEditor.dll",
+          "checksum": "Bl/DqgfITX8NIKqmobQElH5dxEECpNCx2gPbUXfxUt8="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "LI7\u002BZLbdz1iIsRuWJF2aPSL4jYaDwieAB5YVZqHCPJPsgdqAFFWeDVMxJHgMj2wTIqiDqLyL7zBkHtSPUWjcg/U0Dr9TTBN9kyeCF2YHRcD9xHEVu68KvwE\u002Br6h/RW0hUAl7xwhRzSuXXVuTmeDa2ip6EcaPnYqhRCdXCgLOPug=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

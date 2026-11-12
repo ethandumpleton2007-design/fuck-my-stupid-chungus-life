@@ -1,0 +1,87 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Open project-wide Search and Replace",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_Open Search and Replace",
+      "Name": "Open Search and Replace",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "Control"
+        }
+      ],
+      "Description": "Globally search the next occurrence of the text to search",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GlobalSearchNext",
+      "Name": "SearchReplaceNext",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F3",
+              "Modifier": "Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    },
+    {
+      "$Hotkey": "v1",
+      "Combo": [
+        {
+          "$HotkeyCombo": "v1",
+          "Keys": "F3",
+          "Modifier": "Control, Shift"
+        }
+      ],
+      "Description": "Globally search the previous occurrence of the text to search",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_GlobalSearchPrevious",
+      "Name": "SearchReplacePrevious",
+      "PlatformOverrides": [
+        {
+          "$PlatformOverride": "v0",
+          "Combo": [
+            {
+              "$HotkeyCombo": "v1",
+              "Keys": "F3",
+              "Modifier": "Shift, Windows"
+            }
+          ],
+          "Platform": "MacOs"
+        }
+      ]
+    }
+  ],
+  "Source": "Search and Replace"
+}

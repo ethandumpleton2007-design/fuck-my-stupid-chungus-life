@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+<Layout layout_name="OutputPanel" layout_guid="c807d705-604e-40fd-80c1-99c6002d5ed5">
+    <Window localise_title="OutputPanel_Title" width="900dpi_px" height="240dpi_px" height_min="40dpi_px" width_max="100%" window_flags="Default">
+      <Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+    </Window>
+  </Layout>
+</Layouts>

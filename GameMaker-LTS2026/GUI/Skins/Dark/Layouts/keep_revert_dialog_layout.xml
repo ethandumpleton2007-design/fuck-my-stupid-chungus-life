@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+
+	<Layout layout_name="KeepOrRevertDpiCountdownDialog" layout_guid="880274AB-0177-4CF1-A288-7919F8921E2D">
+		<Window stylename="default_window" override_flow_index="9999999" height="300dpi_px" width="400dpi_px" localise_title="DPI_Override" window_flags="CloseButton, DockingDisabled, DesktopTransferDisabled">
+			<Client>
+				<ChildGadgets>
+					<Grid stylename="grid_container" override_flow_index="9999999" grid_columnlayout="['30dpi_px', '1*', '30dpi_px']" grid_rowlayout="['1*', '30dpi_px', '60dpi_px', '36dpi_px', '24dpi_px', '1*']" grid_resize="ResizeGridHeight">
+						<Cell row="1" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<StackPanel stylename="stack_panel" stack_order="TopToBottom" stack_resize="ResizeAll">
+									<ChildGadgets>
+										<Label stylename="link_label" layout_id="title_repeat_label" layout_guid="135057C0-9870-4D8D-B453-EC8F2EBEE234" height="30dpi_px" halign="hAlignCentre" localise_caption="DPI_Override" font_size="15" />
+									</ChildGadgets>
+								</StackPanel>
+							</ChildGadgets>
+						</Cell>
+						<Cell row="2" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<StackPanel stylename="stack_panel" stack_order="TopToBottom" stack_resize="ResizeAll">
+									<ChildGadgets>
+										<Label stylename="label" layout_id="keep_label" layout_guid="135057C0-9870-4D8D-B453-EC8F2EBEE233" height="60dpi_px" halign="hAlignCentre" localise_caption="DPI_KeepChanges" font_size="12" />
+									</ChildGadgets>
+								</StackPanel>
+							</ChildGadgets>
+						</Cell>
+						<Cell row="4" column="1" stylename="grid_container_panel" flow_index="0">
+							<ChildGadgets>
+								<Grid layout_id="buttons" layout_guid="6337EA1E-D008-4D7C-9435-D4621AADF7E2" stylename="button_grid" override_flow_index="9999999" top="0dpi_px" grid_columnlayout="['1*', '1*']">
+									<Cell row="0" column="0" stylename="button_grid_panel" flow_index="0">
+										<ChildGadgets>
+											<Button stylename="button_up" layout_id="keep_button" layout_guid="EBE89E0A-3596-40FA-B7B1-A871038D5047" override_flow_index="9999999" width="140dpi_px" height="24dpi_px" localise_name="KeepOrRevertCountdownDialog_KeepButton" />
+										</ChildGadgets>
+									</Cell>
+									<Cell row="0" column="1" stylename="button_grid_panel" flow_index="0">
+										<ChildGadgets>
+											<Button stylename="button_up" layout_id="revert_button" layout_guid="1D479431-21EB-47D6-95B1-266AD9FBACF4" override_flow_index="9999999" width="140dpi_px" height="24dpi_px" localise_name="KeepOrRevertCountdownDialog_RevertButton" />
+										</ChildGadgets>
+									</Cell>
+								</Grid>
+							</ChildGadgets>
+						</Cell>
+					</Grid>
+				</ChildGadgets>
+			</Client>
+			<Layout layout_name="BasicWindowFrame" layout_guid="f0695f87-de65-4a48-a3a8-9bd5cb5a8d8c" />
+		</Window>
+	</Layout>
+
+</Layouts>

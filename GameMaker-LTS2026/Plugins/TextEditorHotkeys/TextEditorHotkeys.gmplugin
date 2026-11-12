@@ -1,0 +1,26 @@
+{
+  "name": "TextEditorHotkeys",
+  "bundle_version": "2026.0.16",
+  "bundle_description": "Text editor hotkeys",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "TextEditorHotkeys",
+      "localised_name": null,
+      "plugin_version": "2026.0.16",
+      "type": "hotkey",
+      "plugin_data": {
+        "files": [
+          "TextEditorHotkeys.json"
+        ]
+      },
+      "description": "Text editor hotkeys",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "mcPZpPpF0Zy5BFDg8oJxSE3Zxt/de1sVPwPfzZtJC6ZDdgiavHpvvmimD9ovRtZq12PIPikH573mbzNmypkIs88EgkCPPu1BygY9c6t3Iglj04crDslq86QdouQT88pqeD88XCz87abn7\u002Bdk3bsvokSkzyQhmxTa1t1J6fhm4DM=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

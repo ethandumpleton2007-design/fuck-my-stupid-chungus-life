@@ -1,0 +1,29 @@
+{
+  "name": "SDL2-CS",
+  "bundle_version": "2026.0.16",
+  "bundle_description": null,
+  "required": false,
+  "feature_flag": null,
+  "plugins": [
+    {
+      "plugin_name": "SDL2-CS",
+      "localised_name": "SDL2-CS_name",
+      "plugin_version": "2026.0.16",
+      "type": "Library",
+      "plugin_data": null,
+      "description": "",
+      "required_assemblies": [
+        {
+          "assembly_name": "SDL2-CS",
+          "version": "2026.0.16",
+          "path": "SDL2-CS.dll",
+          "checksum": "g5sng0d6JWmppC\u002BlsUgGcLpjmoEvr0fd4oIihZeJueY="
+        }
+      ],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "pPSV/aBTR/qtpb0ugcA\u002B/rSM8kzeOIn2KlhltRdn5JWE99H2lKaK/CqqkDpssCKVqFFkMkUF1HxPAaJ7l0mBcDR4td7e4iZp6bGa0U3GljGEIm7lVzTqmnCdLJUlNLQ3CukkWgRCtClDdPJxnwZAZQXcDJt2d7jOHH3tRXJV/cc=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "GermanLocalisation",
+  "bundle_version": "2024.14.38-staging",
+  "bundle_description": "German IDE localisations",
+  "required": false,
+  "feature_flag": "",
+  "plugins": [
+    {
+      "plugin_name": "GermanLocalisation",
+      "localised_name": "german_localisation",
+      "plugin_version": "2024.14.38-staging",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+          {
+            "German": "german.csv"
+          },
+          {
+            "German": "german_dnd.csv"
+          }
+        ]
+      },
+      "description": "German IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ],
+  "author": "GameMaker",
+  "signature": "LgM7e2qYPPrR7pJ5sfH4Hmewd8I2KTgy/Vug74FfbMnspkktdD7dsTNf5zmBiHoLLBZTEf9rOmSFoJcXgDMQ72IueXuNCVUVcw4ABz58k7tgKd1A8legjjgXW6aHBIyIThYZoqe0O4TXvydoJ6z7yugRNV1Rp45e5HJAqgwnmMI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSb834J6/quzSGBeX8GITpJLKmBtj8zAvhObUl2Iefax7zRNifDT/WdtTyxs9G7ahCzV7Gt8mINbFR6Xbz/riOovIifl8UgHe6JZoEroy0g5zavbjdClX2UnKZBJL5VgpBNxlrZSyVhBkJv14X\u002BK85u41ug08aBrcEBqYIBEFZfQIDAQAB"
+}

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Layouts>
+	<Layout layout_name="BugReport_AnonPostWarning_Window">
+		<Window stylename="confirm_dialog_large">
+			<Layout layout_name="BugReport_AnonPostWarning" />
+		</Window>
+	</Layout>
+
+	<Layout layout_name="BugReport_AnonPostWarning" layout_guid="f7615b31-fe33-4030-b488-7db5f9a7abbb">
+	  <Layout layout_name="BasicWindowFrame" />
+      <Client>
+        <ChildGadgets>
+          <Grid stylename="grid_container" override_flow_index="9999999" left="0dpi_px" top="0dpi_px" grid_rowlayout="['1*', '40dpi_px', 'auto']">
+            <Cell row="0" column="0" stylename="grid_container_panel" flow_index="2">
+              <ChildGadgets>
+                <StackPanel stylename="stack_panel" left="0px" right ="4dpi_px">
+                  <ChildGadgets>
+                    <Image stylename="dialog_message_icon" layout_id="message_icon" layout_guid="bad9ef24-cef9-4682-a6be-d42008ae3160" left="10px" />
+                    <Label stylename="confirm_dialog_label" layout_id="message_label" layout_guid="3facb004-d923-4126-b75a-a361f7e8ea02" override_flow_index="9999999" left="52px" top="0dpi_px" localise_caption="BugReport_BotPostWarnMsg" />
+                  </ChildGadgets>
+                </StackPanel>
+              </ChildGadgets>
+            </Cell>
+            <Cell row="1" column="0" stylename="grid_container_panel" flow_index="0">
+              <ChildGadgets>
+                <Button stylename="button_up" layout_id="btn_signin" layout_guid="4b45e9ab-eb18-4dae-989c-6ec913d05a1b" override_flow_index="9999999" width="120dpi_px" top="0px" localise_name="BugReport_ReSignIn" />
+              </ChildGadgets>
+            </Cell>
+            <Cell row="2" column="0" stylename="grid_container_panel" flow_index="1">
+              <ChildGadgets>
+                <Grid stylename="grid_container" override_flow_index="9999999" height="32dpi_px" grid_columnlayout="['1*', '1*']">
+                  <Cell row="0" column="0" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="no_button" layout_guid="f4382c82-2217-419d-9358-0c6c98576188" override_flow_index="9999999" width="150dpi_px" margin_right="8dpi_px" localise_name="Button_Cancel" />
+                    </ChildGadgets>
+                  </Cell>
+                  <Cell row="0" column="1" stylename="grid_container_panel" flow_index="0">
+                    <ChildGadgets>
+                      <Button stylename="button_up" layout_id="yes_button" layout_guid="d9536b5c-f4be-4a7f-ba50-6b72d5817a92" flow_index="1" override_flow_index="9999999" width="150dpi_px" margin_right="8dpi_px" localise_name="BugReport_Send" />
+                    </ChildGadgets>
+                  </Cell>
+                </Grid>
+              </ChildGadgets>
+            </Cell>
+          </Grid>
+        </ChildGadgets>
+      </Client>
+  </Layout>
+</Layouts>

@@ -1,0 +1,20 @@
+{
+    "searchinscript_grid_container": {
+		"colour": "text_editor_search_bg",
+		"position": [
+			[ 0, 0, 4, 4 ],
+			[ 4, 0, 24, 4 ],
+			[ 28, 0, 4, 4 ],
+			[ 0, 4, 4, 24 ],
+			[ 4, 4, 24, 24 ],
+			[ 28, 4, 4, 24 ],
+			[ 0, 28, 4, 4 ],
+			[ 4, 28, 24, 4 ],
+			[ 28, 28, 4, 4 ]
+		],
+		"frame_name": "Window/dial_search_outer.png",
+		"grid_resize": "ResizeGrid",
+		"mouse_events": "False",
+		"width_min": "288dpi_px"
+	}
+}

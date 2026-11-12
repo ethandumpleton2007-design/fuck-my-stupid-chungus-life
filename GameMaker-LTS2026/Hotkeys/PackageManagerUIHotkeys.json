@@ -1,0 +1,14 @@
+{
+  "$HotkeyCollection": "v1",
+  "Hotkeys": [
+    {
+      "$Hotkey": "v1",
+      "Combo": [],
+      "Description": "Open the package manager",
+      "IsListed": true,
+      "Localisation": "RedefineKeys_OpenPackageManagerUI",
+      "Name": "PackageManagerUI.Open"
+    }
+  ],
+  "Source": "Package Manager"
+}
